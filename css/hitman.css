@@ -1,5 +1,5 @@
 /* Top Navigation Bar */
-/* Add a black background color to the top navigation */
+/* Black background color to the top navigation */
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -34,22 +34,69 @@
   color: white;
 }
 
-/* Text */
-h1 {
-  font-family: "Anton";
+
+
+/* Test */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+/* What does this do? */
+:root {
+  --color: #333;
 }
 
+body {
+  font-family: 'Red Hat Text', sans-serif;
+}
 
+.container {
+  text-align: center;
+  color: var(--color);
+  width: 100%;
+  min-height: 100vh;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background-image: url(https://static.vecteezy.com/system/resources/previews/011/150/551/large_2x/flat-comic-style-halftone-background-free-vector.jpg);
+  background-size: cover;
 
+/*  this is where the magic happens:  */
+background-attachment: fixed;
+background-position: 50% 50%;
+}
 
+h1 {
+font-weight: 700;
+font-size: 2rem;
+background-color: #ddd;
+border-radius: 1em;
+border-radius:10px;
+}
+
+p {
+max-width: 52ch;
+line-height: 1.5;
+padding: 1em;
+background-color: #ddd;
+border-radius: 1em;
+border: radius 10px;;
+}
+
+a {
+display: inline-block;
+padding: 1em 1.5em;
+background-color: var(--color);
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+border-radius: 0.3em;
+font-weight: 700;
+letter-spacing: .5px;
+font-size: .875rem;
+}
 
 
 /* Image */
-.container {
-  position: relative;
-  width: 50%;
-  overflow: hidden;
-}
 
 .image-container {
   position: relative;
@@ -57,9 +104,9 @@ h1 {
   overflow: hidden;
 }
 
-.image {
-  display: block;
-  width: 100%;
+.portrait {
+  /* display: block; */
+  width: 200px;
   height: auto;
 }
 
@@ -77,6 +124,3 @@ h1 {
 .container:hover .slide-in-image {
   transform: translateX(0);
 }
-
-
-
