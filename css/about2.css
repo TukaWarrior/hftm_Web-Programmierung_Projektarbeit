@@ -1,0 +1,130 @@
+/* test */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+.container {
+    text-align: center;
+    color: var(--color);
+    width: 100%;
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/164/724/original/comic-style-background-with-radial-rays-and-clouds-vector.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 3.6rem;
+    margin: 0em;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-top: 1em;
+}
+
+p {
+    max-width: 52ch;
+    line-height: 1.5;
+    padding: 1em;
+}
+
+a {
+    display: inline-block;
+    padding: 1em 1.5em;
+    background-color: var(--color);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: .875rem;
+    transition: transform 0.2s ease;
+}
+
+.second {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/009/017/469/non_2x/flat-cartoon-comic-background-pop-art-comic-background-fight-backgrounds-comics-style-design-illustration-free-vector.jpg);
+    background-attachment: fixed;
+    height: 600px;
+    margin-top: 0px;
+}
+
+.first {
+    /* background-image: url(https://as1.ftcdn.net/v2/jpg/05/08/50/18/1000_F_508501854_E7sXYJXuAvmCzYHYQlV2tzqwNMLXs0mb.jpg); */
+    background-image: url("../ressources/images/background_02.png");
+    flex-direction: row;
+    gap: 1.6em;
+}
+
+.card>a {
+    margin-bottom: 3em;
+}
+
+.item {
+    display: flex;
+    max-width: 420px;
+    min-width: 350px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .5em;
+    -webkit-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+    box-shadow: -10px 30px 48px 10px rgba(0, 0, 0, 0.43);
+
+    /* border-width: 3px 4px 3px 5px; */
+    /* border-radius:95% 4% 92% 5%/4% 95% 6% 95%; */
+    transform: rotate(0deg);
+    transition: transform 0.2s ease;
+}
+
+.item:hover {
+    /* transform: rotate(100deg); */
+    transform: translateY(10px);
+    transition: transform 0.1s ease;
+}
+
+.img {
+    width: 90%;
+    height: 300px;
+    background-color: lightgrey;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: .3em;
+    ;
+}
+
+.img-first {
+    margin-top: 30px;
+    background-image: url("../ressources/images/avatar_andres01.png");
+}
+
+.img-second {
+    margin-top: 30px;
+    background-image: url("../ressources/images/avatar_luca01.png");
+}
+
+.img-third {
+    margin-top: 30px;
+    background-image: url("../ressources/images/avatar_nicola01.png");
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 70px 0px;
+    background-color: #000000;
+    color: #fff;
+}
