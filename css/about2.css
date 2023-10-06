@@ -61,8 +61,8 @@ a {
 }
 
 .first {
-    /* background-image: url(https://as1.ftcdn.net/v2/jpg/05/08/50/18/1000_F_508501854_E7sXYJXuAvmCzYHYQlV2tzqwNMLXs0mb.jpg); */
-    background-image: url("../ressources/images/background_02.png");
+    background-image: url(https://as1.ftcdn.net/v2/jpg/05/08/50/18/1000_F_508501854_E7sXYJXuAvmCzYHYQlV2tzqwNMLXs0mb.jpg);
+    /* background-image: url("../ressources/images/background_02.png"); */
     flex-direction: row;
     gap: 1.6em;
 }
@@ -73,8 +73,10 @@ a {
 
 .item {
     display: flex;
-    max-width: 420px;
-    min-width: 350px;
+    max-width: 400px;
+    min-width: 400px;
+    max-height: 700px;
+    min-height: 700px;
     background-color: white;
     flex-direction: column;
     align-items: center;
@@ -91,7 +93,8 @@ a {
 
 .item:hover {
     /* transform: rotate(100deg); */
-    transform: translateY(10px);
+    /* transform: translateY(10px); */
+    transform: scale(1.05);
     transition: transform 0.1s ease;
 }
 
