@@ -8,6 +8,21 @@ body {
     background: #222;
 }
 
+.container {
+    text-align: center;
+    color: var(--color);
+    width: 100%;
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/022/275/674/original/black-color-comic-style-lines-background-illustration-free-vector.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
 .wrapper {
     position: relative;
     height: 300px;
@@ -80,7 +95,7 @@ h1 {
 }
 
 .wrapper:hover .image-wrapper {
-    width: 800px;
+    width: 500px;
 }
 
 a {
