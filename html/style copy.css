@@ -1,0 +1,126 @@
+body {
+    /* height: 80vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: "../ressources/images/avatar_luca01.png";
+    background: #222;
+}
+
+.container {
+    text-align: center;
+    color: var(--color);
+    width: 100%;
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/022/275/674/original/black-color-comic-style-lines-background-illustration-free-vector.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+.wrapper {
+    position: relative;
+    height: 300px;
+    width: 700px;
+    margin: 50px 0;
+    background-color: transparent;
+
+    display: flex;
+    flex-direction: row;
+
+    transition: all 200ms ease-in-out;
+}
+
+.image-wrapper {
+    height: 300px;
+    width: 450px;
+    overflow: hidden;
+    border-radius: 10px;
+    /* cursor: pointer; */
+
+    transition: all 200ms ease-in-out;
+}
+
+.book-design-image {
+    object-position: center;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    left: 380px;
+    transition: all 200ms ease-in-out;
+    overflow: hidden;
+
+}
+
+h1 {
+    position: relative;
+    bottom: 0;
+    height: 100px;
+    color: #fff;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    transition: all 200ms ease-in-out;
+}
+
+.avatar {
+    height: 350px;
+    width: 450px;
+    object-fit: cover;
+    object-position: top;
+    transition: all 200ms ease-in-out;
+}
+
+.wrapper:hover .avatar {
+    transform: scale(1.5) translateY(60px);
+    object-position: center;
+}
+
+.wrapper:hover h1 {
+    bottom: 80px;
+    transform: scale(.4);
+    opacity: 0%;
+}
+
+.wrapper:hover .image-wrapper {
+    width: 500px;
+}
+
+a {
+    display: inline-block;
+    margin-top: -150px;
+    margin-left: 100px;
+    padding: 1em;
+    width: 130px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: .875rem;
+
+    bottom: 80px;
+    opacity: 0%;
+    transition: all 200ms ease;
+}
+
+.wrapper:hover a {
+    bottom: 50px;
+    transform: scale(1);
+    opacity: 100%;
+    transition: all 200ms ease;
+}

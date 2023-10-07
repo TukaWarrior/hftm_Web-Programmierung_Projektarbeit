@@ -1,4 +1,3 @@
-/* Test */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
 
 .container {
@@ -10,7 +9,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(https://static.vecteezy.com/system/resources/previews/011/150/551/large_2x/flat-comic-style-halftone-background-free-vector.jpg);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/022/275/674/original/black-color-comic-style-lines-background-illustration-free-vector.jpg);
   background-size: cover;
 
 /*  this is where the magic happens:  */
@@ -19,10 +18,10 @@ background-position: 50% 50%;
 }
 
 h1 {
-/* font-weight: 700; */
-/* font-size: 2rem; */
-/* border-radius: 1em; */
-/* border-radius:10px; */
+font-weight: 700;
+font-size: 2rem;
+border-radius: 1em;
+border-radius:10px;
 }
 
 p {
@@ -34,65 +33,41 @@ border-radius: 1em;
 border: radius 10px;;
 }
 
-
-/* Image */
-
-.image-container {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-}
-
-.portrait {
-  display: block;
-  width: 200px;
-  height: auto;
-}
-
-.slide-in-image {
-  position: absolute;
-  top: 0;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-  transition: .5s ease;
-  transform: translateX(100%);
-  object-fit: cover;
-}
-
-
-.hero {
-  display: flex;
-  max-width: 320px;
-  background-color: white;
-  flex-direction: column;
-  align-items: center;
-  border-radius: .5em;
-  -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
-  -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
-  box-shadow: -30px 59px 48px 30px rgba(0,0,0,0.43);
-
-  border-width: 3px 4px 3px 5px;
-  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
-  transform: rotate(2deg);
-}
-
-.img-first {
-  background-image: url(../ressources/images/avatar.jpeg);
-}
-
-
-
-
-
-
-
-
-
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+
+
+
+/* Image Grid */
+.image-grid {
+	display: flex;
+	flex-wrap: wrap; /* Allow images to wrap to the next line if the container is too narrow */
+	justify-content: space-between; /* Distribute space evenly between images */
+ }
+
+ .image {
+	flex-basis: calc(33.33% - 10px); /* Adjust the width of each image (33.33% for a 3-column grid) */
+	margin-bottom: 20px; /* Add spacing between images */
+ }
+
+ .image img {
+	max-width: 100%; /* Ensure images don't exceed their container's width */
+	height: auto; /* Maintain the aspect ratio of the images */
+ }
+
+
+
+
+
+
+
+
+
+
+
+
 
 img {
 	display: block;
