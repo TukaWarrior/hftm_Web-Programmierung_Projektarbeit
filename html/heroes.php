@@ -9,7 +9,6 @@
     href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap">
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="../css/heros.css">
-  <!-- <link rel="stylesheet" href="../css/element_topnav.css"> -->
   <title>Meet your Heroes</title>
 
 </head>

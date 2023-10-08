@@ -114,6 +114,10 @@
                     <textarea id="subject" name="subject" placeholder="Write something.."
                         style="height:170px"></textarea>
                     <input type="submit" value="Submit">
+
+                    <label for="fname">How much do you hate php?</label>
+                    <input type="text" id="fhatephp" name="firstname" placeholder="Your name..">
+
                 </form>
             </div>
         </div>
