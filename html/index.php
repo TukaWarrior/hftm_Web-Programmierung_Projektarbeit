@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  
+
   <!-- Top Navigation Bar -->
   <?php include 'element_topnav.php'; ?>
 
@@ -22,15 +22,17 @@
 
   <div class="container">
     <h1 class="big background-text" content="ever wondered">Ever wondered</h1>
-    <h1 class="big background-text" content="what happens when you break your leg?">what happens when you break your leg?</h1>
-    <h1 class="big pulse">⬇</h1>
+    <h1 class="big background-text" content="what happens when">what happens when</h1>
+    <h1 class="big background-text" content="you break your ancle?">you break your ancle?</h1>
+    <h1 class="symbol pulse">⬇</h1>
   </div>
 
-  <div class="blank">
-    <!-- <h1>well...</h1> -->
-  </div>
+  <div class="blank"></div>
+  <!-- <div class="blank">
+    <h1 class="big">well...</h1>
+  </div> -->
 
-  <div class="containerSecond title">
+  <!-- <div class="containerSecond title">
     <div class="title-box">
       <div class="card">
         <h2>Yes Super-Hitmen!!1</h2>
@@ -66,7 +68,31 @@
         </p>
         <a href="#">terms of policy</a>
       </div>
+    </div> -->
+
+  <article class="comic">
+    <div class="panel">
+      <p class="text bottom-right">just another day saving the world</p>
     </div>
+    <div class="panel">
+      <p class="text top-left">Oh no!...</p>
+      <p class="text bottom-right">...something horrible happened</p>
+    </div>
+    <div class="panel">
+      <!-- <p class="text top-left">doesnt look good...</p> -->
+      <p class="speech speechImage2">doesnt look good...</p>
+      <!-- <p class="text bottom-right">...it's responsive</p> -->
+    </div>
+    <div class="panel">
+      <p class="speech speechImage4">shit</p>
+    </div>
+    <div class="panel">
+      <p class="text top-right">this is getting difficult</p>
+    </div>
+    <div class="panel">
+      <p class="text bottom-right">THE END</p>
+    </div>
+  </article>
 
   </div>
 

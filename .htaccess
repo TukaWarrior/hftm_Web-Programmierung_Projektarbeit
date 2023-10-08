@@ -1,2 +1,5 @@
-ErrorDocument 404 /html/404.php
-ErrorDocument 404 https://i.imgur.com/eXi1Ld0.jpg
+ErrorDocument 404 http://localhost/test/html/404.php
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ /pages/404.php [L]
