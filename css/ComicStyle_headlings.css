@@ -1,50 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Patrick+Hand+SC|Bangers|Happy+Monkey);
 
-/* h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: "Bangers", sans-serif;
-}
-
-.big {
-  font-family: "Bangers";
-  margin: 0 0 -1em 0;
-  text-shadow: -1px -1px rgb(255, 255, 0), 2px 2px rgb(255, 166, 0), 4px 4px rgb(255, 0, 0);
-  -webkit-transform: rotate(-10deg) skew(-10deg, 0);
-  -moz-transform: rotate(-10deg) skew(-10deg, 0);
-  -ms-transform: rotate(-10deg) skew(-10deg, 0);
-  -o-transform: rotate(-10deg) skew(-10deg, 0);
-  transform: rotate(-6deg) skew(-10deg, 0);
-  padding-bottom: 50px;
-  float: left;
-  width: 100%;
-}
-
-h1.big {
-  font-size: 150px;
-  margin-bottom: -.4em;
-}
-
-h2.big {
-  font-size: 110px;
-}
-
-h3.big {
-  font-size: 80px;
-}
-
-h4.big {
-  font-size: 50px;
-  margin-top: -.15em;
-}
-
-p {
-  font-family: "Patrick Hand SC";
-  font-size: 1.3em;
-} */
-
 h1,
 h2,
 h3,
@@ -59,26 +14,48 @@ h5 {
   padding-bottom: 50px;
   float: left;
   width: 100%;
-  position: relative; /* Add relative positioning to the element */
-  text-shadow: -4px -4px rgb(0, 0, 0),
-                4px -4px rgb(0, 0, 0),
-                4px 4px rgb(0, 0, 0),
-                -4px 4px rgb(0, 0, 0),
+  position: relative;
 
-                -7px -7px rgb(255, 255, 0),
-                8px 8px rgb(255, 166, 0),
-                12px 12px rgb(255, 0, 0);
+  text-shadow:
+    -4px -4px rgb(0, 0, 0),
+    4px -4px rgb(0, 0, 0),
+    4px 4px rgb(0, 0, 0),
+    -4px 4px rgb(0, 0, 0),
 
-  /* filter: drop-shadow(1px 1px 10px rgb(255, 255, 0)); */
-  /* filter: hue-rotate(10deg); */
+    -7px -7px rgb(255, 255, 0),
+    8px 8px rgb(255, 166, 0),
+    12px 12px rgb(255, 0, 0);
 
   -webkit-transform: rotate(-10deg) skew(-10deg, 0);
   -moz-transform: rotate(-10deg) skew(-10deg, 0);
   -ms-transform: rotate(-10deg) skew(-10deg, 0);
   -o-transform: rotate(-10deg) skew(-10deg, 0);
   transform: rotate(-6deg) skew(-10deg, 0);
+}
 
-  /* -webkit-text-stroke: .1px black; */
+.symbol {
+  font-family: "Bangers";
+  margin: 0 0 -1em 0;
+  padding-bottom: 50px;
+  float: left;
+  width: 100%;
+  position: relative;
+
+  text-shadow:
+    -2px -2px rgb(255, 255, 0),
+    2px 2px rgb(255, 166, 0),
+    4px 4px rgb(255, 0, 0);
+
+  -webkit-transform: rotate(-10deg) skew(-10deg, 0);
+  -moz-transform: rotate(-10deg) skew(-10deg, 0);
+  -ms-transform: rotate(-10deg) skew(-10deg, 0);
+  -o-transform: rotate(-10deg) skew(-10deg, 0);
+  transform: rotate(-6deg) skew(-10deg, 0);
+}
+
+h1.symbol {
+  font-size: 150px;
+  margin-bottom: -.4em;
 }
 
 h1.big {
@@ -105,22 +82,34 @@ p {
 }
 
 .background-text {
-  font-size: inherit; /* Inherit the font size from parent */
-  position: relative; /* Add relative positioning to the text element */
-  z-index: 2; /* Set a higher z-index to bring text to the foreground */
+  font-size: inherit;
+  position: relative;
+  /* Add relative positioning to the text element */
+  z-index: 2;
+  /* Set a higher z-index to bring text to the foreground */
 }
 
 .background-text::before {
-  content: attr(content); /* Create a pseudo-element */
-  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgb(255, 0, 0)), url(https://thumbs.dreamstime.com/b/mod%C3%A8le-de-point-polka-fond-d-art-bruit-copie-cr%C3%A9ative-moderne-conception-simple-illustration-vecteur-avec-petits-points-eps-135294909.jpg);
+  content: attr(content);
+  /* Create a pseudo-element */
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0),
+  rgb(255, 0, 0)),
+  url(https://media.istockphoto.com/id/1125030654/vector/blue-comic-cartoon-background-halftone-vector-illustration-design.jpg?s=612x612&w=0&k=20&c=ap9HkAx7IRzzD0V9KjUeyIVEpzfyecjknKczuMz5sWI=);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  text-shadow: none; /* Remove the text-shadow from the pseudo-element */
+  text-shadow: none;
+  /* Remove the text-shadow from the pseudo-element */
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 1; /* Set a lower z-index to place it behind the text */
+  z-index: 1;
+  /* Set a lower z-index to place it behind the text */
 }

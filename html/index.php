@@ -14,7 +14,7 @@
 </head>
 
 <body>
-
+  
   <!-- Top Navigation Bar -->
   <?php include 'element_topnav.php'; ?>
 
