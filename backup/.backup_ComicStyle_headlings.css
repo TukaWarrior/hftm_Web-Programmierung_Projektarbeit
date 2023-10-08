@@ -1,0 +1,115 @@
+@import url(//fonts.googleapis.com/css?family=Patrick+Hand+SC|Bangers|Happy+Monkey);
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", sans-serif;
+}
+
+.big {
+  font-family: "Bangers";
+  margin: 0 0 -1em 0;
+  padding-bottom: 50px;
+  float: left;
+  width: 100%;
+  position: relative;
+
+  text-shadow:
+    -4px -4px rgb(0, 0, 0),
+    4px -4px rgb(0, 0, 0),
+    4px 4px rgb(0, 0, 0),
+    -4px 4px rgb(0, 0, 0),
+
+    -7px -7px rgb(255, 255, 0),
+    8px 8px rgb(255, 166, 0),
+    12px 12px rgb(255, 0, 0);
+
+  -webkit-transform: rotate(-10deg) skew(-10deg, 0);
+  -moz-transform: rotate(-10deg) skew(-10deg, 0);
+  -ms-transform: rotate(-10deg) skew(-10deg, 0);
+  -o-transform: rotate(-10deg) skew(-10deg, 0);
+  transform: rotate(-6deg) skew(-10deg, 0);
+}
+
+.symbol {
+  font-family: "Bangers";
+  margin: 0 0 -1em 0;
+  padding-bottom: 50px;
+  float: left;
+  width: 100%;
+  position: relative;
+
+  text-shadow:
+    -2px -2px rgb(255, 255, 0),
+    2px 2px rgb(255, 166, 0),
+    4px 4px rgb(255, 0, 0);
+
+  -webkit-transform: rotate(-10deg) skew(-10deg, 0);
+  -moz-transform: rotate(-10deg) skew(-10deg, 0);
+  -ms-transform: rotate(-10deg) skew(-10deg, 0);
+  -o-transform: rotate(-10deg) skew(-10deg, 0);
+  transform: rotate(-6deg) skew(-10deg, 0);
+}
+
+h1.symbol {
+  font-size: 150px;
+  margin-bottom: -.4em;
+}
+
+h1.big {
+  font-size: 150px;
+  margin-bottom: -.4em;
+}
+
+h2.big {
+  font-size: 110px;
+}
+
+h3.big {
+  font-size: 80px;
+}
+
+h4.big {
+  font-size: 50px;
+  margin-top: -.15em;
+}
+
+p {
+  font-family: "Patrick Hand SC";
+  font-size: 1.3em;
+}
+
+.background-text {
+  font-size: inherit;
+  position: relative;
+  /* Add relative positioning to the text element */
+  z-index: 2;
+  /* Set a higher z-index to bring text to the foreground */
+}
+
+.background-text::before {
+  content: attr(content);
+  /* Create a pseudo-element */
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0),
+  rgb(255, 0, 0)),
+  url(https://media.istockphoto.com/id/1125030654/vector/blue-comic-cartoon-background-halftone-vector-illustration-design.jpg?s=612x612&w=0&k=20&c=ap9HkAx7IRzzD0V9KjUeyIVEpzfyecjknKczuMz5sWI=);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: none;
+  /* Remove the text-shadow from the pseudo-element */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  /* Set a lower z-index to place it behind the text */
+}

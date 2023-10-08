@@ -51,15 +51,20 @@
 
     <?php
     echo "<h2>Your Input:</h2>";
-    echo $name;
-    echo "<br>";
-    echo $email;
-    echo "<br>";
-    echo $website;
-    echo "<br>";
-    echo $comment;
-    echo "<br>";
-    echo $gender;
+    echo $name, "<br>";
+    echo $email, "<br>";
+    echo $website, "<br>";
+    echo $comment, "<br>";
+    echo $gender, "<br>";
+
+    $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
+    fwrite($myfile, $name . "\n");
+    fwrite($myfile, $email . "\n");
+    fwrite($myfile, $website . "\n");
+    fwrite($myfile, $comment . "\n");
+    fwrite($myfile, $gender . "\n");
+    fclose($myfile);
+    echo "Did it work?";
     ?>
 
 </body>
