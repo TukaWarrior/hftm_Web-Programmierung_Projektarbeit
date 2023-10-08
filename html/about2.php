@@ -13,14 +13,8 @@
 
 <body>
 
-    <!-- Top Navigation Bar -->
-    <div class="topnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="heroes.html">Heroes</a>
-        <a href="contact.html">Contact</a>
-        <a href="about.html">About</a>
-        <a href="#account" class="split">Account</a>
-    </div>
+  <!-- Top Navigation Bar -->
+  <?php include 'element_topnav.php'; ?>
 
     <!-- Content -->
     <div class="container">
@@ -44,7 +38,7 @@
             <div class="img img-nico"></div>
             <div class="card">
                 <h4 class="big">Nicola Jöhr</h4>
-                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>Our hacking specialist is currently on a field trip somewhere in nowhere</p>
             </div>
         </div>
     </div>

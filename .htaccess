@@ -1,0 +1,2 @@
+ErrorDocument 404 /html/404.php
+ErrorDocument 404 https://i.imgur.com/eXi1Ld0.jpg

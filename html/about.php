@@ -14,13 +14,7 @@
 <body>
 
   <!-- Top Navigation Bar -->
-  <div class="topnav">
-    <a href="index.html">Home</a>
-    <a href="heroes.html">Heroes</a>
-    <a href="contact.html">Contact</a>
-    <a class="active" href="about.html">About</a>
-    <a href="#account" class="split">Account</a>
-  </div>
+  <?php include 'element_topnav.php'; ?>
 
 
   <!-- Images about us -->

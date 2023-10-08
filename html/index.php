@@ -10,19 +10,13 @@
   <link rel="stylesheet" href="../css/index.css">
   <link rel="stylesheet" href="../css/ComicStyle_headlings.css">
   <link rel="stylesheet" href="../css/Animations.css">
-  <title>Your Page Title</title>
+  <title>Index</title>
 </head>
 
 <body>
 
   <!-- Top Navigation Bar -->
-  <div class="topnav">
-    <a class="active" href="index.html">Home</a>
-    <a href="heroes.html">Heroes</a>
-    <a href="contact.html">Contact</a>
-    <a href="about2.html">About</a>
-    <a href="#account" class="split">Account</a>
-  </div>
+  <?php include 'element_topnav.php'; ?>
 
   </div>
 

@@ -1,9 +1,7 @@
-/* Page Properties */
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
-
+/* Top Navigation Bar */
 :root {
     --background-color: 28 27 30;
-    --topnav-color: #333333;
+    --topnav-color: #666666;
 
 }
 
@@ -13,8 +11,6 @@ body {
     margin: 0px;
 }
 
-/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* Top Navigation Bar */
 .topnav {
     background-color: var(--topnav-color);
     overflow: hidden;

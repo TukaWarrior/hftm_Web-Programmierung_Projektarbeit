@@ -11,15 +11,9 @@
 </head>
 
 <body>
-
-    <!-- Top Navigation Bar -->
-    <div class="topnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="heroes.html">Heroes</a>
-        <a href="contact.html">Contact</a>
-        <a href="about2.html">About</a>
-        <a href="#account" class="split">Account</a>
-    </div>
+    
+  <!-- Top Navigation Bar -->
+  <?php include 'element_topnav.php'; ?>
 
     <div class="container">
         <img src="../ressources/images/404_PageNotFound.png" />

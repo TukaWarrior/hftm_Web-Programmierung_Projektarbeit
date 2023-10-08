@@ -5,10 +5,11 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap">
+    <!-- <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap"> -->
+
     <link rel="stylesheet" href="../css/styles.css">
-    <!-- <link rel="stylesheet" href="../css/hitman.css"> -->
+
     <title>Contact</title>
 
     <style>
@@ -80,15 +81,8 @@
 
 <body>
 
-    <!-- Top Navigation Bar -->
-    <div class="topnav">
-        <a href="index.html">Home</a>
-        <a href="heroes.html">Heroes</a>
-        <a class="active" href="contact.html">Contact</a>
-        <a href="about.html">About</a>
-        <a href="#account" class="split">Account</a>
-    </div>
-
+  <!-- Top Navigation Bar -->
+  <?php include 'element_topnav.php'; ?>
 
 
 
