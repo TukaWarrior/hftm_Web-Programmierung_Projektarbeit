@@ -2,21 +2,14 @@
 <html>
 
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap">
   <link rel="stylesheet" href="../css/styles.css">
-  <link rel="stylesheet" href="../css/hitman.css">
+  <link rel="stylesheet" href="../css/heros.css">
   <title>Meet your Heroes</title>
-
-
-  <style>
-    .mask1 {
-      -webkit-mask-image: url(..//ressources/images/avatar.jpeg);
-      mask-image: url(..//ressources/images/avatar.jpeg);
-    }
-  </style>
 
 </head>
 
@@ -25,20 +18,20 @@
   <!-- Top Navigation Bar -->
   <div class="topnav">
     <a href="index.html">Home</a>
-    <a class="active" href="hitman.html">Hitmen</a>
+    <a class="active" href="heroes.html">Heroes</a>
     <a href="contact.html">Contact</a>
     <a href="about.html">About</a>
     <a href="#account" class="split">Account</a>
   </div>
 
   <div class="container">
-    <h1>Meet our Hitmen</h1>
+    <h1>Meet our Heroes!</h1>
     <p>We have a hero to assist you in every task, no matter how questionable!</p>
 
     <div class="image-grid-row">
       <div class="image-grid-column">
         <div class="image-grid-content">
-          <div class="polaroid-animation">
+          <div class="polaroid-animation" onclick="loadNewPage()">
             <div class="polaroid-frame">
               <img class="polaroid-image" src="../ressources/images/hero_alpine-bat.png" alt="">
               <h1>Alpine Bat</h1>
@@ -102,14 +95,19 @@
         <div class="image-grid-content">
           <div class="polaroid-animation">
             <div class="polaroid-frame">
-              <img class="polaroid-image" src="../ressources/images/hero_lara-croft.png" alt="">
-              <h1>Lara Croft 2</h1>
+              <img class="polaroid-image" src="../ressources/images/hero_doomguy.png" alt="">
+              <h1>Doom Guy</h1>
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    
+    <script>
+      function loadNewPage() {
+          window.location.href = 'https://www.example.com'; // Replace with the desired URL
+      }
+  </script>
 
     <!-- Image Template -->
     <!-- <div class="polaroid-animation">
