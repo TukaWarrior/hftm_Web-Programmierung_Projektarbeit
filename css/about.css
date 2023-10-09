@@ -48,7 +48,7 @@ p {
     box-shadow: -10px 30px 48px 10px rgba(0, 0, 0, 0.43);
 
     border-width: 3px 4px 3px 5px;
-    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+    border-radius: 95% 4% 92% 5%/4% 95% 6% 95%;
 
     transform: rotate(2deg);
     transition: transform 0.2s ease;
@@ -82,6 +82,7 @@ p {
 .img-nico {
     background-image: url("../ressources/images/avatar_nicola01.png");
 }
+
 /* Comic style card END */
 
 
@@ -90,108 +91,46 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Bangers", sans-serif;
+    font-family: "Bangers", sans-serif;
 }
 
 .big {
-  font-family: "Bangers";
-  margin: 0 0 -1em 0;
-  padding-bottom: 50px;
-  float: left;
-  width: 100%;
-  position: relative;
+    font-family: "Bangers";
+    margin: 0 0 -1em 0;
+    padding-bottom: 50px;
+    float: left;
+    width: 100%;
+    position: relative;
+    color: rgb(174, 0, 255);
+    -webkit-text-stroke: black 1px;
 
-  text-shadow:
-    -4px -4px rgb(0, 0, 0),
-    4px -4px rgb(0, 0, 0),
-    4px 4px rgb(0, 0, 0),
-    -4px 4px rgb(0, 0, 0),
-
-    -5px -5px rgb(255, 255, 0),
-    4px 4px rgb(255, 166, 0),
-    7px 7px rgb(255, 0, 0);
-
-  -webkit-transform: rotate(-10deg) skew(-10deg, 0);
-  -moz-transform: rotate(-10deg) skew(-10deg, 0);
-  -ms-transform: rotate(-10deg) skew(-10deg, 0);
-  -o-transform: rotate(-10deg) skew(-10deg, 0);
-  transform: rotate(-6deg) skew(-10deg, 0);
+    text-shadow:
+    -2px -2px rgb(255, 255, 0),
+    2px 2px rgb(21, 255, 0),
+    4px 4px rgb(145, 255, 0);
+    
+    -webkit-transform: rotate(-10deg) skew(-10deg, 0);
+    -moz-transform: rotate(-10deg) skew(-10deg, 0);
+    -ms-transform: rotate(-10deg) skew(-10deg, 0);
+    -o-transform: rotate(-10deg) skew(-10deg, 0);
+    transform: rotate(-6deg) skew(-10deg, 0);
 }
 
 h1.big {
-  font-size: 150px;
-  margin-bottom: -.4em;
-  margin-top: 30px;
+    font-size: 150px;
+    margin-bottom: -.4em;
+    margin-top: 30px;
 }
 
 h2.big {
-  font-size: 110px;
+    font-size: 110px;
 }
 
 h3.big {
-  font-size: 80px;
+    font-size: 80px;
 }
 
 h4.big {
-  font-size: 50px;
-  margin-top: -.15em;
-}
-
-.background-text {
-  font-size: inherit;
-  position: relative;
-  /* Add relative positioning to the text element */
-  z-index: 2;
-  /* Set a higher z-index to bring text to the foreground */
-}
-
-.background-text::before {
-  content: attr(content);
-  /* Create a pseudo-element */
-
-    background-color: #0026ff;
-    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.8),
-    rgb(255, 230, 0));
-
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  text-shadow: none;
-  /* Remove the text-shadow from the pseudo-element */
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-  /* Set a lower z-index to place it behind the text */
-}
-
-.background-textV2 {
-  font-size: inherit;
-  position: relative;
-  z-index: 2;
-}
-
-.background-textV2::before {
-  content: attr(content);
-  background-image: linear-gradient(to bottom, rgba(43, 255, 0, 0.5),
-      rgb(0, 255, 170));
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  text-shadow: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
+    font-size: 50px;
+    margin-top: -.15em;
 }
