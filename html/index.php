@@ -88,12 +88,12 @@
     </div>
     <div class="panel">
       <p class="speech speechImage6">i cant do daily tasks anymore!</p>
-      <p class="text bottom-right">when times are getting hard...</p>
+      <p class="text bottom-right">times are getting hard...</p>
     </div>
 
     <div class="panel">
-      <p class="speech speechImage7">i need them</p>
-      <p class="text top-left">visits our homepage</p>
+      <p class="text top-left">later that day</p>
+      <p class="speech speechImage7">this is exactly what i need now</p>
     </div>
 
   </article>
