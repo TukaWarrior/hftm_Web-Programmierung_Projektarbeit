@@ -1,10 +1,13 @@
 /* Page Properties */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --background-color: 28 27 30;
-    --topnav-color: #333333;
-
+    --topnav-color: #333333; /* #333333 */
 }
 
 body {
@@ -16,37 +19,60 @@ body {
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Top Navigation Bar */
 .topnav {
-    background-color: var(--topnav-color);
     overflow: hidden;
+    border-top: 15px solid;
+    border-bottom: 15px solid;
+    border-color: #000000;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    background-image: radial-gradient(#212121 10%, transparent 0%), radial-gradient(#212121 10%, transparent 0%);
+    background-color: #3b3b3b;
+    background-position: 0 0, 50px 50px;
+    background-size: 10px 10px;
 }
 
 .topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 36px;
     text-decoration: none;
     text-transform: uppercase;
-    border-radius: 0.3em;
     font-weight: 700;
     letter-spacing: .5px;
     font-size: 17px;
+
+    border-left: 4px solid;
+    border-right: 4px solid;
+    border-color: transparent;
+
+    transform: skew(-15deg);
 }
 
 .topnav a:hover {
-    background-color: #f2f2f2;
-    color: black;
+    background-color: #6ec7844d;
+    color: rgb(255, 255, 255);
+    /* border-color: #00000085; */
 }
 
 .topnav a.active {
-    background-color: #045faa;
-    color: white;
+    color: rgb(0, 0, 0);
+    border-color: #000000;
+    background-image: radial-gradient(rgba(173, 250, 192, 0.541) 10%, transparent 0%);
+    background-color: #6ec784;
+    background-position: 0 0, 50px 50px;
+    background-size: 10px 10px;
 }
 
 .topnav a.split {
     float: right;
-    background-color: #045faa;
     color: white;
+
+    background-image: radial-gradient(rgba(250, 173, 243, 0.397) 10%, transparent 0%);
+    background-color: #aa04aa; /* #045faa */
+    background-position: 0 0, 50px 50px;
+    background-size: 10px 10px;
 }
 
 footer {

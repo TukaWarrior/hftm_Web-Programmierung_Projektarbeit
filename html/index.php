@@ -15,9 +15,9 @@
 
 <body>
 
-  <!-- Top Navigation Bar -->
-  <?php include 'element_topnav.php'; ?>
-
+  <div id="pageTop">
+    <!-- Top Navigation Bar -->
+    <?php include 'element_topnav.php'; ?>
   </div>
 
   <!-- Top -->
@@ -72,14 +72,14 @@
         the story above is only one of many possible cases where someone needs help!</p>
     </div>
     <div class="panelV2">
-      <p class="text top-left">our team is ready!</p>
+      <p class="text top-left">our team is ready! are you?</p>
     </div>
     <div class="panelV2">
-      <p class="text top-right">learn more</p>
-      <div class="topnav">
-        <a <?php if (basename($_SERVER['PHP_SELF']) == 'heroes.php')
-          echo 'class="active"'; ?>
-          href="heroes.php">Heroes</a>
+      <div>
+        <p class="speech speechImageBrowse">
+          what are you waiting for? browse the page and meet our team!</br>
+          <a href="#pageTop">➪ go back to top</a>
+        </p>
       </div>
     </div>
   </article>

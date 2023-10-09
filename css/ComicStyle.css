@@ -149,9 +149,6 @@ p {
   content: attr(content);
   /* Create a pseudo-element */
 
-  /* background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0),
-      rgb(255, 0, 0)),
-    url(https://wallpapercave.com/wp/wp3433420.jpg); */
     background-color: #0026ff;
     background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.8),
     rgb(255, 230, 0));
@@ -198,8 +195,6 @@ p {
   bottom: 0;
   z-index: 1;
 }
-
-
 
 /* Comic Dialog */
 .comic {
@@ -354,6 +349,11 @@ p {
   margin-top: 15px;
 }
 
+.speechImageBrowse {
+  margin-left: 215px;
+  margin-top: 10px;
+}
+
 .panel:nth-child(1) {
   background-image: url("../ressources/images/index/flash_01.jpg");
   background-repeat: no-repeat;
@@ -423,7 +423,8 @@ p {
 }
 
 .panelV2:nth-child(3) {
-  width: 400px;
+  height: 500px;
+  width: 450px;
 }
 
 .panelV2:nth-child(1) {
@@ -438,4 +439,18 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.panelV2:nth-child(3) {
+  background-image: url("../ressources/images/index/browseOurPage.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
 }
