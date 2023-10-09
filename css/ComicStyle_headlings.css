@@ -93,8 +93,8 @@ p {
   content: attr(content);
   /* Create a pseudo-element */
   background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0),
-  rgb(255, 0, 0)),
-  url(https://previews.123rf.com/images/vectora/vectora1602/vectora160200293/51554242-gepunktete-gelbe-und-rote-pop-art-muster-nahtlos-wiederholbar-hintergrund-mit-kreisen.jpg);
+      rgb(255, 0, 0)),
+    url(https://previews.123rf.com/images/vectora/vectora1602/vectora160200293/51554242-gepunktete-gelbe-und-rote-pop-art-muster-nahtlos-wiederholbar-hintergrund-mit-kreisen.jpg);
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -117,10 +117,10 @@ p {
 
 /* Comic Dialog */
 .comic {
-  display:flex;
-  flex-wrap:wrap;
-  font-family:'Comic Sans', cursive;
-  padding:1vmin;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Comic Sans', cursive;
+  padding: 1vmin;
 
   background-repeat: no-repeat;
   background-position: center;
@@ -129,148 +129,183 @@ p {
 }
 
 .panel {
-  background-color:#fff;
-  border:solid 3px #000;
+  background-color: #fff;
+  border: solid 3px #000;
   box-shadow: 4px 6px 6px -2px #000;
-  display:inline-block;
-  height:300px;
-  margin:1vmin;
-  overflow:hidden;
-  position:relative;
+  display: inline-block;
+  height: 300px;
+  margin: 1vmin;
+  overflow: hidden;
+  position: relative;
 }
 
 .text {
-  background-color:#fff;
-  border:solid 2px #000;
-  margin:0;
-  padding:3px 10px;
+  background-color: #fff;
+  border: solid 2px #000;
+  margin: 0;
+  padding: 3px 10px;
 }
 
 .top-left {
-  left:-6px;
-  position:absolute;
-  top:-2px;
-  transform:skew(-15deg);
+  left: -6px;
+  position: absolute;
+  top: -2px;
+  transform: skew(-15deg);
+  background-color: rgb(117, 255, 158);
 }
 
 .top-right {
-  right:-6px;
-  position:absolute;
-  top:-2px;
-  transform:skew(15deg);
+  right: -6px;
+  position: absolute;
+  top: -2px;
+  transform: skew(15deg);
+  background-color: rgb(109, 180, 180);
 }
 
 .bottom-right {
-  bottom:-2px;
-  position:absolute;
-  right:-6px;
-  transform:skew(-15deg);
+  bottom: -2px;
+  position: absolute;
+  right: -6px;
+  transform: skew(-15deg);
+  background-color: rgb(231, 147, 187);
 }
 
 .speech {
-  background-color:#fff;
-  border:solid 2px #000;
-  border-radius:12px;
-  display:inline-block;
-  margin:.5em;
-  padding:.5em 1em;
-  position:relative;
+  background-color: #fff;
+  border: solid 2px #000;
+  border-radius: 12px;
+  display: inline-block;
+  margin: .5em;
+  padding: .5em 1em;
+  position: relative;
 }
 
 .speech:before {
-  border:solid 12px transparent;
-  border-left:solid 12px #000;
-  border-top:solid 12px #000;
-  bottom:-24px;
-  content:"";
-  height:0;
-  left:24px;
-  position:absolute;
-  transform:skew(-15deg);
-  width:0;
+  border: solid 12px transparent;
+  border-left: solid 12px #000;
+  border-top: solid 12px #000;
+  bottom: -24px;
+  content: "";
+  height: 0;
+  left: 24px;
+  position: absolute;
+  transform: skew(-15deg);
+  width: 0;
 }
 
 .speech:after {
-  border:solid 10px transparent;
-  border-left:solid 10px #fff;
-  border-top:solid 10px #fff;
-  bottom:-19px;
-  content:"";
-  height:0;
-  left:27px;
-  position:absolute;
-  transform:skew(-15deg);
-  width:0;
+  border: solid 10px transparent;
+  border-left: solid 10px #fff;
+  border-top: solid 10px #fff;
+  bottom: -19px;
+  content: "";
+  height: 0;
+  left: 27px;
+  position: absolute;
+  transform: skew(-15deg);
+  width: 0;
 }
 
 .panel:nth-child(1) {
-  flex-basis: 300px;
-}
-.panel:nth-child(2) {
-  flex-basis: 300px;
-}
-.panel:nth-child(3) {
-  flex-basis: 400px;
-}
-.panel:nth-child(4) {
-  flex-basis: 300px;
-}
-.panel:nth-child(5) {
-  flex-basis: 400px;
-}
-.panel:nth-child(6) {
-  flex-basis: 200px;
-}
-.panel:nth-child(7) {
-  flex-basis: 400px;
-}
-.panel:nth-child(8) {
-  flex-basis: 200px;
-}
-.panel:nth-child(9) {
-  flex-basis: 200px;
+  width: 440px;
 }
 
-.speechImage2 {
-  margin: 5px 0px 0px 90px;
+.panel:nth-child(2) {
+  width: 300px;
+}
+
+.panel:nth-child(3) {
+  width: 450px;
+}
+
+.panel:nth-child(4) {
+  width: 400px;
+}
+
+.panel:nth-child(5) {
+  width: 320px;
+}
+
+.panel:nth-child(6) {
+  width: 444px;
+}
+
+.panel:nth-child(7) {
+  width: 400px;
+}
+
+.panel:nth-child(8) {
+  width: 200px;
+}
+
+.panel:nth-child(9) {
+  width: 200px;
+}
+
+.speechImage3 {
+  margin-left: 100px;
+  margin-top: 5px;
 }
 
 .speechImage4 {
-  margin: 70px 0px 0px 185px;
+  margin-left: 260px;
+  margin-top: 70px;
 }
 
-/* background colours */
+.speechImage6 {
+  margin-left: 230px;
+  margin-top: 50px;
+}
+
+.speechImage7 {
+  margin-left: 250px;
+  margin-top: 120px;
+}
 
 .panel:nth-child(1) {
-  background-image: url("../ressources/images/flash_01.jpg");
+  background-image: url("../ressources/images/index/flash_01.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .panel:nth-child(2) {
-  background-image: url("../ressources/images/flash_02.png");
+  background-image: url("../ressources/images/index/flash_02.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .panel:nth-child(3) {
-  background-image: url("../ressources/images/flash_03.png");
+  background-image: url("../ressources/images/index/flash_03.png");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
 }
 
 .panel:nth-child(4) {
-  background-image: url("../ressources/images/flash_04.png");
+  background-image: url("../ressources/images/index/flash_04.png");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
 }
 
 .panel:nth-child(5) {
-  background-image: url("../ressources/images/flash_05.png");
+  background-image: url("../ressources/images/index/flash_05.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.panel:nth-child(6) {
+  background-image: url("../ressources/images/index/flash_06.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.panel:nth-child(7) {
+  background-image: url("../ressources/images/index/flash_07.png");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;

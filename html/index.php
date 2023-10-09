@@ -72,16 +72,13 @@
 
   <article class="comic">
     <div class="panel">
-      <p class="text bottom-right">just another day saving the world</p>
+      <p class="text bottom-right">just a regular day saving the world</p>
     </div>
     <div class="panel">
       <p class="text top-left">Oh no!...</p>
-      <p class="text bottom-right">...something horrible happened</p>
     </div>
     <div class="panel">
-      <!-- <p class="text top-left">doesnt look good...</p> -->
-      <p class="speech speechImage2">doesnt look good...</p>
-      <!-- <p class="text bottom-right">...it's responsive</p> -->
+      <p class="speech speechImage3">doesnt look good...</p>
     </div>
     <div class="panel">
       <p class="speech speechImage4">shit</p>
@@ -90,8 +87,15 @@
       <p class="text top-right">this is getting difficult</p>
     </div>
     <div class="panel">
-      <p class="text bottom-right">THE END</p>
+      <p class="speech speechImage6">i cant do daily tasks anymore!</p>
+      <p class="text bottom-right">when times are getting hard...</p>
     </div>
+
+    <div class="panel">
+      <p class="speech speechImage7">i need them</p>
+      <p class="text top-left">visits our homepage</p>
+    </div>
+
   </article>
 
   </div>
