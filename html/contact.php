@@ -91,8 +91,8 @@
 
     <div class="container">
         <div style="text-align:center">
-            <h2>Contact Us</h2>
-            <p>Swing by for a cup of coffee, or leave us a message:</p>
+            <h2>Do you need a hero?</h2>
+            <p>Yes? No problem. No matter tthe cause or reason, a superhero will rush to your aid! No questions asked!</p>
         </div>
         <div class="row">
             <div class="column">
