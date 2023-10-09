@@ -16,8 +16,8 @@
     background-attachment: fixed;
     background-position: 50% 50%;
     /* background-image: url(https://as1.ftcdn.net/v2/jpg/05/08/50/18/1000_F_508501854_E7sXYJXuAvmCzYHYQlV2tzqwNMLXs0mb.jpg); */
-
-    background-image: url(https://img.freepik.com/photos-premium/bande-dessinee-pop-art-ia-generative_409545-30.jpg?w=1380);
+    /* background-image: url(https://img.freepik.com/photos-premium/bande-dessinee-pop-art-ia-generative_409545-30.jpg?w=1380); */
+    background-image: url(https://img.freepik.com/vecteurs-libre/fond-style-bande-dessinee-plate_23-2148794906.jpg?w=1380&t=st=1696886923~exp=1696887523~hmac=9b0fa77ff91ff559fb4c27d56537fed5b81f03af2a8952658405550c3b8c4bff);
     flex-direction: row;
     gap: 1.6em;
 }
