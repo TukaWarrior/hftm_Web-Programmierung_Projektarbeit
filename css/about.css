@@ -15,8 +15,9 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: 50% 50%;
-    background-image: url(https://as1.ftcdn.net/v2/jpg/05/08/50/18/1000_F_508501854_E7sXYJXuAvmCzYHYQlV2tzqwNMLXs0mb.jpg);
+    /* background-image: url(https://as1.ftcdn.net/v2/jpg/05/08/50/18/1000_F_508501854_E7sXYJXuAvmCzYHYQlV2tzqwNMLXs0mb.jpg); */
 
+    background-image: url(https://img.freepik.com/photos-premium/bande-dessinee-pop-art-ia-generative_409545-30.jpg?w=1380);
     flex-direction: row;
     gap: 1.6em;
 }
@@ -84,8 +85,6 @@ p {
 }
 
 /* Comic style card END */
-
-
 h1,
 h2,
 h3,
@@ -131,6 +130,6 @@ h3.big {
 }
 
 h4.big {
-    font-size: 50px;
+    font-size: 60px;
     margin-top: -.15em;
 }
