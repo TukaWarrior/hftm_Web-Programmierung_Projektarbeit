@@ -8,6 +8,10 @@ h5 {
   font-family: "Bangers", sans-serif;
 }
 
+h3 {
+  font-size: 60px;
+}
+
 .big {
   font-family: "Bangers";
   margin: 0 0 -1em 0;
@@ -33,6 +37,27 @@ h5 {
   transform: rotate(-6deg) skew(-10deg, 0);
 }
 
+.mid {
+  font-family: "Bangers";
+  margin: 0 0 -1em 0;
+  padding-bottom: 50px;
+  float: left;
+  width: 100%;
+  position: relative;
+  color: rgb(0, 0, 0);
+
+  text-shadow:
+    -2px -2px rgb(255, 255, 0),
+    2px 2px rgb(255, 166, 0),
+    3px 3px rgb(255, 0, 0);
+
+  -webkit-transform: rotate(-10deg) skew(-10deg, 0);
+  -moz-transform: rotate(-10deg) skew(-10deg, 0);
+  -ms-transform: rotate(-10deg) skew(-10deg, 0);
+  -o-transform: rotate(-10deg) skew(-10deg, 0);
+  transform: rotate(0deg) skew(-10deg, 0);
+}
+
 .symbol {
   font-family: "Bangers";
   margin: 0 0 -1em 0;
@@ -53,6 +78,31 @@ h5 {
   transform: rotate(-6deg) skew(-10deg, 0);
 }
 
+.bigblank {
+  font-family: "Bangers";
+  margin: 0 0 -1em 0;
+  padding-bottom: 50px;
+  float: left;
+  width: 100%;
+  position: relative;
+
+  text-shadow:
+    -4px -4px rgb(0, 0, 0),
+    4px -4px rgb(0, 0, 0),
+    4px 4px rgb(0, 0, 0),
+    -4px 4px rgb(0, 0, 0),
+
+    -7px -7px rgb(255, 255, 0),
+    8px 8px rgb(255, 166, 0),
+    12px 12px rgb(255, 0, 0);
+
+  -webkit-transform: rotate(-10deg) skew(-10deg, 0);
+  -moz-transform: rotate(-10deg) skew(-10deg, 0);
+  -ms-transform: rotate(-10deg) skew(-10deg, 0);
+  -o-transform: rotate(-10deg) skew(-10deg, 0);
+  transform: rotate(-3deg) skew(-25deg, 0);
+}
+
 h1.symbol {
   font-size: 150px;
   margin-bottom: -.4em;
@@ -61,6 +111,11 @@ h1.symbol {
 h1.big {
   font-size: 150px;
   margin-bottom: -.4em;
+}
+
+h1.bigblank {
+  font-size: 150px;
+  margin-top: 80px;
 }
 
 h2.big {
@@ -92,9 +147,13 @@ p {
 .background-text::before {
   content: attr(content);
   /* Create a pseudo-element */
-  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0),
+
+  /* background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0),
       rgb(255, 0, 0)),
-    url(https://previews.123rf.com/images/vectora/vectora1602/vectora160200293/51554242-gepunktete-gelbe-und-rote-pop-art-muster-nahtlos-wiederholbar-hintergrund-mit-kreisen.jpg);
+    url(https://wallpapercave.com/wp/wp3433420.jpg); */
+    background-color: #0026ff;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.8),
+    rgb(255, 230, 0));
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -114,17 +173,44 @@ p {
   /* Set a lower z-index to place it behind the text */
 }
 
+.background-textV2 {
+  font-size: inherit;
+  position: relative;
+  z-index: 2;
+}
+
+.background-textV2::before {
+  content: attr(content);
+  background-image: linear-gradient(to bottom, rgba(43, 255, 0, 0.5),
+      rgb(0, 255, 170));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+
 
 /* Comic Dialog */
 .comic {
   display: flex;
   flex-wrap: wrap;
   font-family: 'Comic Sans', cursive;
-  padding: 1vmin;
+  padding: 10vmin;
 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   background-image: url(https://img.freepik.com/premium-photo/pale-brown-vintage-paper-texture-background-kraft-paper-horizontal-with-unique-design-paper-soft-natural-paper-style-aesthetic-creative-design_364465-212.jpg);
 }
 
@@ -235,7 +321,7 @@ p {
 }
 
 .panel:nth-child(8) {
-  width: 200px;
+  width: 100px;
 }
 
 .panel:nth-child(9) {
@@ -260,6 +346,11 @@ p {
 .speechImage7 {
   margin-left: 250px;
   margin-top: 80px;
+}
+
+.speechImageHeadquarter {
+  margin-left: 220px;
+  margin-top: 15px;
 }
 
 .panel:nth-child(1) {
@@ -308,5 +399,42 @@ p {
   background-image: url("../ressources/images/index/flash_07.png");
   background-repeat: no-repeat;
   background-position: left;
+  background-size: cover;
+}
+
+.panelV2 {
+  background-color: #fff;
+  border: solid 3px #000;
+  box-shadow: 4px 6px 6px -2px #000;
+  display: inline-block;
+  height: 300px;
+  margin: 1vmin;
+  overflow: hidden;
+  position: relative;
+}
+
+.panelV2:nth-child(1) {
+  width: 600px;
+}
+
+.panelV2:nth-child(2) {
+  width: 600px;
+}
+
+.panelV2:nth-child(3) {
+  width: 400px;
+}
+
+.panelV2:nth-child(1) {
+  background-image: url("../ressources/images/index/headquarter.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.panelV2:nth-child(2) {
+  background-image: url("../ressources/images/index/hero_team.png");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
