@@ -24,7 +24,7 @@
   <div class="container">
     <h1 class="big background-text" content="ever wondered">Ever wondered</h1>
     <h1 class="big background-text" content="what happens when">what happens when</h1>
-    <h1 class="big background-text" content="you break your ancle?">you break your ancle?</h1>
+    <h1 class="big background-text" content="you break your leg?">you break your leg?</h1>
     <h1 class="symbol pulse">⬇</h1>
   </div>
   <!--------------------------------------------------------->
@@ -35,7 +35,7 @@
   <!-- Story -->
   <article class="comic">
     <div class="panel">
-      <p class="text bottom-right">just a regular day saving the world</p>
+      <p class="text bottom-right">oh look, free beer!</p>
     </div>
     <div class="panel">
       <p class="text top-left">Oh no!...</p>
