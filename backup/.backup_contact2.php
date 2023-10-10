@@ -117,6 +117,7 @@
     // If submitted:
     if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["submit"])) {
         // Retrieve and test user input
+        echo "Form submitted!";
         $firstName = test_input($_POST["firstName"]);
         $lastName = test_input($_POST["lastName"]);
         $message = test_input($_POST["message"]);
@@ -145,7 +146,6 @@
         // Close File
         fclose($contactForms);
     }
-    
     ?>
 
     <!-- HTML Forms -->
@@ -181,12 +181,24 @@
                     <input type="radio" name="urgency" value="urgent1" required>Please Hurry
                     <input type="radio" name="urgency" value="urgent2" required>Really Serious!
                     <input type="radio" name="urgency" value="urgent3" required>I AM DYING AAAAAAAA!!!
-                    <input type="submit" name="submit" value="Submit">
+                    <input type="submit" name="submit" value="Submit" disabled>
 
                 </form>
             </div>
         </div>
     </div>
+
+
+
+    <!-- Return Test -->
+    <?php
+    echo "<h2>Your Input:</h2>";
+    echo $firstName, "<br>";
+    echo $lastName, "<br>";
+    echo $message, "<br>";
+    echo $urgency, "<br>";
+    ?>
+
 
 </body>
 
