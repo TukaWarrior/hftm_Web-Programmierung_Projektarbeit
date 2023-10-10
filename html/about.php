@@ -8,41 +8,25 @@
         href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/about.css">
-    <title>Your Page Title</title>
+    <title>About us</title>
 </head>
 
 <body>
-
     <!-- Top Navigation Bar -->
     <?php include 'element_topnav.php'; ?>
-
     <!-- Content -->
 
     <div class="container">
-        <div class="item">
-            <div class="img img-andres"></div>
-            <div class="card">
-                <h4 class="big background-text" content="Andres Soria">Andres Soria</h4>
-                <p>CSS? No problem. Animate everything until its overstyled? No problem at all.</p>
+        <div class="containerGrid">
+            <div class="box box-1" style="--img: url(../ressources/images/avatar_andres03.png);" data-text="Andres">
             </div>
-        </div>
-
-        <div class="item">
-            <div class="img img-luca"></div>
-            <div class="card">
-                <h4 class="big background-text" content="Luca Bützberger">Luca Bützberger</h4>
-                <p>His patience and drive for perfectionism are driving him into burnout. Especially with PHP.</p>
-            </div>
-        </div>
-
-        <div class="item">
-            <div class="img img-nico"></div>
-            <div class="card">
-                <h4 class="big background-text" content="Nicola Jöhr">Nicola Jöhr</h4>
-                <p>Our hacking specialist is currently on a field trip somewhere in nowhere.</p>
+            <div class="box box-2" style="--img: url(../ressources/images/avatar_luca02.png);" data-text="Luca"></div>
+            <div class="box box-3" style="--img: url(../ressources/images/avatar_nicola02.png);" data-text="Nicola">
             </div>
         </div>
     </div>
+
+    <!-- <div class="blank"> -->
 
     <footer>© 2023 Awesome Company</footer>
 
