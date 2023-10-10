@@ -17,7 +17,7 @@
   <?php include 'element_topnav.php'; ?>
 
     <div class="container">
-        <img src="../ressources/images/404_PageNotFound.png" />
+        <img src="../ressources/images/404/404_PageNotFound.png" />
     </div>
 
     <footer>© 2023 Awesome Company</footer>

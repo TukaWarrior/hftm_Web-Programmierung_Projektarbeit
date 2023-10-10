@@ -1,4 +1,4 @@
-ErrorDocument 404 http://localhost/test/html/404.php
+ErrorDocument 404 http://localhost/page/html/404.php
 RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_URI} ^/404/$
