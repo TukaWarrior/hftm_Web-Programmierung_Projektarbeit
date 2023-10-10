@@ -3,10 +3,15 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap"> -->
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/contact.css">
+        <title>Contact</title>
+    </head>
+
 
     <link rel="stylesheet" href="../css/styles.css">
 
@@ -76,53 +81,133 @@
                 margin-top: 0;
             }
         }
+
+        /* Grey out disabled Submit Button */
+        input[type="submit"][disabled] {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
     </style>
 </head>
 
 <body>
 
-  <!-- Top Navigation Bar -->
-  <?php include 'element_topnav.php'; ?>
+    <!-- Top Navigation Bar -->
+    <?php include 'element_topnav.php'; ?>
 
 
+    <!-- PHP Forms -->
+    <?php
 
-    <h2>Responsive Contact Section</h2>
-    <p>Resize the browser window to see the effect.</p>
+    // Variables
+    $firstName = "";
+    $lastName = "";
+    $message = "";
+    $urgency = "";
 
+    // Test userinput for certain characters
+    function test_input($data)
+    {
+        $data = trim($data); // Removes leading and trailing whitespaces. 
+        $data = stripslashes($data); // Removes function backslashes. 
+        $data = htmlspecialchars($data); // Converts special characters into their html entities. 
+        return $data;
+    }
+
+    // If submitted:
+    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["submit"])) {
+        // Retrieve and test user input
+        echo "Form submitted!";
+        $firstName = test_input($_POST["firstName"]);
+        $lastName = test_input($_POST["lastName"]);
+        $message = test_input($_POST["message"]);
+        $urgency = test_input($_POST["urgency"]);
+
+        // Get DateTime
+        $currentDateTime = date("YmdHis_");
+
+        // File directory
+        $fileDirectoiry = dirname(__DIR__) . "\data\contactforms\\";
+
+        // File name
+        $fileName = $currentDateTime . $firstName . "_contactform.txt";
+
+        // File path
+        $filePath = $fileDirectoiry . $fileName;
+
+        // Create / Open File
+        $contactForms = fopen($filePath, "w") or die("Unable to open file!");
+
+        fwrite($contactForms, "First Name: " . $firstName . "\n");
+        fwrite($contactForms, "First Name: " . $lastName . "\n");
+        fwrite($contactForms, "Message: " . $message . "\n");
+        fwrite($contactForms, "Urgency: " . $urgency);
+
+        // Close File
+        fclose($contactForms);
+    }
+    ?>
+
+    <!-- HTML Forms -->
     <div class="container">
         <div style="text-align:center">
             <h2>Do you need a hero?</h2>
-            <p>Yes? No problem. No matter tthe cause or reason, a superhero will rush to your aid! No questions asked!</p>
+            <p>Yes? No problem. No matter tthe cause or reason, a superhero will rush to your aid! No questions asked!
+            </p>
         </div>
+        <!-- Table Grid -->
         <div class="row">
+            <!-- Left Part: Image -->
             <div class="column">
-                <img src="/w3images/map.jpg" style="width:100%">
+                <img src="https://media.licdn.com/dms/image/C4E12AQFY1HPLdvUlAw/article-cover_image-shrink_423_752/0/1614954939274?e=1702512000&v=beta&t=9HzJe79tHexHQ8N2kHR3H8UF2MSlKYGsaA0uI3bnvxk"
+                    style="width:100%">
             </div>
+            <!-- Right Part: Form Input -->
             <div class="column">
-                <form action="/action_page.php">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                    <label for="country">Country</label>
-                    <select id="country" name="country">
-                        <option value="australia">Australia</option>
-                        <option value="canada">Canada</option>
-                        <option value="usa">USA</option>
-                    </select>
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.."
-                        style="height:170px"></textarea>
-                    <input type="submit" value="Submit">
+                <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" autocomplete="on">
 
-                    <label for="fname">How much do you hate php?</label>
-                    <input type="text" id="fhatephp" name="firstname" placeholder="Your name..">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="fname" name="firstName" required="true"
+                        placeholder="You have for sure a pretty name!">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lname" name="lastName" required="true" placeholder="Tell us your bloodline">
+
+                    <label for="message">Message</label>
+                    <textarea id="subject" name="message" required="true" placeholder="How can we help you?"
+                        style="height:170px"></textarea>
+
+                    <label for="urgency">How Serious is it?</label>
+                    <input type="radio" name="urgency" value="urgent0" required>I have time
+                    <input type="radio" name="urgency" value="urgent1" required>Please Hurry
+                    <input type="radio" name="urgency" value="urgent2" required>Really Serious!
+                    <input type="radio" name="urgency" value="urgent3" required>I AM DYING AAAAAAAA!!!
+                    <input type="submit" name="submit" value="Submit" disabled>
 
                 </form>
             </div>
         </div>
     </div>
 
+
+
+    <!-- Return Test -->
+    <?php
+    echo "<h2>Your Input:</h2>";
+    echo $firstName, "<br>";
+    echo $lastName, "<br>";
+    echo $message, "<br>";
+    echo $urgency, "<br>";
+    ?>
+
+
 </body>
+
+<!-- Currently Removed: -->
+<!-- <label for="country">Country</label>
+    <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+    </select> -->
 
 </html>

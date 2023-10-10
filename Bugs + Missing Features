@@ -1,0 +1,7 @@
+Bugs:
+
+contact.php - Contact Form gets submitted at page reload.
+
+
+Missing Features:
+contact.php - Sumbit Button should be greyed out when not all fields are set
