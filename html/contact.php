@@ -145,7 +145,7 @@
         // Close File
         fclose($contactForms);
     }
-    
+
     ?>
 
     <!-- HTML Forms -->
@@ -197,5 +197,21 @@
         <option value="canada">Canada</option>
         <option value="usa">USA</option>
     </select> -->
+
+<!-- // Send as Email
+        $to = "luca.buetzberger@gmail.com";
+        $subject = "New Contact Form Submission";
+        $headers = "From: sender@example.com";
+    
+        $messageBody = "First Name: " . $firstName . "\n";
+        $messageBody .= "Last Name: " . $lastName . "\n";
+        $messageBody .= "Message: " . $message . "\n";
+        $messageBody .= "Urgency: " . $urgency;
+
+        ini_set("SMTP", "localhost");
+        ini_set("smtp_port", "25");
+    
+        mail($to, $subject, $messageBody, $headers); -->
+
 
 </html>
