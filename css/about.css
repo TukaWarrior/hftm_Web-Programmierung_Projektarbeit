@@ -1,135 +1,78 @@
-/* test */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
 @import url(//fonts.googleapis.com/css?family=Patrick+Hand+SC|Bangers|Happy+Monkey);
 
+
 .container {
-    text-align: center;
-    color: black;
-    width: 100%;
-    min-height: 90vh;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 50% 50%;
-    /* background-image: url(https://as1.ftcdn.net/v2/jpg/05/08/50/18/1000_F_508501854_E7sXYJXuAvmCzYHYQlV2tzqwNMLXs0mb.jpg); */
-    /* background-image: url(https://img.freepik.com/photos-premium/bande-dessinee-pop-art-ia-generative_409545-30.jpg?w=1380); */
-    background-image: url(https://img.freepik.com/vecteurs-libre/fond-style-bande-dessinee-plate_23-2148794906.jpg?w=1380&t=st=1696886923~exp=1696887523~hmac=9b0fa77ff91ff559fb4c27d56537fed5b81f03af2a8952658405550c3b8c4bff);
-    flex-direction: row;
-    gap: 1.6em;
-}
-
-p {
-    font-family: 'Red Hat Text', sans-serif;
-    font-size: 1.3em;
-    max-width: 52ch;
-    line-height: 1.5;
-    padding: 4em;
-}
-
-/* Comic style card START */
-.item {
-    padding: 40px 20px 0px 20px;
-    min-width: 200px;
-    width: 420px;
-    max-width: 450px;
-    height: 600px;
-    max-height: 750px;
-
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    -webkit-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
-    -moz-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
-    box-shadow: -10px 30px 48px 10px rgba(0, 0, 0, 0.43);
-
-    border-width: 3px 4px 3px 5px;
-    border-radius: 95% 4% 92% 5%/4% 95% 6% 95%;
-
-    transform: rotate(2deg);
-    transition: transform 0.2s ease;
-}
-
-.item:hover {
-    transform: rotate(100deg);
-    transform: translateY(10px);
-    transform: scale(1.07);
-    transition: transform 0.2s ease;
-}
-
-.img {
-    width: 90%;
-    height: 300px;
-    background-color: lightgrey;
-    background-size: cover;
-    background-position: center;
-    margin-top: 20px;
-    border-radius: .5em;
-}
-
-.img-andres {
-    background-image: url("../ressources/images/avatar_andres01.png");
-}
-
-.img-luca {
-    background-image: url("../ressources/images/avatar_luca01.png");
-}
-
-.img-nico {
-    background-image: url("../ressources/images/avatar_nicola01.png");
-}
-
-/* Comic style card END */
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-family: "Bangers", sans-serif;
-}
-
-.big {
-    font-family: "Bangers";
-    margin: 0 0 -1em 0;
-    padding-bottom: 50px;
-    float: left;
-    width: 100%;
     position: relative;
-    color: rgb(174, 0, 255);
-    -webkit-text-stroke: black 1px;
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 10em;
 
-    text-shadow:
-    -2px -2px rgb(255, 255, 0),
-    2px 2px rgb(21, 255, 0),
-    4px 4px rgb(145, 255, 0);
-    
-    -webkit-transform: rotate(-10deg) skew(-10deg, 0);
-    -moz-transform: rotate(-10deg) skew(-10deg, 0);
-    -ms-transform: rotate(-10deg) skew(-10deg, 0);
-    -o-transform: rotate(-10deg) skew(-10deg, 0);
-    transform: rotate(-6deg) skew(-10deg, 0);
+    background-color: #313131; /* test */
 }
 
-h1.big {
-    font-size: 150px;
-    margin-bottom: -.4em;
-    margin-top: 30px;
+.containerGrid {
+    position: relative;
+    display: grid;
+    background-color: #313131;
+    background-size: cover;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: auto; */
+    gap: 1em;
+    width: 100%;
+    min-height: 30em;
+    max-height: 30em;
+    transition: all 400ms ease;
 }
 
-h2.big {
-    font-size: 110px;
+.containerGrid .box {
+    filter: grayscale(100%) opacity(70%);
 }
 
-h3.big {
-    font-size: 80px;
+.box {
+    position: relative;
+    background: var(--img) center center;
+    background-size: cover;
+    transition: all 400ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-h4.big {
-    font-size: 60px;
-    margin-top: -.15em;
+.containerGrid .box:hover {
+    filter: grayscale(0%) opacity(100%);
+}
+
+.containerGrid:has(.box-1:hover) {
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.containerGrid:has(.box-2:hover) {
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.containerGrid:has(.box-3:hover) {
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.box::after {
+    content: attr(data-text);
+    position: absolute;
+    bottom: 20px;
+    background: #000;
+    color: #fff;
+    padding: 10px 10px 10px 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    transform: translateY(60px);
+    opacity: 0;
+    transition: all 400ms;
+}
+
+.box:hover::after {
+    transform: translateY(0);
+    opacity: 1;
+    transition-delay: 400ms;
 }
