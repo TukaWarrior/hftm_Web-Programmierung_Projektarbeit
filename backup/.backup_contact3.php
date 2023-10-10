@@ -100,9 +100,8 @@
     <?php
 
     // Variables
-    $name = "";
-    $email = "";
-    $phone = "";
+    $firstName = "";
+    $lastName = "";
     $message = "";
     $urgency = "";
 
@@ -118,9 +117,8 @@
     // If submitted:
     if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["submit"])) {
         // Retrieve and test user input
-        $name = test_input($_POST["name"]);
-        $email = test_input($_POST["email"]);
-        $phone = test_input($_POST["phone"]);
+        $firstName = test_input($_POST["firstName"]);
+        $lastName = test_input($_POST["lastName"]);
         $message = test_input($_POST["message"]);
         $urgency = test_input($_POST["urgency"]);
 
@@ -131,7 +129,7 @@
         $fileDirectoiry = dirname(__DIR__) . "\data\contactforms\\";
 
         // File name
-        $fileName = $currentDateTime . $name . "_msg.txt";
+        $fileName = $currentDateTime . $firstName . "_contactform.txt";
 
         // File path
         $filePath = $fileDirectoiry . $fileName;
@@ -139,9 +137,8 @@
         // Create / Open File
         $contactForms = fopen($filePath, "w") or die("Unable to open file!");
 
-        fwrite($contactForms, "Name: " . $name . "\n");
-        fwrite($contactForms, "E-Mail: " . $email . "\n");
-        fwrite($contactForms, "Phone: " . $phone . "\n");
+        fwrite($contactForms, "First Name: " . $firstName . "\n");
+        fwrite($contactForms, "First Name: " . $lastName . "\n");
         fwrite($contactForms, "Message: " . $message . "\n");
         fwrite($contactForms, "Urgency: " . $urgency);
 
@@ -169,22 +166,26 @@
             <div class="column">
                 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
 
-                    <label for="firstName">Name</label>
-                    <input type="text" id="name" name="name" required autocomplete="name" maxlength="50"
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" required autocomplete="name" maxlength="50"
                         placeholder="You have for sure a pretty name!">
 
+                    <!-- <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" required maxlength="20"
+                        placeholder="Tell us your bloodline"> -->
+
                     <label for="email">E-Mail</label>
-                    <input type="email" id="email" name="email" autocomplete="email" maxlength="254"
+                    <input type="email" id="email" name="email" required autocomplete="email" maxlength="254"
                         placeholder="Your E-Mail Adress">
 
                     <label for="phone">Phone</label>
-                    <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="Your Phone number">
+                    <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="Your Phone number">
 
                     <label for="adress">Adress</label>
                     <input type="text" id="adress" name="adress" autocomplete="address-line1" placeholder="Give us your adress. Or don't. Our superheroes know where you are.">
 
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" maxlength="500" required placeholder="How can we help you?"
+                    <textarea id="message" name="message" required placeholder="How can we help you?"
                         style="height:170px"></textarea>
 
                     <label for="urgency">How Serious is it?</label>
