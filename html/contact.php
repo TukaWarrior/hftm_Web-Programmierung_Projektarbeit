@@ -9,7 +9,7 @@
         href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/contact.css">
-    <link rel="stylesheet" href="../css/ComicStyles.css">
+    <!-- <link rel="stylesheet" href="../css/ComicStyles.css"> -->
     <title>Contact</title>
 
 </head>
@@ -82,13 +82,6 @@
             <p>Yes? No problem. No matter tthe cause or reason, a superhero will rush to your aid! No questions asked!
             </p>
 
-            <div class="container_skewed-panel">
-                <div class="skewed-panel-right">
-                    <div>
-                        <h1>Hello There</h1>
-                    </div>
-                </div>
-            </div>
 
         </div>
         <!-- Table Grid -->
@@ -100,91 +93,54 @@
             </div>
             <!-- Right Part: Form Input -->
             <div class="column">
-                <div class="panel">
-                    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+                <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
 
-                        <div class="container_skewed-panel">
-                            <div class="skewed-panel-right">
-                                <div>
-                                    <label for="firstName">Name</label>
-                                    <input type="text" id="name" name="name" required autocomplete="name" maxlength="50"
-                                        placeholder="You have for sure a pretty name!">
-                                </div>
-                            </div>
+                    <article class="comic">
+
+                        <div class="panel_name">
+                            <p class="text top-left">Name!</p>
+                            <input type="text" id="name" name="name" required autocomplete="name" maxlength="50"
+                                placeholder="You have for sure a pretty name!">
+                        </div>
+
+                        <div class="panel_email">
+                            <p class="text top-left">E-Mail</p>
+                            <input type="email" id="email" name="email" autocomplete="email" maxlength="254"
+                                placeholder="Your E-Mail Adress">
+                        </div>
+
+                        <div class="panel_phone">
+                            <p class="text top-right">Phone</p>
+                            <input type="tel" id="phone" name="phone" autocomplete="tel"
+                                placeholder="Your Phone number">
                         </div>
 
 
-                        <label for="firstName">Name</label>
-                        <input type="text" id="name" name="name" required autocomplete="name" maxlength="50"
-                            placeholder="You have for sure a pretty name!">
+                        <div class="panel_adress">
+                            <p class="text bottom-right">Adress</p>
+                            <input type="text" id="adress" name="adress" autocomplete="address-line1"
+                        placeholder="Give us your adress. Or don't. Our superheroes know where you are.">
+                        </div>
 
-                        <label for="email">E-Mail</label>
-                        <input type="email" id="email" name="email" autocomplete="email" maxlength="254"
-                            placeholder="Your E-Mail Adress">
+                        <div class="panel_message">
+                            <p class="text top">How can we help you?</p>
+                            <textarea id="message" name="message" maxlength="960" required
+                                placeholder="How can we help you?"></textarea>
+                        </div>
 
-                        <label for="phone">Phone</label>
-                        <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="Your Phone number">
+                    </article>
 
-                        <label for="adress">Adress</label>
-                        <input type="text" id="adress" name="adress" autocomplete="address-line1"
-                            placeholder="Give us your adress. Or don't. Our superheroes know where you are.">
-
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" maxlength="500" required
-                            placeholder="How can we help you?" style="height:170px"></textarea>
-
-                        <label for="urgency">How Serious is it?</label>
-                        <input type="radio" name="urgency" value="urgent0" required>I have time
-                        <input type="radio" name="urgency" value="urgent1" required>Please Hurry
-                        <input type="radio" name="urgency" value="urgent2" required>Really Serious!
-                        <input type="radio" name="urgency" value="urgent3" required>I AM DYING AAAAAAAA!!!
-                        <input type="submit" name="submit" value="Submit">
-                    </form>
-                </div>
+                    <label for="urgency">How Serious is it?</label>
+                    <input type="radio" name="urgency" value="urgent0" required>I have time
+                    <input type="radio" name="urgency" value="urgent1" required>Please Hurry
+                    <input type="radio" name="urgency" value="urgent2" required>Really Serious!
+                    <input type="radio" name="urgency" value="urgent3" required>I AM DYING AAAAAAAA!!!
+                    <input type="submit" name="submit" value="Submit">
+                </form>
             </div>
         </div>
     </div>
-
-
-
-    <div class="half right" id="">
-        <div class="comic-pane">
-            <div class="text">
-                <div class="holder">
-                    <h2 class="blue">Blue 1/2 Panel Header</h2>
-                    <p>Captain universe; angel montana tempest nova franklin "foggy" nelson! Augustus "gus" beezer boom
-                        boom black knight john stacy micah sanders.</p>
-                </div>
-            </div>
-            <!-- <div class="comic-image"><span class="cimg"></span></div> -->
-        </div>
-    </div>
-
 
 </body>
-
-<!-- Currently Removed: -->
-<!-- <label for="country">Country</label>
-    <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-    </select> -->
-
-<!-- // Send as Email
-        $to = "luca.buetzberger@gmail.com";
-        $subject = "New Contact Form Submission";
-        $headers = "From: sender@example.com";
-    
-        $messageBody = "First Name: " . $firstName . "\n";
-        $messageBody .= "Last Name: " . $lastName . "\n";
-        $messageBody .= "Message: " . $message . "\n";
-        $messageBody .= "Urgency: " . $urgency;
-
-        ini_set("SMTP", "localhost");
-        ini_set("smtp_port", "25");
-    
-        mail($to, $subject, $messageBody, $headers); -->
-
 
 </html>
