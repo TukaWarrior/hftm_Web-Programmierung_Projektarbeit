@@ -103,15 +103,7 @@
                 <div class="panel">
                     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
 
-                        <div class="container_skewed-panel">
-                            <div class="skewed-panel-right">
-                                <div>
-                                    <label for="firstName">Name</label>
-                                    <input type="text" id="name" name="name" required autocomplete="name" maxlength="50"
-                                        placeholder="You have for sure a pretty name!">
-                                </div>
-                            </div>
-                        </div>
+                        <div class="speech">A speechaa bubble</div>
 
 
                         <label for="firstName">Name</label>

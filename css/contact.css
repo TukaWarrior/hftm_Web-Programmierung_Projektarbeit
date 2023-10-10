@@ -1,0 +1,314 @@
+.container {
+  text-align: center;
+  color: var(--color);
+  width: 100%;
+  min-height: 100vh;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://www.shutterstock.com/shutterstock/photos/1736158307/display_1500/stock-vector-night-modern-city-with-skyscrapers-pop-art-retro-vector-illustration-vitch-vintage-s-s-style-1736158307.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  background-color: #ccc;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+  .column,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.comic {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Comic Sans', cursive;
+  padding: 1vmin;
+}
+
+.panel {
+  background-color: #fff;
+  border: solid 2px #000;
+  box-shadow: 0 6px 6px -6px #000;
+  display: inline-block;
+  flex: 1 1;
+  height: 200px;
+  margin: 1vmin;
+  overflow: hidden;
+  position: relative;
+}
+
+.text {
+  background-color: #fff;
+  border: solid 2px #000;
+  margin: 0;
+  padding: 3px 10px;
+}
+
+.top-left {
+  left: -6px;
+  position: absolute;
+  top: -2px;
+  transform: skew(-15deg);
+}
+
+.bottom-right {
+  bottom: -2px;
+  position: absolute;
+  right: -6px;
+  transform: skew(-15deg);
+}
+
+.speech {
+  background-color: #fff;
+  border: solid 2px #000;
+  border-radius: 12px;
+  display: inline-block;
+  margin: .5em;
+  padding: .5em 1em;
+  position: relative;
+}
+
+.speech:before {
+  border: solid 12px transparent;
+  border-left: solid 12px #000;
+  border-top: solid 12px #000;
+  bottom: -24px;
+  content: "";
+  height: 0;
+  left: 24px;
+  position: absolute;
+  transform: skew(-15deg);
+  width: 0;
+}
+
+.speech:after {
+  border: solid 10px transparent;
+  border-left: solid 10px #fff;
+  border-top: solid 10px #fff;
+  bottom: -19px;
+  content: "";
+  height: 0;
+  left: 27px;
+  position: absolute;
+  transform: skew(-15deg);
+  width: 0;
+}
+
+.panel:nth-child(1) {
+  flex-basis: 400px;
+}
+
+.panel:nth-child(2) {
+  flex-basis: 200px;
+}
+
+.panel:nth-child(3) {
+  flex-basis: 200px;
+}
+
+.panel:nth-child(4) {
+  flex-basis: 200px;
+}
+
+.panel:nth-child(5) {
+  flex-basis: 200px;
+}
+
+.panel:nth-child(6) {
+  flex-basis: 200px;
+}
+
+.panel:nth-child(7) {
+  flex-basis: 400px;
+}
+
+.panel:nth-child(8) {
+  flex-basis: 200px;
+}
+
+.panel:nth-child(9) {
+  flex-basis: 200px;
+}
+
+
+/* background colours */
+
+.panel:nth-child(4n+1) {
+  background-image: radial-gradient(circle, yellow, orange);
+}
+
+.panel:nth-child(4n+2) {
+  background-image: radial-gradient(circle, lightblue, deepskyblue);
+}
+
+.panel:nth-child(4n+3) {
+  background-image: radial-gradient(circle, palegreen, yellowgreen);
+}
+
+.panel:nth-child(4n+4) {
+  background-image: radial-gradient(circle, lightcoral, tomato);
+}
+
+
+.comic-pane {
+  width: 98%;
+  max-width: 943px;
+  height: auto;
+  min-height: 220px;
+  top: .5em;
+  left: 1.5em;
+  position: relative;
+  margin: 0px 1%;
+  /* overflow: hidden; */
+}
+
+.text {
+  width: 60%;
+  height: 90.5%;
+  position: absolute;
+  left: 1em;
+  transform: skew(-15deg);
+  background: white;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  border-right: 3px solid;
+
+  &::before {
+    content: "";
+    dislay: block;
+    position: absolute;
+    height: 100%;
+    width: 4em;
+    left: -2em;
+    transform: skew(15deg);
+    background: rgb(63, 11, 11);
+    /* border-left: 1px solid rgba(0, 0, 0, 0.05); */
+    /* -webkit-backface-visibility: hidden; */
+  }
+
+  &::before {
+    content: "";
+    dislay: block;
+    position: absolute;
+    height: 100%;
+    width: 4em;
+    left: -0em;
+    transform: skew(15deg);
+    background: rgb(63, 11, 11);
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+    -webkit-backface-visibility: hidden;
+  }
+}
+
+
+
+.container_skewed-panel {
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+
+.skewed-panel-right {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #000000;
+  position: relative;
+  transform: skew(-15deg);
+  box-shadow: 4px 6px 6px -2px #000000;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -0.2em;
+    right: 1.7em;
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-color: #000;
+    background-color: #ffffff;
+    transform: skew(15deg);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: 1.7em;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    transform: skew(15deg);
+  }
+}
+
+.skewed-panel-right h1 {
+  position: absolute;
+  /* top: 50%; */
+  /* left: 10%; */
+  transform: skew(15deg);
+  z-index: 1; /* Text is above the ::before and ::after elements */
+}
