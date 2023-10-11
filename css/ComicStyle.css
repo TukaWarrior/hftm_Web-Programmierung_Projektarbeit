@@ -8,10 +8,6 @@ h5 {
   font-family: "Bangers", sans-serif;
 }
 
-h3 {
-  font-size: 60px;
-}
-
 .big {
   font-family: "Bangers";
   margin: 0 0 -1em 0;
@@ -39,8 +35,6 @@ h3 {
 
 .mid {
   font-family: "Bangers";
-  margin: 0 0 -1em 0;
-  padding-bottom: 50px;
   float: left;
   width: 100%;
   position: relative;
@@ -80,8 +74,8 @@ h3 {
 
 .bigblank {
   font-family: "Bangers";
-  margin: 0 0 -1em 0;
-  padding-bottom: 50px;
+  margin: 0 0 -30px 0;
+  /* padding-bottom: 50px; */
   float: left;
   width: 100%;
   position: relative;
@@ -116,15 +110,22 @@ h1.big {
 
 h1.bigblank {
   font-size: 150px;
-  margin-top: 80px;
 }
 
 h2.big {
   font-size: 110px;
 }
 
+h2.mid {
+  font-size: 80px;
+}
+
 h3.big {
   font-size: 80px;
+}
+
+h3.mid {
+  font-size: 60px;
 }
 
 h4.big {

@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
 @import url(//fonts.googleapis.com/css?family=Patrick+Hand+SC|Bangers|Happy+Monkey);
 
+:root {
+    --bgcolor: white;
+}
+
 .container {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10em;
+    text-align: center;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 4em;
+    padding-bottom: 4em;
 
     background-color: #313131;
 }
@@ -79,17 +87,17 @@
     transition-delay: 200ms;
 }
 
-.blank {
+.aboutBlank {
     width: 100%;
     height: 100px;
-  
+
     background-image: radial-gradient(#212121 10%, transparent 10%), radial-gradient(#212121 10%, transparent 10%);
-    background-color: #ffd000;
+    background-color: var(--bgcolor);
     background-position: 0 0, 50px 50px;
-    background-size: 20px 20px;
+    background-size: 10px 10px;
   
     text-align: center;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
