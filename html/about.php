@@ -40,8 +40,36 @@
         <h2 class="mid">what we do</h2>
     </div>
 
-    <div class="container">
-        
+    <div class="containerPlainText">
+        <p class="descriptionBig">
+            "Rent-A-Hero" - Where your wildest dreams and most peculiar predicaments meet the world's quirkiest solution
+            provider!
+        </p>
+
+        <p class="description">
+            At "Rent-A-Hero," we believe in making everyday life an extraordinary adventure. Our superhero team is ready
+            for any mission, no matter how mundane or eccentric. Just don't ask them to fix the Wi-Fi - even heroes have
+            their limits!
+        </p>
+
+        <ul>
+            <li>Tired of doing your laundry? "Rent-A-Hero" to the rescue! We send in caped crusaders to fold your socks
+                with unparalleled precision.</li></br>
+
+            <li>Got a date that could use some spicing up? Our "Rent-A-Hero" dating package includes a sidekick who'll
+                narrate your evening with dramatic flair, turning mundane conversations into epic sagas of love.</li>
+            </br>
+
+            <li>Need someone to "accidentally" leave your family gathering? We've got the "Crisis-in-Cousinville"
+                special;
+                our heroes will stage a faux alien invasion, and your relatives will never forget the day they almost
+                met
+                extraterrestrials.</li></br>
+
+            <li>Got a relentless pest problem? We've got "Insecta-Interceptors" who'll politely ask the bugs to leave,
+                or
+                maybe just throw a spectacular farewell party for them.</li></br>
+        </ul>
     </div>
 
     <footer>© 2023 Awesome Company</footer>
