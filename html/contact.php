@@ -9,7 +9,8 @@
         href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/contact.css">
-    <!-- <link rel="stylesheet" href="../css/ComicStyles.css"> -->
+    <link rel="stylesheet" href="../css/ComicStyles.css">
+    <!-- <link rel="stylesheet" href="../css/about.css"> -->
     <title>Contact</title>
 
 </head>
@@ -72,7 +73,6 @@
         // Close File
         fclose($contactForms);
     }
-
     ?>
 
     <!-- HTML Forms -->
@@ -81,6 +81,11 @@
             <h2>Do you need a hero?</h2>
             <p>Yes? No problem. No matter tthe cause or reason, a superhero will rush to your aid! No questions asked!
             </p>
+
+
+            <div class="aboutBlank" style="--bgcolor: #ffd000">
+        <h2 class="mid">what we do</h2>
+    </div>
 
 
         </div>
@@ -98,66 +103,66 @@
                     <article class="comic">
 
                         <div class="panel panel_name">
-                            <p class="paneltext paneltext_top-left">Name!</p>
+                            <p class="paneltext paneltext_top-left color_CoralRed">Name!</p>
                             <input type="text" id="name" name="name" required autocomplete="name" maxlength="50"
                                 placeholder="You have for sure a pretty name!">
                         </div>
 
                         <div class="panel panel_email">
-                            <p class="paneltext paneltext_top-left">E-Mail</p>
+                            <p class="paneltext paneltext_top-left color_GreenYellow">E-Mail</p>
                             <input type="email" id="email" name="email" autocomplete="email" maxlength="254"
                                 placeholder="Your E-Mail Adress">
                         </div>
 
                         <div class="panel panel_phone">
-                            <p class="paneltext paneltext_top-right">Phone</p>
+                            <p class="paneltext paneltext_top-right color_LightblueBlue">Phone</p>
                             <input type="tel" id="phone" name="phone" autocomplete="tel"
                                 placeholder="Your Phone number">
                         </div>
 
 
                         <div class="panel panel_adress">
-                            <p class="paneltext paneltext_bottom-right">Adress</p>
+                            <p class="paneltext paneltext_bottom-right color_YellowOrange">Adress</p>
                             <input type="text" id="adress" name="adress" autocomplete="address-line1"
                                 placeholder="Give us your adress. Or don't. Our superheroes know where you are.">
                         </div>
 
                         <div class="panel panel_message">
-                            <p class="paneltext paneltext_top ">How can we help you?</p>
+                            <p class="paneltext paneltext_top color_CoralRed">How can we help you?</p>
                             <textarea id="message" name="message" maxlength="960" required
                                 placeholder="How can we help you?"></textarea>
                         </div>
 
-                        <div class="panel panel_radio-container">
-                            <p class="paneltext paneltext_top-left ">How serious is it?</p>
+                        <div class="panel panel_radio">
+                            <p class="paneltext paneltext_top-left color_LightblueBlue">How serious is it?</p>
 
-                            <div class="panel panel_radio panel_radio-urgent1">
-                                <p class="paneltext paneltext_bottom-left">I have time</p>
-                                <label class="con1">
+                            <div class="panel panel_radio-option panel_radio-urgent1">
+                                <p class="paneltext paneltext_bottom-left color_LightblueBlue">Grandma needs help!</p>
+                                <label class="customRadio">
                                     <input type="radio" name="urgency" value="urgency: 1/4" required>
                                     <span class="radio_checkmark"></span>
                                 </label>
                             </div>
 
-                            <div class="panel panel_radio panel_radio-urgent2">
-                                <p class="paneltext paneltext_bottom-left">Please Hurry</p>
-                                <label class="con1">
+                            <div class="panel panel_radio-option panel_radio-urgent2">
+                                <p class="paneltext paneltext_top-right color_GreenYellow">Like a car crash...</p>
+                                <label class="customRadio">
                                     <input type="radio" name="urgency" value="urgency: 2/4" required>
                                     <span class="radio_checkmark"></span>
                                 </label>
                             </div>
 
-                            <div class="panel panel_radio panel_radio-urgent3">
-                                <p class="paneltext paneltext_bottom-left">Really Serious!</p>
-                                <label class="con1">
+                            <div class="panel panel_radio-option panel_radio-urgent3">
+                                <p class="paneltext paneltext_bottom-left color_YellowOrange">Really Serious!</p>
+                                <label class="customRadio">
                                     <input type="radio" name="urgency" value="urgency: 3/4" required>
                                     <span class="radio_checkmark"></span>
                                 </label>
                             </div>
 
-                            <div class="panel panel_radio panel_radio-urgent4">
-                                <p class="paneltext paneltext_bottom-left">I AM DYING AAAH!!!</p>
-                                <label class="con1">
+                            <div class="panel panel_radio-option panel_radio-urgent4">
+                                <p class="paneltext paneltext_bottom-left color_CoralRed">I AM DYING AAAH!!!</p>
+                                <label class="customRadio">
                                     <input type="radio" name="urgency" value="urgency: 4/4" required>
                                     <span class="radio_checkmark"></span>
                                 </label>
@@ -165,41 +170,12 @@
 
                         </div>
 
+                        <input type="submit" name="submit" value="Submit">
+
                     </article>
-
-
+                </form>
             </div>
-
-            <!-- <h1>Custom Radio Buttons</h1>
-            <label class="con1 panel panel_radio-button">One
-                <input type="radio" checked="checked" name="radio">
-                <span class="radio_checkmark"></span>
-            </label>
-            <label class="con1">Two
-                <input type="radio" name="radio">
-                <span class="radio_checkmark"></span>
-            </label>
-            <label class="con1">Three
-                <input type="radio" name="radio">
-                <span class="radio_checkmark"></span>
-            </label>
-            <label class="con1">Four
-                <input type="radio" name="radio">
-                <span class="radio_checkmark"></span>
-            </label> -->
-
-            <!-- <label for="urgency">How Serious is it?</label>
-                    <input type="radio" name="urgency" value="urgent0" required>I have time
-                    <input type="radio" name="urgency" value="urgent1" required>Please Hurry
-                    <input type="radio" name="urgency" value="urgent2" required>Really Serious!
-                    <input type="radio" name="urgency" value="urgent3" required>I AM DYING AAAAAAAA!!! -->
-                    <input type="submit" name="submit" value="Submit">
-
-
-
-            </form>
         </div>
-    </div>
     </div>
 
 </body>

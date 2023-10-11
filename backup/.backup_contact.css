@@ -19,6 +19,164 @@
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Input Elements */
+
+/* Default Input Element */
+input {
+  width: 100%;
+  height: 100%;
+  border: 0px solid transparent;
+  background-color: transparent;
+}
+
+/* Input Text */
+input[type=text] {
+  width: 100%;
+  height: 100%;
+  padding-left: 75px;
+  vertical-align: text-top;
+}
+
+input[type=text]:hover {
+}
+
+/* Input E-Mail */
+input[type=email] {
+  width: 100%;
+  height: 100%; 
+  padding-left: 75px;
+}
+
+input[type=email]:hover {
+}
+
+/* Input Tel */
+input[type=tel] {
+  width: 100%;
+  height: 100%;
+  padding-right: 75px;
+  text-align: right;
+}
+
+input[type=tel]:hover {
+}
+
+/* Input Textarea */
+textarea {
+  width: 100%;
+  height: 100%;
+  margin-top: 3.5%;
+  padding-right: 100px;
+  text-align: left;
+}
+
+/* Input Submit */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  /* background-color: #45a049; */
+}
+
+/* Hide the default radio buttons */
+input[type="radio"] {
+  opacity: 0;
+}
+
+.radio_checkmark{
+  /* position: absolute; */
+  /* top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50% */
+}
+
+
+
+
+
+
+/* The container */
+.con1 {
+  /* display: block; */
+  /* position: relative; */
+  /* padding-left: 35px; */
+  /* margin-bottom: 12px; */
+  /* cursor: pointer; */
+  /* font-size: 22px; */
+  /* -webkit-user-select: none; */
+  /* -moz-user-select: none; */
+  /* -ms-user-select: none; */
+  /* user-select: none; */
+}
+
+/* Hide the browser's default radio button */
+.con1 input {
+  /* position: absolute; */
+  /* opacity: 0; */
+  /* cursor: pointer; */
+}
+
+/* Create a custom radio button */
+.radio_checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 150px;
+  width: 190px;
+  opacity: 0.8;
+  background-color: #000000;
+}
+
+
+/* On mouse-over, add a grey background color */
+.con1:hover input ~ .radio_checkmark {
+  opacity: 0;
+  transition: 0.25s;
+}
+
+/* When the radio button is checked, add a blue background */
+.con1 input:checked ~ .radio_checkmark {
+  opacity: 0;
+}
+
+/* Indicator (dot/circle) when not checked */
+.checkmark:after {
+  /* content: ""; */
+  /* position: absolute; */
+  /* display: none; */
+}
+
+/* Indicator (dot/circle) when checked */
+.con1 input:checked ~ .checkmark:after {
+  /* display: block; */
+}
+
+/* Indicator (dot/circle) */
+.con1 .checkmark:after {
+ 	/* top: 9px; */
+	/* left: 9px; */
+	/* width: 8px; */
+	/* height: 8px; */
+	/* border-radius: 50%; */
+	/* background: white; */
+}
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
@@ -52,97 +210,6 @@
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* Input Elements */
-
-/* Default Input Element */
-input {
-  width: 100%;
-  height: 100%;
-  border: 0px solid transparent;
-  background-color: transparent;
-}
-
-/* Input Text */
-input[type=text] {
-  width: 100%;
-  height: 100%;
-  padding-left: 75px;
-  vertical-align: text-top;
-}
-
-input[type=text]:hover {}
-
-/* Input E-Mail */
-input[type=email] {
-  width: 100%;
-  height: 100%;
-  padding-left: 75px;
-}
-
-input[type=email]:hover {}
-
-/* Input Tel */
-input[type=tel] {
-  width: 100%;
-  height: 100%;
-  padding-right: 75px;
-  text-align: right;
-}
-
-input[type=tel]:hover {}
-
-/* Input Textarea */
-textarea {
-  width: 100%;
-  height: 100%;
-  margin-top: 3.5%;
-  padding-right: 100px;
-  text-align: left;
-}
-
-/* Input Radio */
-input[type="radio"] {
-  opacity: 0;
-}
-
-/* Input Custom-Radio */
-.radio_checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 150px;
-  width: 190px;
-  opacity: 0.8;
-  background-color: #000000;
-}
-
-/* Input Custom-Radio Hover*/
-.customRadio:hover input~.radio_checkmark {
-  opacity: 0;
-  transition: 0.25s;
-}
-
-/* Input Custom-Radio Checked*/
-.customRadio input:checked~.radio_checkmark {
-  opacity: 0;
-}
-
-/* Input Submit */
-input[type=submit] {
-  background-color: #ffffff;
-  /* color: black; */
-  padding: 12px 20px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #000000;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Comic (Panel Parent-Element)*/
 .comic {
   display: flex;
@@ -164,6 +231,7 @@ input[type=submit]:hover {
   overflow: hidden;
   position: relative;
 }
+
 
 /* Panel Name */
 .panel_name {
@@ -205,8 +273,7 @@ input[type=submit]:hover {
   flex-basis: 400px;
 }
 
-/* Panel Group Radio-Buttons */
-.panel_radio {
+.panel_radio-container {
   height: 210px;
   min-width: 600px;
   display: flex;
@@ -215,35 +282,30 @@ input[type=submit]:hover {
   padding-top: 3vmin;
 }
 
-/* Panel Single Radio-Button */
-.panel_radio-option {
+.panel_radio {
   position: relative;
   height: 150px;
   flex: 1;
   margin: 1vmin;
 }
 
-/* Panel Radio-Button Option 1 */
 .panel_radio-urgent1 {
-  background-image: url('../ressources/images/forms_radio-urgent1.webp');
+  background-image:url('../ressources/images/forms_radio-urgent1.webp');
   background-size: cover;
 }
 
-/* Panel Radio-Button Option 2 */
 .panel_radio-urgent2 {
-  background-image: url('../ressources/images/forms_radio-urgent2.webp');
+  background-image:url('../ressources/images/forms_radio-urgent2.webp');
   background-size: cover;
 }
 
-/* Panel Radio-Button Option 3 */
 .panel_radio-urgent3 {
-  background-image: url('../ressources/images/forms_radio-urgent3.webp');
+  background-image:url('../ressources/images/forms_radio-urgent3.webp');
   background-size: cover;
 }
 
-/* Panel Radio-Button Option 4 */
 .panel_radio-urgent4 {
-  background-image: url('../ressources/images/forms_radio-urgent4.webp');
+  background-image:url('../ressources/images/forms_radio-urgent4.webp');
   background-size: cover;
 }
 
@@ -290,19 +352,57 @@ input[type=submit]:hover {
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* Colors */
-.color_YellowOrange {
+/* Speech Balloon */
+.speech {
+  background-color: #fff;
+  border: solid 2px #000;
+  border-radius: 12px;
+  display: inline-block;
+  margin: .5em;
+  padding: .5em 1em;
+  position: relative;
+}
+
+.speech:before {
+  border: solid 12px transparent;
+  border-left: solid 12px #000;
+  border-top: solid 12px #000;
+  bottom: -24px;
+  content: "";
+  height: 0;
+  left: 24px;
+  position: absolute;
+  transform: skew(-15deg);
+  width: 0;
+}
+
+.speech:after {
+  border: solid 10px transparent;
+  border-left: solid 10px #fff;
+  border-top: solid 10px #fff;
+  bottom: -19px;
+  content: "";
+  height: 0;
+  left: 27px;
+  position: absolute;
+  transform: skew(-15deg);
+  width: 0;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Panel Colors */
+.panelColor_YellowOrange {
   background-image: radial-gradient(circle, yellow, orange);
 }
 
-.color_LightblueBlue {
+.panelColor_LightblueBlue {
   background-image: radial-gradient(circle, lightblue, deepskyblue);
 }
 
-.color_GreenYellow {
+.panelColor_GreenYellow {
   background-image: radial-gradient(circle, palegreen, yellowgreen);
 }
 
-.color_CoralRed {
+.panelColor_CoralRed{
   background-image: radial-gradient(circle, lightcoral, tomato);
 }
