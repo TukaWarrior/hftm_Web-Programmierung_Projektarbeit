@@ -20,8 +20,8 @@
     <!-- <div class="container">
         <h2 class="mid">who we are</h2>
     </div> -->
-
-    <div class="aboutBlank" style="--bgcolor: #1a8cff">
+    <div class="container"></div>
+    <div class="aboutBlank" style="--bgcolor: rgb(109, 180, 180)">
         <h2 class="mid">who we are</h2>
     </div>
 
@@ -40,7 +40,9 @@
         <h2 class="mid">what we do</h2>
     </div>
 
-    <div class="container"></div>
+    <div class="container">
+        
+    </div>
 
     <footer>© 2023 Awesome Company</footer>
 
