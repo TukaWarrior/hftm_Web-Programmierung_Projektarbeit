@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+:root {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/014/408/305/original/comic-superhero-style-background-with-halftone-and-sunburst-effect-free-vector.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+h4 {
+    font-family: "Red Hat Text";
+    font-size: 25px;
+}
+
+p {
+    font-family: "Red Hat Text";
+    font-size: 16px;
+}
+
+.portfolio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.portfolio-item {
+    width: 400px;
+    height: 600px;
+    float: left;
+    position: relative;
+    -webkit-perspective: 500;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 10em;
+}
+
+.portfolio-bg {
+    transform: rotateY(5deg);
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.portfolio-bg {
+    height: 600px;
+    background-size: cover;
+    background-image: var(--img);
+    border: 5px solid rgba(0, 0, 0, .6);
+
+    filter: grayscale(100%) opacity(100%);
+}
+
+.portfolio-item:hover .portfolio-bg {
+    transform: rotateY(0deg);
+
+    filter: grayscale(0%) opacity(100%);
+}
+
+.portfolio-item:hover .portfolio-description {
+    transform: rotateY(0deg) translateZ(0px);
+    opacity: 100%;
+}
+
+.portfolio-description {
+    background-color: #eeeeee;
+    color: #1f1f1f;
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    top: 500px;
+    left: 70px;
+    box-shadow: 0 0 10px #000;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    transform: rotateY(5deg) translateZ(30px);
+    transition: 0.5s ease;
+    text-align: center;
+    height: auto;
+    overflow: hidden;
+    opacity: 0%;
+}
+
+.portfolio-description h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.portfolio-description p {
+    font-size: 16px;
+    line-height: 25px;
+}
