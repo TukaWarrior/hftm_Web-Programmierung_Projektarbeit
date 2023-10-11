@@ -131,75 +131,73 @@
                         <div class="panel panel_radio-container">
                             <p class="paneltext paneltext_top-left ">How serious is it?</p>
 
-                            <div class="panel panel_radio panel_radio-urgent1">
+                            <div class="panel panel_radio-button">
                                 <p class="paneltext paneltext_bottom-left">I have time</p>
-                                <label class="con1">
-                                    <input type="radio" name="urgency" value="urgency: 1/4" required>
-                                    <span class="radio_checkmark"></span>
-                                </label>
+                                <input type="radio" name="urgency" value="urgent0" required>I have time
+                                <span class="radio_checkmark"></span>
                             </div>
 
-                            <div class="panel panel_radio panel_radio-urgent2">
+                            <div class="panel panel_radio-button">
                                 <p class="paneltext paneltext_bottom-left">Please Hurry</p>
-                                <label class="con1">
-                                    <input type="radio" name="urgency" value="urgency: 2/4" required>
-                                    <span class="radio_checkmark"></span>
-                                </label>
+                                <input type="radio" name="urgency" value="urgent1" required>Please Hurry
+                                <span class="radio_checkmark"></span>
                             </div>
 
-                            <div class="panel panel_radio panel_radio-urgent3">
+                            <div class="panel panel_radio-button">
                                 <p class="paneltext paneltext_bottom-left">Really Serious!</p>
-                                <label class="con1">
-                                    <input type="radio" name="urgency" value="urgency: 3/4" required>
-                                    <span class="radio_checkmark"></span>
-                                </label>
+                                <input type="radio" name="urgency" value="urgent2" required>Really Serious!
+                                <span class="radio_checkmark"></span>
                             </div>
 
-                            <div class="panel panel_radio panel_radio-urgent4">
+                            <div class="panel panel_radio-button">
                                 <p class="paneltext paneltext_bottom-left">I AM DYING AAAH!!!</p>
-                                <label class="con1">
-                                    <input type="radio" name="urgency" value="urgency: 4/4" required>
-                                    <span class="radio_checkmark"></span>
-                                </label>
+                                <input type="radio" name="urgency" value="urgent3" required>I AM DYING!!!
+                                <span class="radio_checkmark"></span>
                             </div>
 
                         </div>
 
                     </article>
 
+                    <div class="panel panel_radio-button">
+                        <div class="con1">
+                            <p class="paneltext paneltext_bottom-left radio">I AM DYING AAAH!!!</p>
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="radio_checkmark"></span>
+                        </div>
 
-            </div>
+                    </div>
 
-            <!-- <h1>Custom Radio Buttons</h1>
-            <label class="con1 panel panel_radio-button">One
-                <input type="radio" checked="checked" name="radio">
-                <span class="radio_checkmark"></span>
-            </label>
-            <label class="con1">Two
-                <input type="radio" name="radio">
-                <span class="radio_checkmark"></span>
-            </label>
-            <label class="con1">Three
-                <input type="radio" name="radio">
-                <span class="radio_checkmark"></span>
-            </label>
-            <label class="con1">Four
-                <input type="radio" name="radio">
-                <span class="radio_checkmark"></span>
-            </label> -->
+                    <h1>Custom Radio Buttons</h1>
+                    <label class="con1 panel panel_radio-button">One
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="radio_checkmark"></span>
+                    </label>
+                    <label class="con1">Two
+                        <input type="radio" name="radio">
+                        <span class="radio_checkmark"></span>
+                    </label>
+                    <label class="con1">Three
+                        <input type="radio" name="radio">
+                        <span class="radio_checkmark"></span>
+                    </label>
+                    <label class="con1">Four
+                        <input type="radio" name="radio">
+                        <span class="radio_checkmark"></span>
+                    </label>
 
-            <!-- <label for="urgency">How Serious is it?</label>
+                    <!-- <label for="urgency">How Serious is it?</label>
                     <input type="radio" name="urgency" value="urgent0" required>I have time
                     <input type="radio" name="urgency" value="urgent1" required>Please Hurry
                     <input type="radio" name="urgency" value="urgent2" required>Really Serious!
-                    <input type="radio" name="urgency" value="urgent3" required>I AM DYING AAAAAAAA!!! -->
-                    <input type="submit" name="submit" value="Submit">
+                    <input type="radio" name="urgency" value="urgent3" required>I AM DYING AAAAAAAA!!!
+                    <input type="submit" name="submit" value="Submit"> -->
 
 
 
-            </form>
+                </form>
+            </div>
         </div>
-    </div>
     </div>
 
 </body>
