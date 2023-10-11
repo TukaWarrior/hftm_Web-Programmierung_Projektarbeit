@@ -18,66 +18,59 @@
   box-sizing: border-box;
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Input Elements */
 
-/* Style inputs */
-input[type=text], select, textarea {
+/* Default Input Element */
+input {
+  width: 100%;
+  height: 100%;
+  border: 0px solid transparent;
+  background-color: transparent;
+}
+
+/* Input Text */
+input[type=text] {
   width: 100%;
   height: 100%;
   padding-left: 75px;
-  /* resize: vertical; */
-  border: 0px solid transparent;
-  background-color: transparent;
   vertical-align: text-top;
 }
 
-input[type=text]:hover, select:hover, textarea:hover {
-  border: 0px solid transparent;
-  background-color: transparent;
+input[type=text]:hover {
 }
 
-input[type=email], select, textarea {
+/* Input E-Mail */
+input[type=email] {
   width: 100%;
-  height: 100%;
+  height: 100%; 
   padding-left: 75px;
-  /* resize: vertical; */
-  border: 0px solid transparent;
-  background-color: transparent;
 }
 
-input[type=email]:hover, select:hover, textarea:hover {
-  border: 0px solid transparent;
-  background-color: transparent;
+input[type=email]:hover {
 }
 
-input[type=tel], select, textarea {
+/* Input Tel */
+input[type=tel] {
   width: 100%;
   height: 100%;
   padding-right: 75px;
   text-align: right;
-  /* resize: vertical; */
-  border: 0px solid transparent;
-  background-color: transparent;
 }
 
-input[type=tel]:hover, select:hover, textarea:hover {
-  border: 0px solid transparent;
-  background-color: transparent;
+input[type=tel]:hover {
 }
 
-textarea, select, textarea {
+/* Input Textarea */
+textarea {
   width: 100%;
   height: 100%;
-  padding-right: 70px;
+  margin-top: 3.5%;
+  padding-right: 100px;
   text-align: left;
-  border: 0px solid transparent;
-  background-color: transparent;
 }
 
-input[type=tel]:hover, select:hover, textarea:hover {
-  border: 0px solid transparent;
-  background-color: transparent;
-}
-
+/* Input Submit */
 input[type=submit] {
   background-color: #04AA6D;
   color: white;
@@ -87,8 +80,109 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  /* background-color: #45a049; */
 }
+
+/* Hide the default radio buttons */
+input[type="radio"] {
+  opacity: 0;
+}
+
+.radio_checkmark{
+  /* position: absolute; */
+  /* top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50% */
+}
+
+
+
+
+
+
+/* The container */
+.con1 {
+  /* display: block; */
+  /* position: relative; */
+  /* padding-left: 35px; */
+  /* margin-bottom: 12px; */
+  /* cursor: pointer; */
+  /* font-size: 22px; */
+  /* -webkit-user-select: none; */
+  /* -moz-user-select: none; */
+  /* -ms-user-select: none; */
+  /* user-select: none; */
+}
+
+/* Hide the browser's default radio button */
+.con1 input {
+  /* position: absolute; */
+  /* opacity: 0; */
+  /* cursor: pointer; */
+}
+
+/* Create a custom radio button */
+.radio_checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 150px;
+  width: 190px;
+  opacity: 0.3;
+  background-image:url('../ressources/images/character_background.jpg');
+  /* background-color: red; */
+  /* border-radius: 50%; */
+}
+
+/* On mouse-over, add a grey background color */
+.con1:hover input ~ .radio_checkmark {
+  opacity: 1;
+  /* transition:0.5s; */
+  /* background-color: #740000; */
+}
+
+/* When the radio button is checked, add a blue background */
+.con1 input:checked ~ .radio_checkmark {
+  border-style: dotted;
+  opacity: 1;
+
+  border-color: #04AA6D;
+  background-image: radial-gradient(circle, transparent, yellow);
+  /* transition:0.5s; */
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  /* content: ""; */
+  /* position: absolute; */
+  /* display: none; */
+}
+
+/* Show the indicator (dot/circle) when checked */
+.con1 input:checked ~ .checkmark:after {
+  /* display: block; */
+}
+
+/* Style the indicator (dot/circle) */
+.con1 .checkmark:after {
+ 	/* top: 9px; */
+	/* left: 9px; */
+	/* width: 8px; */
+	/* height: 8px; */
+	/* border-radius: 50%; */
+	/* background: white; */
+}
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
 
 /* Style the container/contact section */
 .container {
@@ -102,16 +196,15 @@ input[type=submit]:hover {
   float: left;
   background-color: #ccc;
   width: 50%;
-  margin-top: 6px;
   padding: 20px;
 }
 
 /* Clear floats after the columns */
-.row:after {
+/* .row:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -123,6 +216,8 @@ input[type=submit]:hover {
   }
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Comic (Panel Parent-Element)*/
 .comic {
   display: flex;
   flex-wrap: wrap;
@@ -130,6 +225,8 @@ input[type=submit]:hover {
   padding: 1vmin;
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Default Panel */
 .panel {
   background-color: #fff;
   border: solid 2px #000;
@@ -145,126 +242,110 @@ input[type=submit]:hover {
 
 /* Panel Name */
 .panel_name {
-  background-color: #fff;
-  border: solid 2px #000;
-  box-shadow: 0 6px 6px -6px #000;
-  display: inline-block;
-  flex: 1 1;
   height: 60px;
   min-width: 600px;
   margin: 1vmin;
-  overflow: hidden;
-  position: relative;
   flex-basis: 400px;
 }
 
 /* Panel Email */
 .panel_email {
-  background-color: #fff;
-  border: solid 2px #000;
-  box-shadow: 0 6px 6px -6px #000;
-  display: inline-block;
-  flex: 1 1;
   height: 60px;
   min-width: 300px;
   margin: 1vmin;
-  overflow: hidden;
-  position: relative;
   flex-basis: 400px;
 }
 
 /* Panel Phone */
 .panel_phone {
-  background-color: #fff;
-  border: solid 2px #000;
-  box-shadow: 0 6px 6px -6px #000;
-  display: inline-block;
-  flex: 1 1;
   height: 60px;
   min-width: 400px;
   margin: 1vmin;
-  overflow: hidden;
-  position: relative;
   flex-basis: 400px;
 }
 
 /* Panel Adress */
 .panel_adress {
-  background-color: #fff;
-  border: solid 2px #000;
-  box-shadow: 0 6px 6px -6px #000;
-  display: inline-block;
-  flex: 1 1;
   height: 60px;
   min-width: 600px;
   margin: 1vmin;
-  overflow: hidden;
-  position: relative;
   flex-basis: 400px;
 }
 
 /* Panel Message */
 .panel_message {
-  background-color: #fff;
-  border: solid 2px #000;
-  box-shadow: 0 6px 6px -6px #000;
-  display: inline-block;
-  flex: 1 1;
   height: 200px;
   min-width: 600px;
   margin: 1vmin;
-  overflow: hidden;
-  position: relative;
   flex-basis: 400px;
 }
 
-
-
-/* Panel Text */
-.text {
-  background-color: #fff;
-  border: solid 2px #000;
-  margin: 0;
-  padding: 3px 10px;
+.panel_radio-container {
+  height: 210px;
+  min-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 400px;
+  padding-top: 3vmin;
 }
 
-.top {
+.panel_radio {
+  position: relative;
+  height: 150px;
+  
+  flex: 1;
+  
+  margin: 1vmin;
+  /* flex-basis: 60px; */
+  /* text-align: center; */
+  /* min-width: 60px; */
+
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Panel Textbox */
+.paneltext {
+  background-color: #fff;
+  border: solid 2px #000;
+  position: absolute;
+  margin: 0;
+  padding: 3px 10px;
+  z-index: 1;
+}
+
+.paneltext_top {
   margin-top: -2px;
   margin-left: -2px;
   margin-right: -2px;
-  top: -2px;
+  padding: 3px 348px;
 }
 
-.top-left {
+.paneltext_top-left {
   left: -6px;
-  position: absolute;
   top: -2px;
   transform: skew(-15deg);
 }
 
-.top-right {
+.paneltext_top-right {
   right: -6px;
-  position: absolute;
   top: -2px;
   transform: skew(15deg);
 }
 
-.bottom-left {
+.paneltext_bottom-left {
   bottom: -2px;
-  position: absolute;
   left: -6px;
-  transform: skew(15deg);
+  transform: skew(-15deg);
 }
 
-.bottom-right {
+.paneltext_bottom-right {
   bottom: -2px;
-  position: absolute;
   right: -6px;
   transform: skew(-15deg);
 }
 
-
-/* Speech Bubbles */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Speech Balloon */
 .speech {
   background-color: #fff;
   border: solid 2px #000;
@@ -301,57 +382,20 @@ input[type=submit]:hover {
   width: 0;
 }
 
-/* .panel:nth-child(1) {
-  flex-basis: 400px;
-}
-
-.panel:nth-child(2) {
-  flex-basis: 200px;
-}
-
-.panel:nth-child(3) {
-  flex-basis: 200px;
-}
-
-.panel:nth-child(4) {
-  flex-basis: 200px;
-}
-
-.panel:nth-child(5) {
-  flex-basis: 200px;
-}
-
-.panel:nth-child(6) {
-  flex-basis: 200px;
-}
-
-.panel:nth-child(7) {
-  flex-basis: 300px;
-}
-
-.panel:nth-child(8) {
-  flex-basis: 200px;
-}
-
-.panel:nth-child(9) {
-  flex-basis: 200px;
-} */
-
-
-/* background colours */
-
-.panel:nth-child(4n+1) {
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Panel Colors */
+.panelColor_YellowOrange {
   background-image: radial-gradient(circle, yellow, orange);
 }
 
-.panel:nth-child(4n+2) {
+.panelColor_LightblueBlue {
   background-image: radial-gradient(circle, lightblue, deepskyblue);
 }
 
-.panel:nth-child(4n+3) {
+.panelColor_GreenYellow {
   background-image: radial-gradient(circle, palegreen, yellowgreen);
 }
 
-.panel:nth-child(4n+4) {
+.panelColor_CoralRed{
   background-image: radial-gradient(circle, lightcoral, tomato);
 }
