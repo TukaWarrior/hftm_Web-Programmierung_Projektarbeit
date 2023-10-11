@@ -131,26 +131,21 @@ input[type="radio"] {
   left: 0;
   height: 150px;
   width: 190px;
-  opacity: 0.3;
-  background-image:url('../ressources/images/character_background.jpg');
-  /* background-color: red; */
-  /* border-radius: 50%; */
+  opacity: 0.8;
+  background-color: #000000;
 }
+
 
 /* On mouse-over, add a grey background color */
 .con1:hover input ~ .radio_checkmark {
-  opacity: 1;
-  /* transition:0.5s; */
-  /* background-color: #740000; */
+  opacity: 0;
+  transition: 0.25s;
 }
 
 /* When the radio button is checked, add a blue background */
 .con1 input:checked ~ .radio_checkmark {
   border-style: dotted;
-  opacity: 1;
-
-  border-color: #04AA6D;
-  background-image: radial-gradient(circle, transparent, yellow);
+  /* opacity: 0; */
   /* transition:0.5s; */
 }
 
@@ -292,14 +287,28 @@ input[type="radio"] {
 .panel_radio {
   position: relative;
   height: 150px;
-  
   flex: 1;
-  
   margin: 1vmin;
-  /* flex-basis: 60px; */
-  /* text-align: center; */
-  /* min-width: 60px; */
+}
 
+.panel_radio-urgent1 {
+  background-image:url('../ressources/images/forms_radio-urgent1.webp');
+  background-size: cover;
+}
+
+.panel_radio-urgent2 {
+  background-image:url('../ressources/images/forms_radio-urgent2.webp');
+  background-size: cover;
+}
+
+.panel_radio-urgent3 {
+  background-image:url('../ressources/images/forms_radio-urgent3.webp');
+  background-size: cover;
+}
+
+.panel_radio-urgent4 {
+  background-image:url('../ressources/images/forms_radio-urgent4.webp');
+  background-size: cover;
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */

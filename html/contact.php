@@ -131,7 +131,7 @@
                         <div class="panel panel_radio-container">
                             <p class="paneltext paneltext_top-left ">How serious is it?</p>
 
-                            <div class="panel panel_radio">
+                            <div class="panel panel_radio panel_radio-urgent1">
                                 <p class="paneltext paneltext_bottom-left">I have time</p>
                                 <label class="con1">
                                     <input type="radio" name="urgency" value="urgency: 1/4" required>
@@ -139,7 +139,7 @@
                                 </label>
                             </div>
 
-                            <div class="panel panel_radio">
+                            <div class="panel panel_radio panel_radio-urgent2">
                                 <p class="paneltext paneltext_bottom-left">Please Hurry</p>
                                 <label class="con1">
                                     <input type="radio" name="urgency" value="urgency: 2/4" required>
@@ -147,7 +147,7 @@
                                 </label>
                             </div>
 
-                            <div class="panel panel_radio">
+                            <div class="panel panel_radio panel_radio-urgent3">
                                 <p class="paneltext paneltext_bottom-left">Really Serious!</p>
                                 <label class="con1">
                                     <input type="radio" name="urgency" value="urgency: 3/4" required>
@@ -155,7 +155,7 @@
                                 </label>
                             </div>
 
-                            <div class="panel panel_radio">
+                            <div class="panel panel_radio panel_radio-urgent4">
                                 <p class="paneltext paneltext_bottom-left">I AM DYING AAAH!!!</p>
                                 <label class="con1">
                                     <input type="radio" name="urgency" value="urgency: 4/4" required>
