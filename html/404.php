@@ -20,7 +20,7 @@
         <img src="../ressources/images/404/404_PageNotFound.png" />
     </div>
 
-    <footer>© 2023 Awesome Company</footer>
+    <footer>© 2023 Rent-A-Hero</footer>
 
 </body>
 

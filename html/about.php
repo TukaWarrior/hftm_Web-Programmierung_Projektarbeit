@@ -15,11 +15,8 @@
 <body>
     <!-- Top Navigation Bar -->
     <?php include 'element_topnav.php'; ?>
-    <!-- Content -->
 
-    <!-- <div class="container">
-        <h2 class="mid">who we are</h2>
-    </div> -->
+    <!-- Content "who we are" -->
     <div class="container"></div>
     <div class="aboutBlank" style="--bgcolor: rgb(109, 180, 180)">
         <h2 class="mid">who we are</h2>
@@ -40,6 +37,7 @@
         <h2 class="mid">what we do</h2>
     </div>
 
+    <!-- Content description -->
     <div class="containerPlainText">
         <p class="descriptionBig">
             "Rent-A-Hero" - Where your wildest dreams and most peculiar predicaments meet the world's quirkiest solution
@@ -72,7 +70,7 @@
         </ul>
     </div>
 
-    <footer>© 2023 Awesome Company</footer>
+    <footer>© 2023 Rent-A-Hero</footer>
 
 </body>
 

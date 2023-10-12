@@ -34,11 +34,3 @@
   border-top: 5px solid;
   border-bottom: 5px solid;
 }
-
-footer {
-  display: flex;
-  justify-content: center;
-  padding: 50px 0px 70px 0px;
-  background-color: #000000;
-  color: #fff;
-}

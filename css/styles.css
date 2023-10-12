@@ -7,7 +7,7 @@ html {
 
 :root {
     --background-color: 28 27 30;
-    --topnav-color: #333333; /* #333333 */
+    --topnav-color: #333333;
 }
 
 body {
@@ -15,6 +15,18 @@ body {
     font-family: 'Red Hat Text', sans-serif;
     margin: 0px;
 }
+
+footer {
+    position:relative;
+    text-align: center;
+    left:0px;
+    bottom:0px;
+    /* height:0px; */
+    width:100%;
+    color: white;
+    background:black;
+    font-weight: bold;
+ }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Top Navigation Bar */

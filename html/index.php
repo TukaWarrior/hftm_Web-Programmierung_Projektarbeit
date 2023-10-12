@@ -86,7 +86,7 @@
 
   </div>
 
-  <footer>© 2023 Awesome Company</footer>
+  <footer>© 2023 Rent-A-Hero</footer>
 
 </body>
 

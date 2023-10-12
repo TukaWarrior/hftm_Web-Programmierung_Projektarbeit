@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/ComicStyle.css">
@@ -16,9 +17,9 @@
 <body>
     <!-- Top Navigation Bar -->
     <?php include 'element_topnav.php'; ?>
-    <!-- Content -->
 
-    <!-- <div class="container"></div> -->
+    <!-- Content -->
+    <div class="container"></div>
     <div class="aboutBlank" style="--bgcolor: rgb(128, 32, 0)">
         <h2 class="mid">our team - the best of the best</h2>
     </div>
@@ -69,9 +70,36 @@
                 <p>Looks dangerous. And he is.</p>
             </div>
         </div>
+
+        <!-- Card 6 -->
+        <div class="portfolio-item graphic-design">
+            <div class="portfolio-bg" style="--img: url(../ressources/images/hero_detective-bean.png);"></div>
+            <div class="portfolio-description">
+                <h4>Bean</h4>
+                <p>Finds everything or everyone you're looking for.</p>
+            </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="portfolio-item graphic-design">
+            <div class="portfolio-bg" style="--img: url(../ressources/images/hero_lara-croft.png);"></div>
+            <div class="portfolio-description">
+                <h4>Lara Croft</h4>
+                <p>Find yourself in the jungle? She knows what to do.</p>
+            </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="portfolio-item graphic-design">
+            <div class="portfolio-bg" style="--img: url(../ressources/images/hero_master-chief.png);"></div>
+            <div class="portfolio-description">
+                <h4>Masterchief</h4>
+                <p>Get rid of the bugs with Masterchief</p>
+            </div>
+        </div>
     </div>
 
-    <footer>© 2023 Awesome Company</footer>
+    <footer>© 2023 Rent-A-Hero</footer>
 
 </body>
 

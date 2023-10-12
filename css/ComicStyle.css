@@ -8,6 +8,8 @@ h5 {
   font-family: "Bangers", sans-serif;
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Font Styles */
 .big {
   font-family: "Bangers";
   margin: 0 0 -1em 0;
@@ -141,19 +143,14 @@ p {
 .background-text {
   font-size: inherit;
   position: relative;
-  /* Add relative positioning to the text element */
   z-index: 2;
-  /* Set a higher z-index to bring text to the foreground */
 }
 
 .background-text::before {
   content: attr(content);
-  /* Create a pseudo-element */
-
-    background-color: #0026ff;
-    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.8),
-    rgb(255, 230, 0));
-
+  background-color: #0026ff;
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.8),
+      rgb(255, 230, 0));
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -162,14 +159,12 @@ p {
   background-clip: text;
   color: transparent;
   text-shadow: none;
-  /* Remove the text-shadow from the pseudo-element */
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 1;
-  /* Set a lower z-index to place it behind the text */
 }
 
 .background-textV2 {
@@ -197,6 +192,7 @@ p {
   z-index: 1;
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Comic Dialog */
 .comic {
   display: flex;
