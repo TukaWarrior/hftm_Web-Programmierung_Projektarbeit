@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/404.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <title>404!!!1!11</title>
 </head>
 
 <body>

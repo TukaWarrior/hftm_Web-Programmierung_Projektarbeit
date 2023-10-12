@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/heroesTest.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <title>About us</title>
+    <title>Meet the Team</title>
 </head>
 
 <body>

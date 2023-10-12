@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../css/ComicStyle.css">
   <link rel="stylesheet" href="../css/Animations.css">
   <link rel="stylesheet" href="../css/footer.css">
-  <title>Index</title>
+  <title>Welcome</title>
 </head>
 
 <body>
