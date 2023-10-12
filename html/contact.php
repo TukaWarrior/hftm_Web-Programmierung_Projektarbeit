@@ -77,102 +77,87 @@
 
     <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <!-- HTML Forms -->
-    <p>Everybody needs a helping hand</p>
+    <div class="container"></div>
     <div class="banner bg-image_1" style="--bannerHeight: 100px; --bgColor: #805f97">
-        <h2 class="mid">Everybody needs a helping hand</h2>
+        <h1 class="mid">Call a superhero!</h1>
     </div>
 
-    <!-- <div class="container"> -->
-        <!-- <div style="text-align:center"> -->
-        </div>
-        <!-- Table Grid -->
-        <!-- <div class="row"> -->
-            <!-- Left Part: Image -->
-            <!-- <div class="column">
-                <img src="https://media.licdn.com/dms/image/C4E12AQFY1HPLdvUlAw/article-cover_image-shrink_423_752/0/1614954939274?e=1702512000&v=beta&t=9HzJe79tHexHQ8N2kHR3H8UF2MSlKYGsaA0uI3bnvxk"
-                    style="width:100%"> -->
+    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+
+        <article class="comic">
+
+            <div class="panel panel_name">
+                <p class="paneltext paneltext_top-left color_CoralRed">Name!</p>
+                <input type="text" id="name" name="name" required autocomplete="name" maxlength="85"
+                    placeholder="What a pretty name!">
             </div>
-            <!-- Right Part: Form Input -->
-            <!-- <div class="column"> -->
-                <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
 
-                    <article class="comic">
-
-                        <div class="panel panel_name">
-                            <p class="paneltext paneltext_top-left color_CoralRed">Name!</p>
-                            <input type="text" id="name" name="name" required autocomplete="name" maxlength="85"
-                                placeholder="What a pretty name!">
-                        </div>
-
-                        <div class="panel panel_email">
-                            <p class="paneltext paneltext_top-left color_GreenYellow">E-Mail</p>
-                            <input type="email" id="email" name="email" autocomplete="email" maxlength="50"
-                                placeholder="Where spammers text you...">
-                        </div>
-
-                        <div class="panel panel_phone">
-                            <p class="paneltext paneltext_top-right color_LightblueBlue">Phone</p>
-                            <input type="tel" id="phone" name="phone" autocomplete="tel" maxlength="40"
-                                placeholder="Where scammers call you...">
-                        </div>
-
-
-                        <div class="panel panel_adress">
-                            <p class="paneltext paneltext_bottom-right color_YellowOrange">Adress</p>
-                            <input type="text" id="adress" name="adress" autocomplete="address-line1" maxlength="110"
-                                placeholder="We don't actually need your adress, because superheroes always know where you are.">
-                        </div>
-
-                        <div class="panel panel_message">
-                            <p class="paneltext paneltext_top color_CoralRed">How can we help you?</p>
-                            <textarea id="message" name="message" maxlength="1500" required
-                                placeholder="                  Please make it quick..."></textarea>
-                        </div>
-
-                        <div class="panel panel_radio">
-                            <p class="paneltext paneltext_top-left color_LightblueBlue">How serious is it?</p>
-
-                            <div class="panel panel_radio-option panel_radio-urgent1">
-                                <p class="paneltext paneltext_bottom-left color_LightblueBlue">Grandma needs help!</p>
-                                <label class="customRadio">
-                                    <input type="radio" name="urgency" value="urgency: 1/4" required>
-                                    <span class="radio_checkmark"></span>
-                                </label>
-                            </div>
-
-                            <div class="panel panel_radio-option panel_radio-urgent2">
-                                <p class="paneltext paneltext_top-right color_GreenYellow">Like a car crash...</p>
-                                <label class="customRadio">
-                                    <input type="radio" name="urgency" value="urgency: 2/4" required>
-                                    <span class="radio_checkmark"></span>
-                                </label>
-                            </div>
-
-                            <div class="panel panel_radio-option panel_radio-urgent3">
-                                <p class="paneltext paneltext_bottom-left color_YellowOrange">Really Serious!</p>
-                                <label class="customRadio">
-                                    <input type="radio" name="urgency" value="urgency: 3/4" required>
-                                    <span class="radio_checkmark"></span>
-                                </label>
-                            </div>
-
-                            <div class="panel panel_radio-option panel_radio-urgent4">
-                                <p class="paneltext paneltext_bottom-left color_CoralRed">I AM DYING AAAH!!!</p>
-                                <label class="customRadio">
-                                    <input type="radio" name="urgency" value="urgency: 4/4" required>
-                                    <span class="radio_checkmark"></span>
-                                </label>
-                            </div>
-
-                        </div>
-
-                        <input type="submit" name="submit" value="Submit">
-
-                    </article>
-                </form>
+            <div class="panel panel_email">
+                <p class="paneltext paneltext_top-left color_GreenYellow">E-Mail</p>
+                <input type="email" id="email" name="email" autocomplete="email" maxlength="50"
+                    placeholder="Where spammers text you...">
             </div>
-        </div>
-    </div>
+
+            <div class="panel panel_phone">
+                <p class="paneltext paneltext_top-right color_LightblueBlue">Phone</p>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" maxlength="40"
+                    placeholder="Where scammers call you...">
+            </div>
+
+
+            <div class="panel panel_adress">
+                <p class="paneltext paneltext_bottom-right color_YellowOrange">Adress</p>
+                <input type="text" id="adress" name="adress" autocomplete="address-line1" maxlength="110"
+                    placeholder="We don't actually need your adress, because superheroes always know where you are.">
+            </div>
+
+            <div class="panel panel_message">
+                <p class="paneltext paneltext_top color_CoralRed">How can we help you?</p>
+                <textarea id="message" name="message" maxlength="1500" required
+                    placeholder="                  Please make it quick..."></textarea>
+            </div>
+
+            <div class="panel panel_radio">
+                <p class="paneltext paneltext_top-left color_LightblueBlue">How serious is it?</p>
+
+                <div class="panel panel_radio-option panel_radio-urgent1">
+                    <p class="paneltext paneltext_bottom-left color_LightblueBlue">Grandma needs help!</p>
+                    <label class="customRadio">
+                        <input type="radio" name="urgency" value="urgency: 1/4" required>
+                        <span class="radio_checkmark"></span>
+                    </label>
+                </div>
+
+                <div class="panel panel_radio-option panel_radio-urgent2">
+                    <p class="paneltext paneltext_top-right color_GreenYellow">Like a car crash...</p>
+                    <label class="customRadio">
+                        <input type="radio" name="urgency" value="urgency: 2/4" required>
+                        <span class="radio_checkmark"></span>
+                    </label>
+                </div>
+
+                <div class="panel panel_radio-option panel_radio-urgent3">
+                    <p class="paneltext paneltext_bottom-left color_YellowOrange">Really Serious!</p>
+                    <label class="customRadio">
+                        <input type="radio" name="urgency" value="urgency: 3/4" required>
+                        <span class="radio_checkmark"></span>
+                    </label>
+                </div>
+
+                <div class="panel panel_radio-option panel_radio-urgent4">
+                    <p class="paneltext paneltext_bottom-left color_CoralRed">I AM DYING AAAH!!!</p>
+                    <label class="customRadio">
+                        <input type="radio" name="urgency" value="urgency: 4/4" required>
+                        <span class="radio_checkmark"></span>
+                    </label>
+                </div>
+
+            </div>
+
+            <input type="submit" name="submit" value="Submit">
+
+        </article>
+    </form>
 
     <!-- Bottom Footer Bar -->
     <?php include 'element_footer.php'; ?>

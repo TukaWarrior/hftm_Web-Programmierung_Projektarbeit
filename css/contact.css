@@ -1,34 +1,7 @@
 @import url(//fonts.googleapis.com/css?family=Patrick+Hand+SC|Bangers|Happy+Monkey);
 
-body {
-  background-color: #313131;
-}
-
-
-/* Copied Container from about.css */
-/* .container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding-left: 10em;
-  padding-right: 10em;
-  padding-top: 4em;
-  padding-bottom: 4em;
-
-} */
-
-.container {
-  text-align: center;
-  color: var(--color);
-  width: 100%;
-  min-height: 100vh;
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* background-image: url(https://www.shutterstock.com/shutterstock/photos/1736158307/display_1500/stock-vector-night-modern-city-with-skyscrapers-pop-art-retro-vector-illustration-vitch-vintage-s-s-style-1736158307.jpg); */
+:root {
+  background-image: url("../ressources/images/backgrounds/bg03.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 50% 50%;
@@ -37,14 +10,15 @@ body {
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Style the container/contact section */
 .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 10px;
+  /* border-radius: 5px; */
+  /* background-color: #f2f2f2; */
+  /* padding: 10px; */
 }
 
 form{
   width: 1000px;
-  height: 1000px;
+  height: 1000px
+  ;
   background-color: #4b4b4b;
 }
 /* Create two columns that float next to eachother */
@@ -382,4 +356,18 @@ h3.mid {
   background-image: radial-gradient(#d6d6d6 10%, transparent 10%);
   background-color: var(--bgColor);
   background-size: 10px 10px;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+
+  background-color: #313131;
 }
