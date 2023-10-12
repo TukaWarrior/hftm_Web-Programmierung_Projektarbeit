@@ -82,22 +82,22 @@
         </div>
 
         <!-- Card 7 -->
-        <!-- <div class="portfolio-item graphic-design">
+        <div class="portfolio-item graphic-design">
             <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_lara-croft.png);"></div>
             <div class="portfolio-description">
                 <h4>Lara Croft</h4>
                 <p>Find yourself in the jungle? She knows what to do.</p>
             </div>
-        </div> -->
+        </div>
 
         <!-- Card 8 -->
-        <!-- <div class="portfolio-item graphic-design">
+        <div class="portfolio-item graphic-design">
             <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_master-chief.png);"></div>
             <div class="portfolio-description">
                 <h4>Masterchief</h4>
                 <p>Get rid of the bugs with Masterchief</p>
             </div>
-        </div> -->
+        </div>
     </div>
 
     <!-- Bottom Footer Bar -->
