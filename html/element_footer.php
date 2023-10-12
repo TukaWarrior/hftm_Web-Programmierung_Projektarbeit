@@ -23,7 +23,7 @@
                 <div class="footer-col">
                     <h4>company</h4>
                     <ul class="ulFooter">
-                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="terms-of-use.php">Terms of use</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">

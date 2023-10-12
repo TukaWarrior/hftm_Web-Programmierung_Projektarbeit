@@ -21,7 +21,7 @@
 
     <!-- Content -->
     <div class="container"></div>
-    <div class="aboutBlank" style="--bgcolor: rgb(128, 32, 0)">
+    <div class="aboutBlank" style="--bgcolor: #990000">
         <h2 class="mid">our team - the best of the best</h2>
     </div>
     <!-- Team Cards -->
@@ -41,7 +41,7 @@
             <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_keanu.png);"></div>
             <div class="portfolio-description">
                 <h4>Keanu</h4>
-                <p>No words needed.</p>
+                <p>The good guy.</p>
             </div>
         </div>
 

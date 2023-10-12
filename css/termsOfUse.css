@@ -1,0 +1,23 @@
+.terms {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 4em;
+    padding-bottom: 4em; */
+
+    background-color: #313131;
+}
+
+/* ul */
+.termList {}
+
+/* li */
+.termElement {}
+
+.p .terms {
+    font-family: "Red Hat Text";
+}
