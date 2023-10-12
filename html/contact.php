@@ -9,9 +9,9 @@
         href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/contact.css">
-    <link rel="stylesheet" href="../css/ComicStyles.css">
+    <!-- <link rel="stylesheet" href="../css/index.css"> -->
+    <!-- <link rel="stylesheet" href="../css/ComicStyle.css"> -->
     <link rel="stylesheet" href="../css/footer.css">
-    <!-- <link rel="stylesheet" href="../css/about.css"> -->
     <title>Contact</title>
 
 </head>
@@ -24,7 +24,6 @@
 
     <!-- PHP Forms -->
     <?php
-
     // Variables
     $name = "";
     $email = "";
@@ -76,62 +75,58 @@
     }
     ?>
 
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <!-- HTML Forms -->
-    <div class="container">
-        <div style="text-align:center">
-            <h2>Do you need a hero?</h2>
-            <p>Yes? No problem. No matter tthe cause or reason, a superhero will rush to your aid! No questions asked!
-            </p>
+    <p>Everybody needs a helping hand</p>
+    <div class="banner bg-image_1" style="--bannerHeight: 100px; --bgColor: #805f97">
+        <h2 class="mid">Everybody needs a helping hand</h2>
+    </div>
 
-
-            <div class="aboutBlank" style="--bgcolor: #ffd000">
-                <h2 class="mid">what we do</h2>
-            </div>
-
-
+    <!-- <div class="container"> -->
+        <!-- <div style="text-align:center"> -->
         </div>
         <!-- Table Grid -->
-        <div class="row">
+        <!-- <div class="row"> -->
             <!-- Left Part: Image -->
-            <div class="column">
+            <!-- <div class="column">
                 <img src="https://media.licdn.com/dms/image/C4E12AQFY1HPLdvUlAw/article-cover_image-shrink_423_752/0/1614954939274?e=1702512000&v=beta&t=9HzJe79tHexHQ8N2kHR3H8UF2MSlKYGsaA0uI3bnvxk"
-                    style="width:100%">
+                    style="width:100%"> -->
             </div>
             <!-- Right Part: Form Input -->
-            <div class="column">
+            <!-- <div class="column"> -->
                 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
 
                     <article class="comic">
 
                         <div class="panel panel_name">
                             <p class="paneltext paneltext_top-left color_CoralRed">Name!</p>
-                            <input type="text" id="name" name="name" required autocomplete="name" maxlength="50"
-                                placeholder="You have for sure a pretty name!">
+                            <input type="text" id="name" name="name" required autocomplete="name" maxlength="85"
+                                placeholder="What a pretty name!">
                         </div>
 
                         <div class="panel panel_email">
                             <p class="paneltext paneltext_top-left color_GreenYellow">E-Mail</p>
-                            <input type="email" id="email" name="email" autocomplete="email" maxlength="254"
-                                placeholder="Your E-Mail Adress">
+                            <input type="email" id="email" name="email" autocomplete="email" maxlength="50"
+                                placeholder="Where spammers text you...">
                         </div>
 
                         <div class="panel panel_phone">
                             <p class="paneltext paneltext_top-right color_LightblueBlue">Phone</p>
-                            <input type="tel" id="phone" name="phone" autocomplete="tel"
-                                placeholder="Your Phone number">
+                            <input type="tel" id="phone" name="phone" autocomplete="tel" maxlength="40"
+                                placeholder="Where scammers call you...">
                         </div>
 
 
                         <div class="panel panel_adress">
                             <p class="paneltext paneltext_bottom-right color_YellowOrange">Adress</p>
-                            <input type="text" id="adress" name="adress" autocomplete="address-line1"
-                                placeholder="Give us your adress. Or don't. Our superheroes know where you are.">
+                            <input type="text" id="adress" name="adress" autocomplete="address-line1" maxlength="110"
+                                placeholder="We don't actually need your adress, because superheroes always know where you are.">
                         </div>
 
                         <div class="panel panel_message">
                             <p class="paneltext paneltext_top color_CoralRed">How can we help you?</p>
-                            <textarea id="message" name="message" maxlength="960" required
-                                placeholder="How can we help you?"></textarea>
+                            <textarea id="message" name="message" maxlength="1500" required
+                                placeholder="                  Please make it quick..."></textarea>
                         </div>
 
                         <div class="panel panel_radio">
