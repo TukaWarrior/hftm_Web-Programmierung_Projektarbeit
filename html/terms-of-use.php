@@ -8,7 +8,6 @@
         href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/ComicStyle.css">
-    <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/termsOfUse.css">
     <title>Terms of use</title>
@@ -18,8 +17,8 @@
     <!-- Top Navigation Bar -->
     <?php include 'element_topnav.php'; ?>
 
-    <div class="container"></div>
-    <div class="aboutBlank" style="--bgcolor: #ffcce6">
+    <div class="blankContainer"></div>
+    <div class="blankPartition" style="--bgcolor: #ffcce6">
         <h2 class="mid">Terms of use</h2>
     </div>
 

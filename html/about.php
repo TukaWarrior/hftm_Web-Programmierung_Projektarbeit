@@ -18,8 +18,8 @@
     <?php include 'element_topnav.php'; ?>
 
     <!-- Content "who we are" -->
-    <div class="container"></div>
-    <div class="aboutBlank" style="--bgcolor: rgb(109, 180, 180)">
+    <div class="blankContainer"></div>
+    <div class="blankPartition" style="--bgcolor: rgb(109, 180, 180)">
         <h2 class="mid">who we are</h2>
     </div>
 
@@ -34,7 +34,7 @@
         </div>
     </div>
 
-    <div class="aboutBlank" style="--bgcolor: #ffd000">
+    <div class="blankPartition" style="--bgcolor: #ffd000">
         <h2 class="mid">what we do</h2>
     </div>
 

@@ -8,7 +8,6 @@
         href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/ComicStyle.css">
-    <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/FAQ.css">
     <link rel="stylesheet" href="../css/footer.css">
     <title>Frequently Asked Questions</title>
@@ -18,8 +17,8 @@
     <!-- Top Navigation Bar -->
     <?php include 'element_topnav.php'; ?>
 
-    <div class="container"></div>
-    <div class="aboutBlank" style="--bgcolor: #cc7a00">
+    <div class="blankContainer"></div>
+    <div class="blankPartition" style="--bgcolor: #cc7a00">
         <h2 class="mid">Frequently Asked Questions</h2>
     </div>
 
@@ -100,7 +99,7 @@
 
     </div>
 
-    <div class="container"></div>
+    <div class="blankContainer"></div>
 
     <!-- Bottom Footer Bar -->
     <?php include 'element_footer.php'; ?>

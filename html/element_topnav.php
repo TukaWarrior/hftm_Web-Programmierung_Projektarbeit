@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <!-- <link rel="stylesheet" type="text/css" href="element_topnav.css"> -->
-</head>
-
 <body>
     <div class="topnav">
         <a <?php if (basename($_SERVER['PHP_SELF']) == 'index.php') echo 'class="active"'; ?> href="index.php">Home</a>

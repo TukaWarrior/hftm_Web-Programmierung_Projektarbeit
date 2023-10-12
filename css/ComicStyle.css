@@ -450,3 +450,39 @@ a {
   font-size: 20px;
   font-weight: bold;
 }
+
+/* Blank Div, text optional*/
+.blankPartition {
+  width: 100%;
+  height: 100px;
+
+  background-image: radial-gradient(#212121 10%, transparent 10%), radial-gradient(#212121 10%, transparent 10%);
+  background-color: var(--bgcolor);
+  background-position: 0 0, 50px 50px;
+  background-size: 10px 10px;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+  border-color: #000000;
+}
+
+/* Div Container filler */
+.blankContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+
+  background-color: #313131;
+}
