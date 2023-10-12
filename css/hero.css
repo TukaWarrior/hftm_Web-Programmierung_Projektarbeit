@@ -1,53 +1,24 @@
-.container {
-	text-align: center;
-	color: var(--color);
-	width: 100%;
-	min-height: 100vh;
-	display: inline-flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	background-image: url(https://static.vecteezy.com/system/resources/previews/022/275/674/original/black-color-comic-style-lines-background-illustration-free-vector.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: 50% 50%;
-}
+:root {
+	--textbox-color: #ffffff;
+  }
 
-h1 {
-	font-weight: 700;
-	font-size: 2rem;
-	border-radius: 1em;
-	border-radius: 10px;
-}
 
-p {
-	max-width: 52ch;
-	line-height: 1.5;
-	padding: 1em;
-	background-color: #ddd;
-	border-radius: 1em;
-	border: radius 10px;
-}
-
+  body {
+	background-color: #3b3b3b;
+	background-image: url('../ressources/images/backgrounds/bg_alpine-bat1.webp');
+	position: fixed;
+	backdrop-filter: blur(2px);
+	
+  }
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* Image Grid */
-.image-grid-row {
-	display: flex;
-	flex-wrap: wrap;/
-}
-	/* size: 100%; */
-	/* flex: 50%; */
+/* Textboxes */
+.originstory {
+	background-color: var(--textbox-color);
+	/* font-family: 'Comic Sans', cursive; */
+	border: solid 3px #000000;
+	flex: auto;
 
-.image-grid-column {
 }
-	/* padding:  0%, 0%, 0%, 0%; */
-
-.image-grid-content {
-	padding-top:  5%;
-	vertical-align: middle;
-	width: 100%
-}
-	/* padding:  0%, 0%, 0%, 0%; */
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Polaroid */

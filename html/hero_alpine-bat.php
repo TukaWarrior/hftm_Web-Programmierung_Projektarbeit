@@ -18,14 +18,17 @@
 
   <!-- Top Navigation Bar -->
   <?php include 'element_topnav.php'; ?>
+  <?php $originstory = file_get_contents('../ressources/documents/originstory_alpine-bat.html'); ?>
 
+<h2>Origin Story</h2>
+  <p class="originstory"><?php echo $originstory; ?></p>
 
   <div class="polaroid-animation">
-      <div class="polaroid-frame">
-        <img class="polaroid-image" src="../ressources/images/heroes/hero_alpine-bat.png" alt="">
-        <h1>Master Chief</h1>
-      </div>
+    <div class="polaroid-frame">
+      <img class="polaroid-image" src="../ressources/images/heroes/hero_alpine-bat.png" alt="">
+      <h1>Alpine Bat</h1>
     </div>
+  </div>
 
 
   <!-- Bottom Footer Bar -->
