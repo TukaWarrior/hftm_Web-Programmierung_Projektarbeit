@@ -106,12 +106,12 @@
         </p>
         </br>
 
-        <p>
+        <h4>
             By using our superhero rental services,
             you agree to these terms.
             In case of any concerns, please contact our Super-SupportTeam for assistance.
             And remember, with great power comes great comedic responsibility!
-        </p>
+        </h4>
     </div>
 
     <div class="container"></div>
