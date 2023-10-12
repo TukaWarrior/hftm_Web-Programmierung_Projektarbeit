@@ -19,7 +19,7 @@
     <?php include 'element_topnav.php'; ?>
 
     <div class="container"></div>
-    <div class="aboutBlank" style="--bgcolor: #ffd000">
+    <div class="aboutBlank" style="--bgcolor: #cc7a00">
         <h2 class="mid">Frequently Asked Questions</h2>
     </div>
 

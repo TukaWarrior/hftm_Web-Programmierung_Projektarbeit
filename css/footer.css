@@ -2,8 +2,7 @@
 
 .footer {
     display: flex;
-    position: absolute;
-    /* bottom: 0; */
+    position: relative;
     text-align: center;
     height: 100px;
     width: 100%;
