@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/ComicStyle.css">
     <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/heroesTest.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <title>About us</title>
 </head>
 
@@ -81,25 +82,26 @@
         </div>
 
         <!-- Card 7 -->
-        <div class="portfolio-item graphic-design">
+        <!-- <div class="portfolio-item graphic-design">
             <div class="portfolio-bg" style="--img: url(../ressources/images/hero_lara-croft.png);"></div>
             <div class="portfolio-description">
                 <h4>Lara Croft</h4>
                 <p>Find yourself in the jungle? She knows what to do.</p>
             </div>
-        </div>
+        </div> -->
 
         <!-- Card 8 -->
-        <div class="portfolio-item graphic-design">
+        <!-- <div class="portfolio-item graphic-design">
             <div class="portfolio-bg" style="--img: url(../ressources/images/hero_master-chief.png);"></div>
             <div class="portfolio-description">
                 <h4>Masterchief</h4>
                 <p>Get rid of the bugs with Masterchief</p>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <footer>© 2023 Rent-A-Hero</footer>
+    <!-- Bottom Footer Bar -->
+    <?php include 'element_footer.php'; ?>
 
 </body>
 

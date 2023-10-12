@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="../css/ComicStyles.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <!-- <link rel="stylesheet" href="../css/about.css"> -->
     <title>Contact</title>
 
@@ -84,8 +85,8 @@
 
 
             <div class="aboutBlank" style="--bgcolor: #ffd000">
-        <h2 class="mid">what we do</h2>
-    </div>
+                <h2 class="mid">what we do</h2>
+            </div>
 
 
         </div>
@@ -178,6 +179,8 @@
         </div>
     </div>
 
+    <!-- Bottom Footer Bar -->
+    <?php include 'element_footer.php'; ?>
 </body>
 
 </html>

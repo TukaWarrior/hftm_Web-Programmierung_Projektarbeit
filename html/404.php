@@ -9,18 +9,20 @@
         href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/404.css">
+    <link rel="stylesheet" href="../css/footer.css">
 </head>
 
 <body>
-    
-  <!-- Top Navigation Bar -->
-  <?php include 'element_topnav.php'; ?>
+
+    <!-- Top Navigation Bar -->
+    <?php include 'element_topnav.php'; ?>
 
     <div class="container">
         <img src="../ressources/images/404/404_PageNotFound.png" />
     </div>
 
-    <footer>© 2023 Rent-A-Hero</footer>
+    <!-- Bottom Footer Bar -->
+    <?php include 'element_footer.php'; ?>
 
 </body>
 

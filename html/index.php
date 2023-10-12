@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="../css/index.css">
   <link rel="stylesheet" href="../css/ComicStyle.css">
   <link rel="stylesheet" href="../css/Animations.css">
+  <link rel="stylesheet" href="../css/footer.css">
   <title>Index</title>
 </head>
 
@@ -86,7 +87,8 @@
 
   </div>
 
-  <footer>© 2023 Rent-A-Hero</footer>
+  <!-- Bottom Footer Bar -->
+  <?php include 'element_footer.php'; ?>
 
 </body>
 
