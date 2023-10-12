@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+.footer {
+    display: flex;
+    position: relative;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    background-color: #1a1a1a;
+    padding: 70px 0;
+}
 
 .containerFooter {
     max-width: 100%;
@@ -13,11 +24,6 @@
 
 .ulFooter {
     list-style: none;
-}
-
-.footer {
-    background-color: #1a1a1a;
-    padding: 70px 0;
 }
 
 .footer-col {
@@ -53,6 +59,8 @@
 .footer-col ul li a {
     font-size: 16px;
     text-transform: capitalize;
+    text-align: left;
+    margin-left: 30px;
     color: #ffffff;
     text-decoration: none;
     font-weight: 300;
@@ -71,7 +79,6 @@
     height: 40px;
     width: 40px;
     background-color: rgba(255, 255, 255, 0.2);
-    margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
@@ -86,16 +93,15 @@
 
 .footer-cr-col {
     display: inline-block;
-    width: 250px;
+    width: auto;
 }
 
 .footer-cr-col h4 {
-    /* font-family: "Red Hat Text"; */
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Red Hat Text";
     font-size: 16px;
     color: #ffffff;
     text-transform: capitalize;
     font-weight: 500;
     position: relative;
-    width: 300px;
+    width: auto;
 }

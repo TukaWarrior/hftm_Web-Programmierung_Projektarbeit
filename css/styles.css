@@ -5,33 +5,11 @@ html {
     scroll-behavior: smooth;
 }
 
-:root {
-    --background-color: 28 27 30;
-    --topnav-color: #333333;
-}
-
 body {
     background-color: var(--background-color);
     font-family: 'Red Hat Text', sans-serif;
     margin: 0px;
 }
-
-footer {
-    position:relative;
-    text-align: center;
-    left:0px;
-    bottom:0px;
-    /* height:0px; */
-    width:100%;
-    color: white;
-    background:black;
-    font-weight: bold;
- }
-
- footer.content {
-    color: white;
-    background: blue;
- }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Top Navigation Bar */
@@ -86,12 +64,4 @@ footer {
     background-color: #aa04aa; /* #045faa */
     background-position: 0 0, 50px 50px;
     background-size: 10px 10px;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 50px 0px 70px 0px;
-    background-color: #000000;
-    color: #fff;
 }

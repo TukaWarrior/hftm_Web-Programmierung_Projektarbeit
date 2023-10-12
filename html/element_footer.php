@@ -35,7 +35,7 @@
                 <div class="footer-col">
                     <h4>follow us</h4>
                     <div class="social-links">
-                        <a href="https://www.instagram.com/google/?hl=de"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
