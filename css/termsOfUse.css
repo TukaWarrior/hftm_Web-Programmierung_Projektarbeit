@@ -1,23 +1,19 @@
 .terms {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    /* padding-left: 10em;
-    padding-right: 10em;
+    padding-left: 30%;
+    padding-right: 30%;
     padding-top: 4em;
-    padding-bottom: 4em; */
+    padding-bottom: 4em;
 
+    color: #e2e2e2;
     background-color: #313131;
 }
 
-/* ul */
-.termList {}
-
-/* li */
-.termElement {}
-
-.p .terms {
+h3 {
     font-family: "Red Hat Text";
+}
+
+p {
+    font-family: "Red Hat Text";
+    font-size: 18px;
 }
