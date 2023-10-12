@@ -85,8 +85,6 @@
     </div>
   </article>
 
-  </div>
-
   <!-- Bottom Footer Bar -->
   <?php include 'element_footer.php'; ?>
 

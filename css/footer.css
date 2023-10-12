@@ -3,26 +3,16 @@
 
 .containerFooter {
     max-width: 100%;
-
-    /* DEBUG */
-    /* height: 100px; */
 }
 
 .row {
     display: flex;
     flex-wrap: nowrap;
     max-width: 100%;
-
-    /* DEBUG */
-    /* background-color: pink; */
 }
 
 .ulFooter {
     list-style: none;
-
-    /* DEBUG */
-    /* text-align: center; */
-    /* background-color: red; */
 }
 
 .footer {
@@ -31,37 +21,29 @@
 }
 
 .footer-col {
-    margin-right: 50px;
-
-    /* DEBUG */
-    /* background-color: blue; */
+    margin-right: 35px;
 }
 
 .footer-col h4 {
+    font-family: "Bangers";
     font-size: 18px;
     color: #ffffff;
     text-transform: capitalize;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-weight: 500;
     position: relative;
     width: 200px;
-
-    /* DEBUG */
-    /* background-color: green; */
 }
 
 .footer-col h4::before {
     content: '';
     position: absolute;
-    left: 15%;
+    left: 65px;
     bottom: -10px;
     background-color: #e9ba1e;
     height: 2px;
     box-sizing: border-box;
-    width: 70%;
-
-    /* DEBUG */
-    /* background-color: greenyellow; */
+    width: 80px;
 }
 
 .footer-col ul li:not(:last-child) {
@@ -100,4 +82,20 @@
 .footer-col .social-links a:hover {
     color: #24262b;
     background-color: #ffffff;
+}
+
+.footer-cr-col {
+    display: inline-block;
+    width: 250px;
+}
+
+.footer-cr-col h4 {
+    /* font-family: "Red Hat Text"; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 500;
+    position: relative;
+    width: 300px;
 }

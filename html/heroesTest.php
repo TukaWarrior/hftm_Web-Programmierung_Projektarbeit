@@ -97,8 +97,8 @@
                 <h4>Masterchief</h4>
                 <p>Get rid of the bugs with Masterchief</p>
             </div>
-        </div>
-    </div> -->
+        </div> -->
+    </div>
 
     <!-- Bottom Footer Bar -->
     <?php include 'element_footer.php'; ?>
