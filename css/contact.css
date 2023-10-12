@@ -17,10 +17,15 @@
 
 form{
   width: 1000px;
-  height: 1000px
-  ;
-  background-color: #4b4b4b;
+  height: 800px;
+  background-color: #313131;
+  border: solid #000000;
+  position: relative;
+  display: block;
+  margin: auto;
+margin-top: -3px;
 }
+
 /* Create two columns that float next to eachother */
 .column {
   float: left;
