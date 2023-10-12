@@ -71,7 +71,7 @@ p {
     padding: 5px;
     position: absolute;
     top: 480px;
-    left: 110px;
+    left: 65px;
     box-shadow: 0 0 10px #000;
     border: 5px solid rgba(255, 255, 255, 0.3);
     transform: rotateY(5deg) translateZ(10px);
