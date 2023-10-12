@@ -204,7 +204,7 @@ p {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url(https://img.freepik.com/premium-photo/pale-brown-vintage-paper-texture-background-kraft-paper-horizontal-with-unique-design-paper-soft-natural-paper-style-aesthetic-creative-design_364465-212.jpg);
+  background-image: url("../ressources/images/backgrounds/bg02.png");
 }
 
 .panel {

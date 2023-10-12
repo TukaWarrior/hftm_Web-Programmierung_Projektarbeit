@@ -29,7 +29,7 @@
 
         <!-- Card 1 -->
         <div class="portfolio-item graphic-design">
-            <div class="portfolio-bg" style="--img: url(../ressources/images/hero_DoomGuy.png);"></div>
+            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_DoomGuy.png);"></div>
             <div class="portfolio-description">
                 <h4>Doom Guy</h4>
                 <p>Best for fighting monsters straight out of hell</p>
@@ -38,7 +38,7 @@
 
         <!-- Card 2 -->
         <div class="portfolio-item graphic-design">
-            <div class="portfolio-bg" style="--img: url(../ressources/images/hero_keanu.png);"></div>
+            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_keanu.png);"></div>
             <div class="portfolio-description">
                 <h4>Keanu</h4>
                 <p>No words needed.</p>
@@ -47,7 +47,7 @@
 
         <!-- Card 3 -->
         <div class="portfolio-item graphic-design">
-            <div class="portfolio-bg" style="--img: url(../ressources/images/hero_alpine-bat.png);"></div>
+            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_alpine-bat.png);"></div>
             <div class="portfolio-description">
                 <h4>Alpine Bat</h4>
                 <p>Switzerlands most mysterious hero. And the only one...</p>
@@ -56,7 +56,7 @@
 
         <!-- Card 4 -->
         <div class="portfolio-item graphic-design">
-            <div class="portfolio-bg" style="--img: url(../ressources/images/hero_stormtrooper.png);"></div>
+            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_stormtrooper.png);"></div>
             <div class="portfolio-description">
                 <h4>FN-3420</h4>
                 <p>Never hits a target.</p>
@@ -65,7 +65,7 @@
 
         <!-- Card 5 -->
         <div class="portfolio-item graphic-design">
-            <div class="portfolio-bg" style="--img: url(../ressources/images/hero_evil-batman.png);"></div>
+            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_evil-batman.png);"></div>
             <div class="portfolio-description">
                 <h4>Batman</h4>
                 <p>Looks dangerous. And he is.</p>
@@ -74,7 +74,7 @@
 
         <!-- Card 6 -->
         <div class="portfolio-item graphic-design">
-            <div class="portfolio-bg" style="--img: url(../ressources/images/hero_detective-bean.png);"></div>
+            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_detective-bean.png);"></div>
             <div class="portfolio-description">
                 <h4>Bean</h4>
                 <p>Finds everything or everyone you're looking for.</p>
@@ -83,7 +83,7 @@
 
         <!-- Card 7 -->
         <!-- <div class="portfolio-item graphic-design">
-            <div class="portfolio-bg" style="--img: url(../ressources/images/hero_lara-croft.png);"></div>
+            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_lara-croft.png);"></div>
             <div class="portfolio-description">
                 <h4>Lara Croft</h4>
                 <p>Find yourself in the jungle? She knows what to do.</p>
@@ -92,7 +92,7 @@
 
         <!-- Card 8 -->
         <!-- <div class="portfolio-item graphic-design">
-            <div class="portfolio-bg" style="--img: url(../ressources/images/hero_master-chief.png);"></div>
+            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_master-chief.png);"></div>
             <div class="portfolio-description">
                 <h4>Masterchief</h4>
                 <p>Get rid of the bugs with Masterchief</p>
