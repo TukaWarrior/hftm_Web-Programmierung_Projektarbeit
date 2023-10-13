@@ -5,10 +5,8 @@
 
   body {
 	background-color: #3b3b3b;
-	background-image: url('../ressources/images/backgrounds/bg_alpine-bat1.webp');
 	position: fixed;
 	backdrop-filter: blur(2px);
-	
   }
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Textboxes */

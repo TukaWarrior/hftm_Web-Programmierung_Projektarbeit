@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="../css/animations.css">
   <link rel="stylesheet" href="../css/footer.css">
   <title>Welcome</title>
+  <link rel="icon" type="image/x-icon" href="../ressources/images/favicon.webp">
 </head>
 
 <body>

@@ -13,6 +13,7 @@
     <!-- <link rel="stylesheet" href="../css/ComicStyle.css"> -->
     <link rel="stylesheet" href="../css/footer.css">
     <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="../ressources/images/favicon.webp">
 
 </head>
 

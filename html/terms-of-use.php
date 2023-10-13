@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/termsOfUse.css">
     <link rel="stylesheet" href="../css/footer.css">
     <title>Terms of use</title>
+    <link rel="icon" type="image/x-icon" href="../ressources/images/favicon.webp">
 </head>
 
 <body>

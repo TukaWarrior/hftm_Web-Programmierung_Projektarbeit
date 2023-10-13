@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="../css/hero.css">
   <link rel="stylesheet" href="../css/footer.css">
   <title>Hero: Alpine Bat</title>
+  <link rel="icon" type="image/x-icon" href="../ressources/images/favicon.webp">
 
 </head>
 

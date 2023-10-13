@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/404.css">
     <link rel="stylesheet" href="../css/footer.css">
     <title>Oh hello there</title>
+    <link rel="icon" type="image/x-icon" href="../ressources/images/favicon.webp">
 </head>
 
 <body>

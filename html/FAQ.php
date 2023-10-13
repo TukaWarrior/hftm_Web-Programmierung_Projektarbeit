@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/FAQ.css">
     <link rel="stylesheet" href="../css/footer.css">
     <title>Frequently Asked Questions</title>
+    <link rel="icon" type="image/x-icon" href="../ressources/images/favicon.webp">
 </head>
 
 <body>

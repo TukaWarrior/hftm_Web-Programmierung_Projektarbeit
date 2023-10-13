@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/footer.css">
     <title>About us</title>
+    <link rel="icon" type="image/x-icon" href="../ressources/images/favicon.webp">
 </head>
 
 <body>
