@@ -18,7 +18,7 @@
     <?php include 'element_topnav.php'; ?>
 
     <!-- Content "who we are" -->
-    <div class="blankContainer"></div>
+    <div class="blankContainer" style="--blankColor: transparent"></div>
     <div class="blankPartition" style="--bgcolor: rgb(109, 180, 180)">
         <h2 class="mid">who we are</h2>
     </div>

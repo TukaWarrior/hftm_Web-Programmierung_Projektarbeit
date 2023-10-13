@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="../css/index.css">
   <link rel="stylesheet" href="../css/ComicStyle.css">
-  <link rel="stylesheet" href="../css/Animations.css">
+  <link rel="stylesheet" href="../css/animations.css">
   <link rel="stylesheet" href="../css/footer.css">
   <title>Welcome</title>
 </head>

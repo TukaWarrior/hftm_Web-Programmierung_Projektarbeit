@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/ComicStyle.css">
-    <link rel="stylesheet" href="../css/heroesTest.css">
+    <link rel="stylesheet" href="../css/heroTeam.css">
     <link rel="stylesheet" href="../css/footer.css">
     <title>Meet the Team</title>
 </head>
@@ -19,7 +19,7 @@
     <?php include 'element_topnav.php'; ?>
 
     <!-- Content -->
-    <div class="blankContainer"></div>
+    <div class="blankContainer" style="--blankColor: transparent"></div>
     <div class="blankPartition" style="--bgcolor: #990000">
         <h2 class="mid">our team - the best of the best</h2>
     </div>

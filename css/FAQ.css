@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
-body {
+:root {
     color: #e2e2e2;
     background: #313131;
     overflow-x: hidden;

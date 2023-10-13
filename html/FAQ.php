@@ -17,7 +17,7 @@
     <!-- Top Navigation Bar -->
     <?php include 'element_topnav.php'; ?>
 
-    <div class="blankContainer"></div>
+    <div class="blankContainer" style="--blankColor: transparent"></div>
     <div class="blankPartition" style="--bgcolor: #cc7a00">
         <h2 class="mid">Frequently Asked Questions</h2>
     </div>
