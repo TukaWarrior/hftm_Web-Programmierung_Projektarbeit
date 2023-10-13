@@ -19,8 +19,8 @@ body {
     justify-content: center;
 
     overflow: hidden;
-    border-top: 15px solid;
-    border-bottom: 15px solid;
+    border-top: 12px solid;
+    border-bottom: 12px solid;
     border-color: #000000;
     padding-left: 50px;
     /* padding-right: 50%; */

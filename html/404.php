@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../css/ComicStyle.css">
     <link rel="stylesheet" href="../css/404.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <title>404!!!1!11</title>
+    <title>Oh hello there</title>
 </head>
 
 <body>
@@ -19,6 +19,7 @@
     <!-- Top Navigation Bar -->
     <?php include 'element_topnav.php'; ?>
 
+    <div class="blankContainer" style="--blankColor: transparent"></div>
     <div class="blankPartition" style="--bgcolor: #1a1a1a">
         <h2 class="mid">UPS!</h2>
     </div>
