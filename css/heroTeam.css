@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
 
 :root {
-    background-image: url("../ressources/images/backgrounds/bg03.jpg");
+    background-image: url("../ressources/images/backgrounds/bg03.webp");
     background-size: cover;
     background-attachment: fixed;
     background-position: 50% 50%;

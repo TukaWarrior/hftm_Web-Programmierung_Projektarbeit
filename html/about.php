@@ -26,11 +26,11 @@
 
     <div class="container">
         <div class="containerGrid">
-            <div class="box box-1" style="--img: url(../ressources/images/avatar/andres03.png);"
+            <div class="box box-1" style="--img: url(../ressources/images/avatar/andres.webp);"
                 data-text="Andres Soria"></div>
-            <div class="box box-2" style="--img: url(../ressources/images/avatar/luca02.png);"
+            <div class="box box-2" style="--img: url(../ressources/images/avatar/luca.webp);"
                 data-text="Luca Bützberger"></div>
-            <div class="box box-3" style="--img: url(../ressources/images/avatar/nicola02.png);"
+            <div class="box box-3" style="--img: url(../ressources/images/avatar/nicola.webp);"
                 data-text="Nicola Jöhr"></div>
         </div>
     </div>

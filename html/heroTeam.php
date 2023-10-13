@@ -29,7 +29,7 @@
 
         <!-- Card 1 -->
         <div class="portfolio-item graphic-design">
-            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_DoomGuy.png);"></div>
+            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_doomslayer.webp);"></div>
             <div class="portfolio-description">
             <a class="link-button h4" href="hero_doomslayer.php">Doom Slayer</a>
                 <!-- <h4>Doom Guy</h4> -->
@@ -39,7 +39,7 @@
 
         <!-- Card 2 -->
         <div class="portfolio-item graphic-design">
-            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_keanu.png);"></div>
+            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_keanu.webp);"></div>
             <div class="portfolio-description">
             <a class="link-button h4" href="hero_keanu.php">Keanu</a>
                 <!-- <h4>Keanu</h4> -->
@@ -49,7 +49,7 @@
 
         <!-- Card 3 -->
         <div class="portfolio-item graphic-design">
-            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_alpine-bat.png);"></div>
+            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_alpinebat.webp);"></div>
             <div class="portfolio-description">
             <a class="link-button h4" href="hero_alpinebat.php">Alpine Bat</a>
                 <!-- <h4>Alpine Bat</h4> -->
@@ -59,7 +59,7 @@
 
         <!-- Card 4 -->
         <div class="portfolio-item graphic-design">
-            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_stormtrooper.png);"></div>
+            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_stormtrooper.webp);"></div>
             <div class="portfolio-description">
             <a class="link-button h4" href="hero_stormtroopert.php">FN-3420</a>
                 <!-- <h4>FN-3420</h4> -->
@@ -69,7 +69,7 @@
 
         <!-- Card 5 -->
         <div class="portfolio-item graphic-design">
-            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_evil-batman.png);"></div>
+            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_batman.webp);"></div>
             <div class="portfolio-description">
             <a class="link-button h4" href="hero_batman.php">Batman</a>
                 <!-- <h4>Batman</h4> -->
@@ -79,7 +79,7 @@
 
         <!-- Card 6 -->
         <div class="portfolio-item graphic-design">
-            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_detective-bean.png);"></div>
+            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_bean.webp);"></div>
             <div class="portfolio-description">
             <a class="link-button h4" href="hero_bean.php">Bean</a>
                 <!-- <h4>Bean</h4> -->
@@ -89,7 +89,7 @@
 
         <!-- Card 7 -->
         <div class="portfolio-item graphic-design">
-            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_lara-croft.png);"></div>
+            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_laracroft.webp);"></div>
             <div class="portfolio-description">
             <a class="link-button h4" href="hero_laracroft.php">Lara Croft</a>
                 <!-- <h4>Lara Croft</h4> -->
@@ -99,7 +99,7 @@
 
         <!-- Card 8 -->
         <div class="portfolio-item graphic-design">
-            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_master-chief.png);"></div>
+            <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_masterchief.webp);"></div>
             <div class="portfolio-description">
             <a class="link-button h4" href="hero_masterchief.php">Masterchief</a>
                 <!-- <h4>Masterchief</h4> -->

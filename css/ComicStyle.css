@@ -203,7 +203,7 @@ p {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url("../ressources/images/backgrounds/bg02.png");
+  background-image: url("../ressources/images/backgrounds/bg02.webp");
 }
 
 .panel {

@@ -1,7 +1,7 @@
 @import url(//fonts.googleapis.com/css?family=Patrick+Hand+SC|Bangers|Happy+Monkey);
 
 :root {
-  background-image: url("../ressources/images/backgrounds/bg03.jpg");
+  background-image: url("../ressources/images/backgrounds/bg07.webp");
   background-size: cover;
   background-attachment: fixed;
   background-position: 50% 50%;
@@ -35,7 +35,7 @@ margin-top: -3px;
 }
 
 /* Clear floats after the columns */
-/* .row:after {
+/* .row:after 
   content: "";
   display: table;
   clear: both;
