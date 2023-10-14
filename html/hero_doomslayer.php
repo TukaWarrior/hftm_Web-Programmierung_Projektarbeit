@@ -13,7 +13,7 @@
 
   <style>
     body {
-      background-image: url('../ressources/images/backgrounds/bg_alpinebat1.webp');
+      background-image: url('../ressources/images/backgrounds/bg_doomslayer1.webp');
     }
   </style>
 
@@ -28,20 +28,20 @@
   <?php include 'element_topnav.php'; ?>
 
   <!-- Get Origin Story -->
-  <?php $originstory = file_get_contents('../ressources/documents/originstory_alpinebat.html'); ?>
+  <?php $originstory = file_get_contents('../ressources/documents/originstory_doomslayer.html'); ?>
 
   <div class="main">
     <div class="blankContainer" style="--blankColor: transparent"></div>
-    <div class="blankPartition" style="--bgcolor: #2E8FE5">
-      <h2 class="mid">Alpine Bat</h2>
+    <div class="blankPartition" style="--bgcolor: #ba1a1c">
+      <h2 class="mid">Doom Slayer</h2>
     </div>
 
     <div class="row">
       <div class="content">
         <div class="polaroid-animation">
           <div class="polaroid-frame">
-            <img class="polaroid-image" src="../ressources/images/heroes/hero_alpinebat.webp" alt="">
-            <h1 class="hero_heading">He loves cheese</h1>
+            <img class="polaroid-image" src="../ressources/images/heroes/hero_doomslayer.webp" alt="">
+            <h1 class="hero_heading">some brutal quote</h1>
           </div>
         </div>
       </div>
