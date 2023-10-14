@@ -30,7 +30,7 @@
         <div class="portfolio-item">
             <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_doomslayer.webp);"></div>
             <div class="portfolio-description">
-                <h4>Doom Guy</h4>
+                <h4>Doom Slayer</h4>
                 <!-- <p>Best for fighting monsters straight out of hell</p> -->
                 <a class="link-button" href="hero_doomslayer.php">view hero</a>
             </div>
