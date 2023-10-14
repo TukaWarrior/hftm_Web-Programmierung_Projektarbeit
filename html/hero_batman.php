@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="../css/hero.css" />
   <link rel="stylesheet" href="../css/ComicStyle.css" />
   <link rel="stylesheet" href="../css/footer.css" />
-  <title>Batman</title>
+  <title>Hero: Batman</title>
   <link rel="icon" type="image/x-icon" href="../ressources/images/favicon.webp" />
 
   <style>
@@ -27,8 +27,12 @@
   <!-- Top Navigation Bar -->
   <?php include 'element_topnav.php'; ?>
 
+
+  <!-- Get Description -->
+  <?php $description = file_get_contents('../ressources/documents/description_batman.html'); ?>
   <!-- Get Origin Story -->
   <?php $originstory = file_get_contents('../ressources/documents/originstory_batman.html'); ?>
+
 
   <div class="main">
     <div class="blankContainer" style="--blankColor: transparent"></div>
@@ -37,6 +41,7 @@
     </div>
 
     <div class="row">
+
       <div class="content">
         <div class="polaroid-animation">
           <div class="polaroid-frame">
@@ -48,8 +53,9 @@
 
       <div class="content">
         <div class="textbox" style="--textbox-color: #ffffff">
-          <h2 class="hero_heading">Superpowers</h2>
-          <p>Some funny powers
+          <h2 class="hero_heading">The Dark Knight</h2>
+          <p>
+            <?php echo $description; ?>
           </p>
         </div>
       </div>

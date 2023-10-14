@@ -23,10 +23,11 @@
 
 <body>
 
-
   <!-- Top Navigation Bar -->
   <?php include 'element_topnav.php'; ?>
 
+  <!-- Get Description -->
+  <?php $description = file_get_contents('../ressources/documents/description_keanu.html'); ?>
   <!-- Get Origin Story -->
   <?php $originstory = file_get_contents('../ressources/documents/originstory_keanu.html'); ?>
 

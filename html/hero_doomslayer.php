@@ -23,10 +23,11 @@
 
 <body>
 
-
   <!-- Top Navigation Bar -->
   <?php include 'element_topnav.php'; ?>
 
+  <!-- Get Description -->
+  <?php $description = file_get_contents('../ressources/documents/description_doomslayer.html'); ?>
   <!-- Get Origin Story -->
   <?php $originstory = file_get_contents('../ressources/documents/originstory_doomslayer.html'); ?>
 
@@ -48,10 +49,9 @@
 
       <div class="content">
         <div class="textbox" style="--textbox-color: #ffffff">
-          <h2 class="hero_heading">Superpowers</h2>
-          <p>Supersonic Flying <br>
-            Shooting Fondue out of fingers<br>
-            Sonic Blast Yodeling
+          <h2 class="hero_heading">The Only thing they fear is you</h2>
+          <p>
+            <?php echo $description; ?>
           </p>
         </div>
       </div>

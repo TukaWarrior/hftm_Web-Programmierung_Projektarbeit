@@ -58,7 +58,7 @@
             <div class="portfolio-item">
                 <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_stormtrooper.webp);"></div>
                 <div class="portfolio-description">
-                    <h4>FN-3420</h4>
+                    <h4>FN-1337</h4>
                     <a class="link-button" href="hero_stormtrooper.php">show details</a>
                 </div>
             </div>
@@ -91,7 +91,7 @@
             </div>
 
             <!-- Card 8 -->
-            <!-- <div class="portfolio-item graphic-design">
+            <!-- <div class="portfolio-item">
             <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_masterchief.webp);"></div>
             <div class="portfolio-description">
                 <h4>Masterchief</h4>
