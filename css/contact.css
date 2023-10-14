@@ -109,19 +109,21 @@ input[type="radio"] {
 input[type=submit] {
   margin: 1vmin;
 
+  font-family: "Bangers";
+  font-size: 40px;
+  font-weight: bold;
   background-color: #ffffff;
   /* color: black; */
-  padding: 12px 20px;
+  padding: 12px 0px;
   border-style: solid;
   border-width: 2px;
   border-color: #000000;
-  background-color: #04AA6D;
+  background-color: #19ad26;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
-
+  background-color: #33cc33;
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
