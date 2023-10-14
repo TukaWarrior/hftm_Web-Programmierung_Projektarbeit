@@ -204,7 +204,7 @@ input[type=submit]:hover {
   position: relative;
   height: 150px;
   flex: 1;
-  margin: 1vmin;
+  /* margin: 1vmin; */
 }
 
 /* Panel Radio-Button Option 1 */
