@@ -16,44 +16,44 @@
   <link rel="icon" type="image/x-icon" href="../ressources/images/favicon.webp">
 
   <style>
-    /* body {
-      background-image: url('../ressources/images/backgrounds/bg_alpinebat1.webp');
-    } */
+    body {
+      /* background-image: url('../ressources/images/backgrounds/bg_alpinebat1.webp'); */
+    }
   </style>
 
 </head>
-
+<!-- <?php $originstory = file_get_contents('../ressources/documents/originstory_alpinebat.t'); ?> -->
 <body>
 
-<!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+  <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
   <!-- PHP -->
   <!-- Top Navigation Bar -->
   <?php include 'element_topnav.php'; ?>
 
   <!-- Get Origin Story -->
-  <?php $originstory = file_get_contents('../ressources/documents/originstory_alpinebat.html');?>
+  <?php $originstory = file_get_contents('../ressources/documents/originstory_alpinebat.txt'); ?>
 
-<!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+  <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
   <!-- HTML -->
 
   <div class="blankContainer" style="--blankColor: transparent"></div>
-    <div class="blankPartition" style="--bgcolor: rgb(109, 180, 180)">
-        <h2 class="mid">who we are</h2>
-    </div>
+  <div class="blankPartition" style="--bgcolor: rgb(109, 180, 180)">
+    <h2 class="mid">Alpine Bat</h2>
+  </div>
 
-  <div class="textbox">
-  <h2 class= textbox>Origin Story</h2>
-  <p class="originstory">
-    <?php echo $originstory; ?>
-  </p>
   
-  
-  <div>
-  <h2 class= textbox >Origin Story</h2>
-  <p class="originstory">
-    <?php echo $originstory; ?>
-  </p>
+<div class="container">
+
+
+
+
+<div class="textbox" style="--textbox-color: #ffffff">
+    <h2>Origin Story</h2>
+    <p>
+      <?php echo $originstory; ?>
+    </p>
+  </div>
 
   <div class="polaroid-animation">
     <div class="polaroid-frame">
@@ -63,6 +63,14 @@
   </div>
 
 
+
+
+
+
+
+
+
+</div>
   <!-- Bottom Footer Bar -->
   <?php include 'element_footer.php'; ?>
 

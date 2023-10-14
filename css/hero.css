@@ -5,24 +5,32 @@
 
   body {
 	background-color: #3b3b3b;
-	position: fixed;
 	backdrop-filter: blur(2px);
   }
+
+.container {
+	display: flex;
+	justify-content: center
+}
+  
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Textboxes */
-.originstory {
-	background-color: var(--textbox-color);
-	/* font-family: 'Comic Sans', cursive; */
-	border: solid 3px #000000;
-	flex: auto;
+/* @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap'); */
 
+
+.textbox {
+	background-color: var(--textbox-color);
+	border: solid 3px #000000;
+	font-family: 'Comic Sans', cursive;
+	width: 700px;
 }
+
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Polaroid */
 .polaroid-animation {
 	width: 100%;
-	max-width: 400px;
+	width: 500px;
 	transition: .25s ease;
 	&:hover {
 		transform: rotate(3deg);
@@ -30,7 +38,7 @@
 }
 
 .polaroid-frame {
-	width: 85%;
+	width: 100%;
 	aspect-ratio: 3 / 2;
 	border: 4px solid;
 	background-color: #FFF;

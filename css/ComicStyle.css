@@ -481,8 +481,8 @@ a {
   text-align: center;
   padding-left: 10em;
   padding-right: 10em;
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 
   background-color: var(--blankColor); /* #313131 */
 }
