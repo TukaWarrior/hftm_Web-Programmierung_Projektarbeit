@@ -37,7 +37,7 @@
         </div>
 
         <div class="row">
-            <div class="aboutMePanel" style="width: 350px;">
+            <div class="aboutMePanel" style="width: 500px;">
                 <p class="text top-left" style="font-size: 25px; font-weight: bold;">About me</p>
                 <p>
                     <?php echo $aboutme; ?>

@@ -23,16 +23,13 @@
 
 <body>
 
-
   <!-- Top Navigation Bar -->
   <?php include 'element_topnav.php'; ?>
-
 
   <!-- Get Description -->
   <?php $description = file_get_contents('../ressources/documents/description_batman.html'); ?>
   <!-- Get Origin Story -->
   <?php $originstory = file_get_contents('../ressources/documents/originstory_batman.html'); ?>
-
 
   <div class="main">
     <div class="blankContainer" style="--blankColor: transparent"></div>
