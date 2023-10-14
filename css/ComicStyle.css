@@ -225,7 +225,7 @@ p {
 }
 
 .top-left {
-  left: -6px;
+  left: -7px;
   position: absolute;
   top: -2px;
   transform: skew(-15deg);
@@ -233,7 +233,7 @@ p {
 }
 
 .top-right {
-  right: -6px;
+  right: -7px;
   position: absolute;
   top: -2px;
   transform: skew(15deg);
@@ -243,9 +243,17 @@ p {
 .bottom-right {
   bottom: -2px;
   position: absolute;
-  right: -6px;
+  right: -7px;
   transform: skew(-15deg);
   background-color: rgb(231, 147, 187);
+}
+
+.bottom-left {
+  bottom: -2px;
+  position: absolute;
+  left: -7px;
+  transform: skew(15deg);
+  background-color: rgb(255, 226, 61);
 }
 
 .speech {
@@ -483,5 +491,22 @@ a {
   padding-right: 10em;
   padding-top: 6vh;
 
-  background-color: var(--blankColor); /* #313131 */
+  background-color: var(--blankColor);
+}
+
+/* about pages */
+.aboutMePanel {
+  width: 350px;
+  height: auto;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 25vh;
+  margin-left: 5vw;
+  background-color: #eeeeee;
+  border: solid 3px #000;
+  box-shadow: 4px 6px 6px -2px #000;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
 }
