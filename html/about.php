@@ -30,8 +30,8 @@
                 data-text="Andres Soria"></div>
             <div class="box box-2" style="--img: url(../ressources/images/avatar/luca.webp);"
                 data-text="Luca Bützberger"></div>
-            <div class="box box-3" style="--img: url(../ressources/images/avatar/nicola.webp);"
-                data-text="Nicola Jöhr"></div>
+            <div class="box box-3" style="--img: url(../ressources/images/avatar/nicola.webp);" data-text="Nicola Jöhr">
+            </div>
         </div>
     </div>
 
@@ -77,9 +77,11 @@
     </div>
 
     <div class="container">
-        <div class="containerGrid">
-            <div class="box box-1" style="--img: url(../ressources/images/avatar/philipp.webp);"
-                data-text="Philipp Kupper"></div>
+        <div>
+            <div class="containerPhil">
+                <div class="boxPhil" style="--img: url(../ressources/images/avatar/philipp.webp);"
+                    data-text="Philipp Kupper"></div>
+            </div>
         </div>
     </div>
 
