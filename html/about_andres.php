@@ -32,7 +32,7 @@
     <div class="main">
 
         <div class="blankContainer" style="--blankColor: transparent"></div>
-        <div class="blankPartition" style="--bgcolor: #ba1a1c">
+        <div class="blankPartition" style="--bgcolor: #ad3915">
             <h2 class="mid">Andres Soria</h2>
         </div>
 

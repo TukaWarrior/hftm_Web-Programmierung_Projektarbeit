@@ -32,7 +32,7 @@
     <div class="main">
 
         <div class="blankContainer" style="--blankColor: transparent"></div>
-        <div class="blankPartition" style="--bgcolor: #7ac6e1">
+        <div class="blankPartition" style="--bgcolor: #0066ff">
             <h2 class="mid">Luca Bützberger</h2>
         </div>
 

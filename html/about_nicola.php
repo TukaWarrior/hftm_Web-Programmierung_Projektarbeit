@@ -32,7 +32,7 @@
     <div class="main">
 
         <div class="blankContainer" style="--blankColor: transparent"></div>
-        <div class="blankPartition" style="--bgcolor: #94d6b0">
+        <div class="blankPartition" style="--bgcolor: #1aff66">
             <h2 class="mid">Nicola Jöhr</h2>
         </div>
 
