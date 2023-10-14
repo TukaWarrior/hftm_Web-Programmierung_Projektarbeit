@@ -371,8 +371,7 @@ h3.mid {
   text-align: center;
   padding-left: 10em;
   padding-right: 10em;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 6vh;
 
   background-color: #313131;
 }
