@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="../css/hero.css" />
   <link rel="stylesheet" href="../css/ComicStyle.css" />
   <link rel="stylesheet" href="../css/footer.css" />
-  <title>Hero: Alpine Bat</title>
+  <title>Hero: Doomslayer</title>
   <link rel="icon" type="image/x-icon" href="../ressources/images/favicon.webp" />
 
   <style>
