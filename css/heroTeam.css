@@ -45,6 +45,7 @@ p {
     height: 500px;
     float: left;
     position: relative;
+    perspective: 500;
     -webkit-perspective: 500;
     padding-left: 1em;
     padding-right: 1em;

@@ -37,17 +37,16 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="portfolio-item graphic-design">
+            <div class="portfolio-item">
                 <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_keanu.webp);"></div>
                 <div class="portfolio-description">
                     <h4>Keanu</h4>
-                    <!-- <p>The good guy.</p> -->
                     <a class="link-button" href="hero_keanu.php">show details</a>
                 </div>
             </div>
 
             <!-- Card 3 -->
-            <div class="portfolio-item graphic-design">
+            <div class="portfolio-item">
                 <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_alpinebat.webp);"></div>
                 <div class="portfolio-description">
                     <h4>Alpine Bat</h4>
@@ -56,7 +55,7 @@
             </div>
 
             <!-- Card 4 -->
-            <div class="portfolio-item graphic-design">
+            <div class="portfolio-item">
                 <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_stormtrooper.webp);"></div>
                 <div class="portfolio-description">
                     <h4>FN-3420</h4>
@@ -65,7 +64,7 @@
             </div>
 
             <!-- Card 5 -->
-            <div class="portfolio-item graphic-design">
+            <div class="portfolio-item">
                 <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_batman.webp);"></div>
                 <div class="portfolio-description">
                     <h4>Batman</h4>
@@ -74,7 +73,7 @@
             </div>
 
             <!-- Card 6 -->
-            <div class="portfolio-item graphic-design">
+            <div class="portfolio-item">
                 <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_bean.webp);"></div>
                 <div class="portfolio-description">
                     <h4>Bean</h4>
@@ -83,7 +82,7 @@
             </div>
 
             <!-- Card 7 -->
-            <div class="portfolio-item graphic-design">
+            <div class="portfolio-item">
                 <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_laracroft.webp);"></div>
                 <div class="portfolio-description">
                     <h4>Lara Croft</h4>

@@ -26,12 +26,22 @@
 
     <div class="container">
         <div class="containerGrid">
+
             <div class="box box-1" style="--img: url(../ressources/images/avatar/andres.webp);"
-                data-text="Andres Soria"></div>
-            <div class="box box-2" style="--img: url(../ressources/images/avatar/luca.webp);"
-                data-text="Luca Bützberger"></div>
-            <div class="box box-3" style="--img: url(../ressources/images/avatar/nicola.webp);" data-text="Nicola Jöhr">
+                data-text="Andres Soria">
+                <a class="link-button" href="404.php"></a>
             </div>
+
+            <div class="box box-2" style="--img: url(../ressources/images/avatar/luca.webp);"
+                data-text="Luca Bützberger">
+                <a class="link-button" href="404.php"></a>
+            </div>
+
+            <div class="box box-3" style="--img: url(../ressources/images/avatar/nicola.webp);"
+                data-text="Nicola Jöhr">
+                <a class="link-button" href="404.php"></a>
+            </div>
+
         </div>
     </div>
 
