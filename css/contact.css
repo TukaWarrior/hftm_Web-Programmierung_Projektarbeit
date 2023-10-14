@@ -8,7 +8,7 @@
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-form{
+form {
   width: 1000px;
   height: auto;
   background-color: #313131;
@@ -69,10 +69,12 @@ input[type=tel]:hover {}
 
 /* Input Textarea */
 textarea {
-  width: 100%;
-  height: 100%;
-  /* padding-right: 100px; */
-  /* text-align: left; */
+  width: 97%; /* CAUTION */
+  height: 75%; /* CAUTION */
+  border: 10px solid; /* CAUTION */
+  border-color: transparent; /* CAUTION */
+  outline: none;
+  resize: none;
   font-family: 'Comic Sans', cursive;
 }
 
@@ -239,7 +241,7 @@ input[type=submit]:hover {
 }
 
 .paneltext_top {
-  /* position: static; */
+  position: static;
   width: 100%;
   text-align: center;
   margin-top: -2px;
@@ -318,6 +320,7 @@ h3.mid {
   width: 100%;
   height: var(--bannerHeight);
   text-align: center;
+  font-size: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -348,5 +351,5 @@ h3.mid {
   padding-right: 10em;
   padding-top: 6vh;
 
-  background-color: #313131;
+  background-color: transparent;
 }
