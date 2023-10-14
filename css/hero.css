@@ -25,14 +25,19 @@
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Textboxes */
 /* @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Young+Serif&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); */
 
 
 .textbox {
 	background-color: var(--textbox-color);
 	border: solid 3px #000000;
-	font-family: 'Comic Sans', cursive;
+	/* font-family: 'Comic Sans', cursive; */
 	width: 400px;
+}
+
+.heading {
+	/* font-family: 'Indie Flower', cursive; */
+	text-align: center;
 }
 
 

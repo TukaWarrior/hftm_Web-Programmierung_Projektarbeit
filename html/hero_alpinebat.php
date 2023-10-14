@@ -2,14 +2,12 @@
 <html lang="en-us">
 
 <head>
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../css/styles.css" />
   <link rel="stylesheet" href="../css/hero.css" />
   <link rel="stylesheet" href="../css/ComicStyle.css" />
   <link rel="stylesheet" href="../css/footer.css" />
-
   <title>Hero: Alpine Bat</title>
   <link rel="icon" type="image/x-icon" href="../ressources/images/favicon.webp" />
 
@@ -35,7 +33,6 @@
   <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
   <!-- HTML -->
-
   <div class="blankContainer" style="--blankColor: transparent"></div>
   <div class="blankPartition" style="--bgcolor: #2E8FE5">
     <h2 class="mid">Alpine Bat</h2>
@@ -47,7 +44,7 @@
       <div class="polaroid-animation">
         <div class="polaroid-frame">
           <img class="polaroid-image" src="../ressources/images/heroes/hero_alpinebat.webp" alt="">
-          <h1>He loves cheese!</h1>
+          <h1 class="heading">He loves cheese</h1>
         </div>
       </div>
     </div>
@@ -57,7 +54,7 @@
         <h2>Superpowers</h2>
         <p>Supersonic Flying <br>
           Shooting Fondue out of fingers<br>
-          Sonic Blast Yodeling<br>
+          Sonic Blast Yodeling
         </p>
       </div>
     </div>
@@ -68,6 +65,7 @@
         <p>
           <?php echo $originstory; ?>
         </p>
+
       </div>
     </div>
 
