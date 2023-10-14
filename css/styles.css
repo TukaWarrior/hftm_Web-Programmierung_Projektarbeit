@@ -63,7 +63,7 @@ body {
     color: white;
     border-color: #000000;
     background-image: radial-gradient(rgba(173, 250, 192, 0.541) 10%, transparent 0%);
-    background-color: #2f9bf3; /* #6ec784 (light green) */
+    background-color: #2f9bf3;
     background-position: 0 0, 50px 50px;
     background-size: 10px 10px;
 }
