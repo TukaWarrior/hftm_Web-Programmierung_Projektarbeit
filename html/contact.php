@@ -160,8 +160,8 @@
         </article>
     </form>
 
-    <!-- Bottom Footer Bar -->
-    <?php include 'element_footer.php'; ?>
+  <!-- Bottom Footer Bar -->
+  <?php include 'element_footer.php'; ?>
 </body>
 
 </html>
