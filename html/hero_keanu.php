@@ -49,8 +49,9 @@
 
       <div class="content">
         <div class="textbox" style="--textbox-color: #ffffff">
-          <h2 class="hero_heading">Superpowers</h2>
-          <p>Some funny powers
+          <h2 class="hero_heading">The Samurai of Night City</h2>
+          <p>
+            <?php echo $description; ?>
           </p>
         </div>
       </div>

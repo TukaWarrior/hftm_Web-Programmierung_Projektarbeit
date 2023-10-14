@@ -33,7 +33,7 @@
 
   <div class="main">
     <div class="blankContainer" style="--blankColor: transparent"></div>
-    <div class="blankPartition" style="--bgcolor: #2E8FE5">
+    <div class="blankPartition" style="--bgcolor: #6bafff">
       <h2 class="mid">Alpine Bat</h2>
     </div>
 
@@ -49,10 +49,9 @@
 
       <div class="content">
         <div class="textbox" style="--textbox-color: #ffffff">
-          <h2 class="hero_heading">Superpowers</h2>
-          <p>Supersonic Flying <br>
-            Shooting Fondue out of fingers<br>
-            Sonic Blast Yodeling
+          <h2 class="hero_heading">Protector of the Alps!</h2>
+          <p>
+            <?php echo $description; ?>
           </p>
         </div>
       </div>

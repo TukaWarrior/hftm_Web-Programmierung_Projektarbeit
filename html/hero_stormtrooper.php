@@ -33,8 +33,8 @@
 
   <div class="main">
     <div class="blankContainer" style="--blankColor: transparent"></div>
-    <div class="blankPartition" style="--bgcolor: #2E8FE5">
-      <h2 class="mid">Stormtrooper</h2>
+    <div class="blankPartition" style="--bgcolor: #12244a">
+      <h2 class="mid">FN-1337</h2>
     </div>
 
     <div class="row">
@@ -42,17 +42,16 @@
         <div class="polaroid-animation">
           <div class="polaroid-frame">
             <img class="polaroid-image" src="../ressources/images/heroes/hero_stormtrooper.webp" alt="">
-            <h1 class="hero_heading">He loves cheese</h1>
+            <h1 class="hero_heading">Never hits a target!</h1>
           </div>
         </div>
       </div>
 
       <div class="content">
         <div class="textbox" style="--textbox-color: #ffffff">
-          <h2 class="hero_heading">Superpowers</h2>
-          <p>Supersonic Flying <br>
-            Shooting Fondue out of fingers<br>
-            Sonic Blast Yodeling
+          <h2 class="hero_heading">From a galaxy far far away</h2>
+          <p>
+            <?php echo $description; ?>
           </p>
         </div>
       </div>
