@@ -72,7 +72,6 @@
         </ul>
     </div>
 
-
     <div class="blankPartition" style="--bgcolor: #ff99ff">
         <h2 class="mid">emotional support</h2>
     </div>
