@@ -83,6 +83,7 @@
         <h1 class="mid">Call a superhero!</h1>
     </div>
 
+    <div class="main">
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
 
         <article class="comic">
@@ -159,6 +160,7 @@
 
         </article>
     </form>
+    </div>
 
   <!-- Bottom Footer Bar -->
   <?php include 'element_footer.php'; ?>

@@ -30,7 +30,6 @@
   <!-- Get Origin Story -->
   <?php $originstory = file_get_contents('../ressources/documents/originstory_alpinebat.txt'); ?>
 
-  <div class="main">
   <div class="blankContainer" style="--blankColor: transparent"></div>
   <div class="blankPartition" style="--bgcolor: #614278">
     <h2 class="mid">Batman</h2>
@@ -65,10 +64,6 @@
     </div>
 
   </div>
-  </div>
-
-  
-
   <!-- Bottom Footer Bar -->
   <?php include 'element_footer.php'; ?>
 
