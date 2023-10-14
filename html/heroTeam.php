@@ -26,14 +26,13 @@
     </div>
     <!-- Team Cards -->
     <div class="portfolio">
-
         <!-- Card 1 -->
-        <div class="portfolio-item graphic-design">
+        <div class="portfolio-item">
             <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_doomslayer.webp);"></div>
             <div class="portfolio-description">
-            <a class="link-button h4" href="hero_doomslayer.php">Doom Slayer</a>
-                <!-- <h4>Doom Guy</h4> -->
-                <p>Best for fighting monsters straight out of hell</p>
+                <h4>Doom Guy</h4>
+                <!-- <p>Best for fighting monsters straight out of hell</p> -->
+                <a class="link-button" href="hero_doomslayer.php">view hero</a>
             </div>
         </div>
 
@@ -41,9 +40,9 @@
         <div class="portfolio-item graphic-design">
             <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_keanu.webp);"></div>
             <div class="portfolio-description">
-            <a class="link-button h4" href="hero_keanu.php">Keanu</a>
-                <!-- <h4>Keanu</h4> -->
-                <p>The good guy.</p>
+                <h4>Keanu</h4>
+                <!-- <p>The good guy.</p> -->
+                <a class="link-button" href="hero_keanu.php">view hero</a>
             </div>
         </div>
 
@@ -51,9 +50,9 @@
         <div class="portfolio-item graphic-design">
             <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_alpinebat.webp);"></div>
             <div class="portfolio-description">
-            <a class="link-button h4" href="hero_alpinebat.php">Alpine Bat</a>
-                <!-- <h4>Alpine Bat</h4> -->
-                <p>Switzerlands most mysterious hero. And the only one...</p>
+                <h4>Alpine Bat</h4>
+                <!-- <p>Switzerlands most mysterious hero. And the only one...</p> -->
+                <a class="link-button" href="hero_alpinebat.php">view hero</a>
             </div>
         </div>
 
@@ -61,9 +60,9 @@
         <div class="portfolio-item graphic-design">
             <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_stormtrooper.webp);"></div>
             <div class="portfolio-description">
-            <a class="link-button h4" href="hero_stormtroopert.php">FN-3420</a>
-                <!-- <h4>FN-3420</h4> -->
-                <p>Never hits a target.</p>
+                <h4>FN-3420</h4>
+                <!-- <p>Never hits a target.</p> -->
+                <a class="link-button" href="hero_stormtrooper.php">view hero</a>
             </div>
         </div>
 
@@ -71,9 +70,9 @@
         <div class="portfolio-item graphic-design">
             <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_batman.webp);"></div>
             <div class="portfolio-description">
-            <a class="link-button h4" href="hero_batman.php">Batman</a>
-                <!-- <h4>Batman</h4> -->
-                <p>Looks dangerous. And he is.</p>
+                <h4>Batman</h4>
+                <!-- <p>Looks dangerous. And he is.</p> -->
+                <a class="link-button h4" href="hero_batman.php">view hero</a>
             </div>
         </div>
 
@@ -81,9 +80,9 @@
         <div class="portfolio-item graphic-design">
             <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_bean.webp);"></div>
             <div class="portfolio-description">
-            <a class="link-button h4" href="hero_bean.php">Bean</a>
-                <!-- <h4>Bean</h4> -->
-                <p>Finds everything or everyone you're looking for.</p>
+                <h4>Bean</h4>
+                <!-- <p>Finds everything or everyone you're looking for.</p> -->
+                <a class="link-button h4" href="hero_bean.php">view hero</a>
             </div>
         </div>
 
@@ -91,9 +90,9 @@
         <div class="portfolio-item graphic-design">
             <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_laracroft.webp);"></div>
             <div class="portfolio-description">
-            <a class="link-button h4" href="hero_laracroft.php">Lara Croft</a>
-                <!-- <h4>Lara Croft</h4> -->
-                <p>Find yourself in the jungle? She knows what to do.</p>
+                <h4>Lara Croft</h4>
+                <!-- <p>Find yourself in the jungle? She knows what to do.</p> -->
+                <a class="link-button h4" href="hero_laracroft.php">view hero</a>
             </div>
         </div>
 
@@ -101,9 +100,9 @@
         <div class="portfolio-item graphic-design">
             <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_masterchief.webp);"></div>
             <div class="portfolio-description">
-            <a class="link-button h4" href="hero_masterchief.php">Masterchief</a>
-                <!-- <h4>Masterchief</h4> -->
-                <p>Get rid of the bugs with Masterchief</p>
+                <h4>Masterchief</h4>
+                <!-- <p>Get rid of the bugs with Masterchief</p> -->
+                <a class="link-button h4" href="hero_masterchief.php">view hero</a>
             </div>
         </div>
     </div>

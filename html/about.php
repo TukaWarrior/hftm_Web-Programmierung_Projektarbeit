@@ -72,6 +72,18 @@
         </ul>
     </div>
 
+
+    <div class="blankPartition" style="--bgcolor: #ff99ff">
+        <h2 class="mid">emotional support</h2>
+    </div>
+
+    <div class="container">
+        <div class="containerGrid">
+            <div class="box box-1" style="--img: url(../ressources/images/avatar/philipp.webp);"
+                data-text="Philipp Kupper"></div>
+        </div>
+    </div>
+
     <!-- Bottom Footer Bar -->
     <?php include 'element_footer.php'; ?>
 
