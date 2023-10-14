@@ -11,7 +11,7 @@
     background-color: #1a1a1a;
     border-top: 6px solid;
     border-color: black;
-    padding: 10px 0;
+    padding: 0px 0px 20px 0px;
 }
 
 .containerFooter {
@@ -28,16 +28,16 @@
     list-style: none;
 }
 
-.footer-col {
-    margin-right: 35px;
-}
+/* .footer-col {
+    margin-right: 100px;
+} */
 
 .footer-col h4 {
     font-family: "Bangers";
     font-size: 18px;
     color: #ffffff;
     text-transform: capitalize;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-weight: 500;
     position: relative;
     width: 200px;
