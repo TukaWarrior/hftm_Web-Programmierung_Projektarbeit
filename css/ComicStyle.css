@@ -351,49 +351,49 @@ p {
 }
 
 .panel:nth-child(1) {
-  background-image: url("../ressources/images/index/flash_01.jpg");
+  background-image: url("../ressources/images/index/flash_01.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .panel:nth-child(2) {
-  background-image: url("../ressources/images/index/flash_02.png");
+  background-image: url("../ressources/images/index/flash_02.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .panel:nth-child(3) {
-  background-image: url("../ressources/images/index/flash_03.png");
+  background-image: url("../ressources/images/index/flash_03.webp");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
 }
 
 .panel:nth-child(4) {
-  background-image: url("../ressources/images/index/flash_04.png");
+  background-image: url("../ressources/images/index/flash_04.webp");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
 }
 
 .panel:nth-child(5) {
-  background-image: url("../ressources/images/index/flash_05.png");
+  background-image: url("../ressources/images/index/flash_05.webp");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
 }
 
 .panel:nth-child(6) {
-  background-image: url("../ressources/images/index/flash_06.png");
+  background-image: url("../ressources/images/index/flash_06.webp");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
 }
 
 .panel:nth-child(7) {
-  background-image: url("../ressources/images/index/flash_07.png");
+  background-image: url("../ressources/images/index/flash_07.webp");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
@@ -424,21 +424,21 @@ p {
 }
 
 .panelV2:nth-child(1) {
-  background-image: url("../ressources/images/index/headquarter.jpg");
+  background-image: url("../ressources/images/index/headquarter.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .panelV2:nth-child(2) {
-  background-image: url("../ressources/images/index/hero_team.png");
+  background-image: url("../ressources/images/index/hero_team.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .panelV2:nth-child(3) {
-  background-image: url("../ressources/images/index/browseOurPage.png");
+  background-image: url("../ressources/images/index/browseOurPage.webp");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
