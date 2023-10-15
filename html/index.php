@@ -71,7 +71,7 @@
   <article class="comic_index01">
     <div class="panel panel_ad01">
       <p class="speech speechImageHeadquarter">you need help? we offer help!</br>
-        we are a company that hires a superhero team for any purpose.</br>
+        we at Helping-Guard Agency hire a superhero team for any purpose.</br>
         the story above is only one of many possible cases where someone needs help!</p>
     </div>
     <div class="panel panel_ad02">

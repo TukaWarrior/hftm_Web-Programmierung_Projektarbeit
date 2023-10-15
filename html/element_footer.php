@@ -15,7 +15,7 @@
     <footer class="footer">
 
         <div class="footer-cr-col">
-            <h4>©2023 Rent-A-Hero corporation</h4>
+            <h4>©2023 Helping-Guard Agency corporation</h4>
         </div>
 
         <div class="containerFooter">

@@ -20,7 +20,7 @@
     <?php include 'element_topnav.php'; ?>
 
     <div class="blankContainer" style="--blankColor: transparent"></div>
-    
+
     <!-- Content "who we are" -->
     <div class="blankPartition" style="--bgcolor: rgb(109, 180, 180)">
         <h2 class="mid">who we are</h2>
@@ -36,8 +36,7 @@
                 data-text="Luca Bützberger">
                 <a class="link-button" href="about_luca.php"></a>
             </div>
-            <div class="box box-3" style="--img: url(../ressources/images/avatar/nicola.webp);"
-                data-text="Nicola Jöhr">
+            <div class="box box-3" style="--img: url(../ressources/images/avatar/nicola.webp);" data-text="Nicola Jöhr">
                 <a class="link-button" href="about_nicola.php"></a>
             </div>
         </div>
@@ -50,18 +49,19 @@
     <!-- Content description -->
     <div class="containerPlainText">
         <p class="descriptionBig">
-            "Rent-A-Hero" - Where your wildest dreams and most peculiar predicaments meet the world's quirkiest solution
+            Helping-Guard Agency - Where your wildest dreams and most peculiar predicaments meet the world's quirkiest
+            solution
             provider!
         </p>
         <p class="description">
-            At "Rent-A-Hero," we believe in making everyday life an extraordinary adventure. Our superhero team is ready
+            At the Helping-Guard Agency we believe in making everyday life an extraordinary adventure. Our superhero team is ready
             for any mission, no matter how mundane or eccentric. Just don't ask them to fix the Wi-Fi - even heroes have
             their limits!
         </p>
         <ul>
-            <li>Tired of doing your laundry? "Rent-A-Hero" to the rescue! We send in caped crusaders to fold your socks
+            <li>Tired of doing your laundry? Helping-Guard Agency to the rescue! We send in caped crusaders to fold your socks
                 with unparalleled precision.</li></br>
-            <li>Got a date that could use some spicing up? Our "Rent-A-Hero" dating package includes a sidekick who'll
+            <li>Got a date that could use some spicing up? Our Helping-Guard dating package includes a sidekick who'll
                 narrate your evening with dramatic flair, turning mundane conversations into epic sagas of love.</li>
             </br>
             <li>Need someone to "accidentally" leave your family gathering? We've got the "Crisis-in-Cousinville"
