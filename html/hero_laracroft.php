@@ -43,7 +43,7 @@
         <div class="polaroid-animation">
           <div class="polaroid-frame">
             <img class="polaroid-image" src="../ressources/images/heroes/hero_laracroft.webp" alt="">
-            <h2 class="polaroid_text">"Two polygons made her famous"</h2>
+            <p class="polaroid_text">"Two polygons made her famous"</p>
           </div>
         </div>
       </div>

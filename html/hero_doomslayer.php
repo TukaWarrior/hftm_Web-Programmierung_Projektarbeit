@@ -43,7 +43,7 @@
         <div class="polaroid-animation">
           <div class="polaroid-frame">
             <img class="polaroid-image" src="../ressources/images/heroes/hero_doomslayer.webp" alt="">
-            <h2 class="polaroid_text">"Rip and tear until it's done!"</h2>
+            <p class="polaroid_text">"Rip and tear until it's done!"</p>
           </div>
         </div>
       </div>

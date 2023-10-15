@@ -43,7 +43,7 @@
         <div class="polaroid-animation">
           <div class="polaroid-frame">
             <img class="polaroid-image" src="../ressources/images/heroes/hero_keanu.webp" alt="">
-            <h2 class="polaroid_text">"He likes to fall down stairs"</h2>
+            <p class="polaroid_text">"He likes to fall down stairs"</p>
           </div>
         </div>
       </div>
