@@ -29,7 +29,7 @@
                 <div class="footer-col">
                     <h4>get help</h4>
                     <ul class="ulFooter">
-                        <li><a href="FAQ.php">FAQ</a></li>
+                        <li><a href="faq.php">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
