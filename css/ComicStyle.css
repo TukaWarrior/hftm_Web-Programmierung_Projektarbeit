@@ -234,6 +234,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   padding: 10vmin;
+  justify-content: center;
   font-family: 'Comic Sans', cursive;
   background-position: center;
   background-size: cover;
@@ -494,7 +495,7 @@ a {
 
 .panel_ad03 {
   height: 500px;
-  width: 450px;
+  width: 400px;
   background-image: url("../ressources/images/index/browseOurPage.webp");
   background-position: bottom;
 }

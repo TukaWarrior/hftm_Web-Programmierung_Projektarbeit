@@ -69,7 +69,7 @@
     <h3 class="mid">ehhhh ok </br> but </br> whats the point?</h3>
   </div>
   <!-- Reveal -->
-  <article class="comic">
+  <article class="comic_index01">
     <div class="panel panel_ad01">
       <p class="speech speechImageHeadquarter">you need help? we offer help!</br>
         we are a company that hires a superhero team for any purpose.</br>
