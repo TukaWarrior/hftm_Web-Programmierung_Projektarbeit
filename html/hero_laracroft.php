@@ -4,12 +4,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hero: Lara Croft</title>
+  <link rel="icon" type="image/x-icon" href="../ressources/images/favicon.webp" />
   <link rel="stylesheet" href="../css/styles.css" />
   <link rel="stylesheet" href="../css/hero.css" />
   <link rel="stylesheet" href="../css/ComicStyle.css" />
   <link rel="stylesheet" href="../css/footer.css" />
-  <title>Hero: Lara Croft</title>
-  <link rel="icon" type="image/x-icon" href="../ressources/images/favicon.webp" />
+
 
   <style>
     body {

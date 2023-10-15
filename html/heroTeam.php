@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meet the Team</title>
+    <link rel="icon" type="image/x-icon" href="../ressources/images/favicon.webp" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap" />
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" />
@@ -11,8 +13,7 @@
     <link rel="stylesheet" href="../css/ComicStyle.css" />
     <link rel="stylesheet" href="../css/heroTeam.css" />
     <link rel="stylesheet" href="../css/footer.css" />
-    <title>Meet the Team</title>
-    <link rel="icon" type="image/x-icon" href="../ressources/images/favicon.webp" />
+
 </head>
 
 <body>
