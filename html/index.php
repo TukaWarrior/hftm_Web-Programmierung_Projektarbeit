@@ -38,8 +38,7 @@
   <!-- Story -->
   <article class="comic_index01">
     <div class="panel panel_flash01">
-      <p class="paneltext paneltext_topleft" style="--bgColor: #e793bb">oh look, free beer!</p>
-      <!-- bottomright -->
+      <p class="paneltext paneltext_bottomright" style="--bgColor: #e793bb">oh look, free beer!</p>
     </div>
     <div class="panel panel_flash02">
       <p class="paneltext paneltext_topleft" style="--bgColor: #75ff9e">Oh no!...</p>
