@@ -25,7 +25,7 @@
         <h2 class="mid">UPS!</h2>
     </div>
     <div class="container">
-        <img src="../ressources/images/404/404_PageNotFound.png" />
+        <img src="../ressources/images/404/404_PageNotFound.webp" />
     </div>
 
     <!-- Bottom Footer Bar -->
