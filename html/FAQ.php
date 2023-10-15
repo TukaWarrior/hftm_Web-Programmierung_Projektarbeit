@@ -96,7 +96,7 @@
             <input id="q9" type="checkbox" class="panel">
             <div class="plus">➪</div>
             <label for="q9" class="panel-title">Are your superheroes available for photo ops and autographs?</label>
-            <div class="panel-content">Yes, right after the Hero-Team has completed their mission, you can take selfies and have autographs.</div>
+            <div class="panel-content">Yes, right after the hero team has completed their mission, you can take selfies and have autographs.</div>
         </div>
 
     </div>
