@@ -78,9 +78,10 @@
 
     <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <!-- HTML Forms -->
-    <div class="container"></div>
-    <div class="banner bg-image_1" style="--bannerHeight: 100px; --bgColor: #805f97">
-        <h1 class="mid">Call the team!</h1>
+    <div class="main">
+    <div class="blankContainer" style="--blankColor: transparent"></div>
+    <div class="blankPartition" style="--bgcolor: #805f97">
+      <h2 class="mid">Call the team!</h2>
     </div>
 
     <form class="comic_contact01" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">

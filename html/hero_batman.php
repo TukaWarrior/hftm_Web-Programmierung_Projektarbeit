@@ -44,7 +44,7 @@
         <div class="polaroid-animation">
           <div class="polaroid-frame">
             <img class="polaroid-image" src="../ressources/images/heroes/hero_batman.webp" alt="">
-            <h1 class="hero_heading">funny quote</h1>
+            <h2 class="polaroid_text">"Yes, he can actually smile   ...I promise"</h2>
           </div>
         </div>
       </div>

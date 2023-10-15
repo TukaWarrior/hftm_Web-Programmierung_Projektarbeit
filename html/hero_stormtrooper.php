@@ -43,7 +43,7 @@
         <div class="polaroid-animation">
           <div class="polaroid-frame">
             <img class="polaroid-image" src="../ressources/images/heroes/hero_stormtrooper.webp" alt="">
-            <h1 class="hero_heading">Never hits a target!</h1>
+            <h2 class="polaroid_text">"He almost hit the target... once"</h2>
           </div>
         </div>
       </div>

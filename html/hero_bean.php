@@ -43,7 +43,7 @@
         <div class="polaroid-animation">
           <div class="polaroid-frame">
             <img class="polaroid-image" src="../ressources/images/heroes/hero_bean.webp" alt="">
-            <h1 class="hero_heading">He loves cheese</h1>
+            <h2 class="polaroid_text">“My bottom will be king of England before you are.”</h2>
           </div>
         </div>
       </div>

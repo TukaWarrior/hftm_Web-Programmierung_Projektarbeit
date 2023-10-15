@@ -1,3 +1,5 @@
+@import url(//fonts.googleapis.com/css?family=Patrick+Hand+SC|Bangers|Happy+Monkey);
+
 :root {
 	--textbox-color: #ffffff;
 }
@@ -25,19 +27,25 @@
   
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Textboxes */
-/* @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
 
 .textbox {
 	background-color: var(--textbox-color);
 	border: solid 3px #000000;
 	font-family: 'Comic Sans', cursive;
 	width: 400px;
+	padding: 15px;
 }
 
 .hero_heading {
-	font-family: 'Caveat', cursive;
+	font-family: "Bangers";
+	font-size:40px;
+	text-align: center;
+}
+
+.polaroid_text {
+	font-family: 'Comic Sans', cursive;
+	font-size: 20px;
 	text-align: center;
 }
 
@@ -49,7 +57,7 @@
 	width: 500px;
 	transition: .25s ease;
 	&:hover {
-		transform: rotate(3deg);
+		transform: rotate(-3deg);
 	}
 }
 

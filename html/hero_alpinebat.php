@@ -43,7 +43,7 @@
         <div class="polaroid-animation">
           <div class="polaroid-frame">
             <img class="polaroid-image" src="../ressources/images/heroes/hero_alpinebat.webp" alt="">
-            <h1 class="hero_heading">He loves cheese</h1>
+            <h2 class="polaroid_text">"That happens when you eat too much cheese!"</h2>
           </div>
         </div>
       </div>
