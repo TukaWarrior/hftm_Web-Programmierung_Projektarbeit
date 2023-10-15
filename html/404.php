@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oh hello there</title>
+    <link rel="icon" type="image/x-icon" href="../ressources/images/favicon.webp" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/ComicStyle.css">
-    <link rel="stylesheet" href="../css/404.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <title>Oh hello there</title>
-    <link rel="icon" type="image/x-icon" href="../ressources/images/favicon.webp">
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/ComicStyle.css" />
+    <link rel="stylesheet" href="../css/404.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+
 </head>
 
 <body>
@@ -25,7 +25,7 @@
         <h2 class="mid">UPS!</h2>
     </div>
     <div class="container">
-        <img src="../ressources/images/404/404_PageNotFound.png" />
+        <img src="../ressources/images/404/404_PageNotFound.webp" />
     </div>
 
     <!-- Bottom Footer Bar -->
