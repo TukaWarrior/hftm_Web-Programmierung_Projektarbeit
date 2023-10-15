@@ -19,7 +19,5 @@ Sämtliche Webpages beinhalten PHP Elemente. Deshalb muss zum betrachten der Web
 1. Kontaktformulare Speicherort:</br>
 Kontaktformulare welche über die contact.php generiert werden, werden unter \data\contactforms gespeichert.</br>
 
-
-
 #### Links:
-- [Github Repository der Website](https://github.com/TukaWarrior/hftm_Web-Programmierung_Projektarbeit)
+- [GitHub Repository der Website](https://github.com/TukaWarrior/hftm_Web-Programmierung_Projektarbeit)
