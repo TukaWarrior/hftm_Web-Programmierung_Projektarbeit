@@ -11,13 +11,12 @@
   <link rel="stylesheet" href="../css/comicStyle.css" />
   <link rel="stylesheet" href="../css/footer.css" />
 
-
   <style>
     body {
       background-image: url('../ressources/images/backgrounds/bg_alpinebat1.webp');
     }
   </style>
-
+  
 </head>
 
 <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -66,9 +65,9 @@
 
         </div>
       </div>
-
     </div>
   </div>
+
   <!-- Bottom Footer Bar -->
   <?php include 'element_footer.php'; ?>
 
