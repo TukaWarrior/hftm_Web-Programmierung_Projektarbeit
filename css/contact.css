@@ -8,22 +8,13 @@
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 form {
   width: 1000px;
   height: auto;
-  background-color: #313131;
-  border: solid #000000;
-  position: relative;
-  display: block;
   margin: auto;
   margin-top: 5vh;
-}
-
-.column {
-  float: left;
-  background-color: #ccc;
-  width: 50%;
-  padding: 20px;
+  margin-bottom: 5vh;
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -69,10 +60,15 @@ input[type=tel]:hover {}
 
 /* Input Textarea */
 textarea {
-  width: 97%; /* CAUTION */
-  height: 75%; /* CAUTION */
-  border: 10px solid; /* CAUTION */
-  border-color: transparent; /* CAUTION */
+  position: absolute;
+  margin-top: 4%;
+  margin-left: 0%;
+
+  width: 99%;
+  height: 78%;
+  /* border: 10px solid red; */
+  border-color: transparent;
+
   outline: none;
   resize: none;
   font-family: 'Comic Sans', cursive;
@@ -126,170 +122,17 @@ input[type=submit]:hover {
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* Comic (Panel Parent-Element)*/
-.comic {
-  display: flex;
-  flex-wrap: wrap;
-  font-family: 'Comic Sans', cursive;
-  padding: 1vmin;
-}
-
-/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Default Panel */
 .panel {
-  background-color: #fff;
-  border: solid 2px #000;
-  box-shadow: 0 6px 6px -6px #000;
-  display: inline-block;
-  flex: 1 1;
-  height: 200px;
-  margin: 1vmin;
-  overflow: hidden;
-  position: relative;
-}
-
-/* Panel Name */
-.panel_name {
-  height: 60px;
-  min-width: 600px;
-  margin: 1vmin;
-  flex-basis: 400px;
-}
-
-/* Panel Email */
-.panel_email {
-  height: 60px;
-  min-width: 300px;
-  margin: 1vmin;
-  flex-basis: 400px;
-}
-
-/* Panel Phone */
-.panel_phone {
-  height: 60px;
-  min-width: 400px;
-  margin: 1vmin;
-  flex-basis: 400px;
-}
-
-/* Panel Adress */
-.panel_adress {
-  height: 60px;
-  min-width: 600px;
-  margin: 1vmin;
-  flex-basis: 400px;
-}
-
-/* Panel Message */
-.panel_message {
-  height: 200px;
-  min-width: 600px;
-  margin: 1vmin;
-  flex-basis: 400px;
-}
-
-/* Panel Group Radio-Buttons */
-.panel_radio {
-  height: 180px;
-  min-width: 600px;
-  display: flex;
-  justify-content: space-between;
-  flex-basis: 400px;
-  padding-top: 3vmin;
-}
-
-/* Panel Single Radio-Button */
-.panel_radio-option {
-  position: relative;
-  height: 150px;
-  flex: 1;
+  /* background-color: #fff; */
+  /* border: solid 2px #000; */
+  /* box-shadow: 0 6px 6px -6px #000; */
+  /* display: inline-block; */
+  /* flex: 1 1; */
+  /* height: 200px; */
   /* margin: 1vmin; */
-}
-
-/* Panel Radio-Button Option 1 */
-.panel_radio-urgent1 {
-  background-image: url('../ressources/images/forms_radio-urgent1.webp');
-  background-size: cover;
-}
-
-/* Panel Radio-Button Option 2 */
-.panel_radio-urgent2 {
-  background-image: url('../ressources/images/forms_radio-urgent2.webp');
-  background-size: cover;
-}
-
-/* Panel Radio-Button Option 3 */
-.panel_radio-urgent3 {
-  background-image: url('../ressources/images/forms_radio-urgent3.webp');
-  background-size: cover;
-}
-
-/* Panel Radio-Button Option 4 */
-.panel_radio-urgent4 {
-  background-image: url('../ressources/images/forms_radio-urgent4.webp');
-  background-size: cover;
-}
-
-/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* Panel Textbox */
-.paneltext {
-  background-color: #fff;
-  border: solid 2px #000;
-  position: absolute;
-  margin: 0;
-  padding: 3px 10px;
-  z-index: 1;
-}
-
-.paneltext_top {
-  position: static;
-  width: 100%;
-  text-align: center;
-  margin-top: -2px;
-  margin-left: -2px;
-  margin-right: -2px;
-}
-
-.paneltext_top-left {
-  left: -6px;
-  top: -2px;
-  transform: skew(-15deg);
-}
-
-.paneltext_top-right {
-  right: -6px;
-  top: -2px;
-  transform: skew(15deg);
-}
-
-.paneltext_bottom-left {
-  bottom: -2px;
-  left: -6px;
-  transform: skew(-15deg);
-}
-
-.paneltext_bottom-right {
-  bottom: -2px;
-  right: -6px;
-  transform: skew(-15deg);
-}
-
-/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* Colors */
-.color_YellowOrange {
-  background-image: radial-gradient(circle, yellow, orange);
-}
-
-.color_LightblueBlue {
-  background-image: radial-gradient(circle, lightblue, deepskyblue);
-}
-
-.color_GreenYellow {
-  background-image: radial-gradient(circle, palegreen, yellowgreen);
-}
-
-.color_CoralRed {
-  background-image: radial-gradient(circle, lightcoral, tomato);
+  /* overflow: hidden; */
+  /* position: relative; */
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */

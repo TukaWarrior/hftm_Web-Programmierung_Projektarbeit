@@ -36,29 +36,30 @@
     <h1 class="bigblank background-textV2" content="kapoooow">kapoooow</h1>
   </div>
   <!-- Story -->
-  <article class="comic">
-    <div class="panel">
-      <p class="text bottom-right">oh look, free beer!</p>
+  <article class="comic_index01">
+    <div class="panel panel_flash01">
+      <p class="paneltext paneltext_topleft" style="--bgColor: #e793bb">oh look, free beer!</p>
+      <!-- bottomright -->
     </div>
-    <div class="panel">
-      <p class="text top-left">Oh no!...</p>
+    <div class="panel panel_flash02">
+      <p class="paneltext paneltext_topleft" style="--bgColor: #75ff9e">Oh no!...</p>
     </div>
-    <div class="panel">
+    <div class="panel panel_flash03">
       <p class="speech speechImage3">doesnt look good...</p>
     </div>
-    <div class="panel">
+    <div class="panel panel_flash04">
       <p class="speech speechImage4">shit</p>
     </div>
-    <div class="panel">
-      <p class="text top-right">this is getting difficult</p>
+    <div class="panel panel_flash05">
+      <p class="paneltext paneltext_topright" style="--bgColor: #6db4b4">this is getting difficult</p>
     </div>
-    <div class="panel">
+    <div class="panel panel_flash06">
       <p class="speech speechImage6">i cant do daily tasks anymore!</p>
-      <p class="text bottom-right">realizing...</p>
+      <p class="paneltext paneltext_bottomright" style="--bgColor: #e793bb">realizing...</p>
     </div>
 
-    <div class="panel">
-      <p class="text top-left">later that day</p>
+    <div class="panel panel_flash07">
+      <p class="paneltext paneltext_topleft" style="--bgColor: #75ff9e">later that day</p>
       <p class="speech speechImage7">this is exactly what i was looking for</p>
     </div>
 
@@ -69,15 +70,15 @@
   </div>
   <!-- Reveal -->
   <article class="comic">
-    <div class="panelV2">
+    <div class="panel panel_ad01">
       <p class="speech speechImageHeadquarter">you need help? we offer help!</br>
         we are a company that hires a superhero team for any purpose.</br>
         the story above is only one of many possible cases where someone needs help!</p>
     </div>
-    <div class="panelV2">
-      <p class="text top-left">our team is ready! are you?</p>
+    <div class="panel panel_ad02">
+      <p class="paneltext paneltext_topleft" style="--bgColor: #75ff9e">our team is ready! are you?</p>
     </div>
-    <div class="panelV2">
+    <div class="panel panel_ad03">
       <div>
         <p class="speech speechImageBrowse">
           what are you waiting for? browse the page and meet our team!</br>

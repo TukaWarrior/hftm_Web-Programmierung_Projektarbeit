@@ -1,13 +1,4 @@
 @import url(//fonts.googleapis.com/css?family=Patrick+Hand+SC|Bangers|Happy+Monkey);
-
-/* h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: "Bangers", sans-serif;
-} */
-
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Font Styles */
 .big {
@@ -192,70 +183,88 @@ p {
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* Comic Dialog */
-.comic {
+/* Comics */
+.comic_index01 {
   display: flex;
   flex-wrap: wrap;
-  font-family: 'Comic Sans', cursive;
   padding: 10vmin;
-
-  background-repeat: no-repeat;
+  font-family: 'Comic Sans', cursive;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   background-image: url("../ressources/images/backgrounds/bg02.webp");
 }
 
+.comic_contact01 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1vmin; 
+  font-family: 'Comic Sans', cursive;
+  border: solid 3px #000000;
+  background-color: #313131;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Comic Panels */
 .panel {
-  background-color: #fff;
-  border: solid 3px #000;
-  box-shadow: 4px 6px 6px -2px #000;
-  display: inline-block;
+  background-color: #ffffff;
+  border: solid 3px #000000;
+  box-shadow: 4px 6px 6px -2px #000000;
   height: 300px;
   margin: 1vmin;
   overflow: hidden;
   position: relative;
+  background-size: cover;
 }
 
-.text {
-  background-color: #fff;
-  border: solid 2px #000;
+.paneltext {
+  position: absolute;
+  background-color: var(--bgColor);
+  border: solid 3px #000000;
   margin: 0;
   padding: 3px 10px;
+  z-index: 1;
 }
 
-.top-left {
-  left: -7px;
-  position: absolute;
+.paneltext_top {
+  width: 100%;
+  text-align: center;
   top: -2px;
-  transform: skew(-15deg);
-  background-color: rgb(117, 255, 158);
+  left: -2px;
 }
 
-.top-right {
-  right: -7px;
-  position: absolute;
+.paneltext_bottom {
+  width: 100%;
+  text-align: center;
+  bottom: -2px;
+  left: -2px;
+}
+
+.paneltext_topleft {
   top: -2px;
-  transform: skew(15deg);
-  background-color: rgb(109, 180, 180);
+  left: -7px;
+  transform: skew(-15deg);
 }
 
-.bottom-right {
+.paneltext_topright {
+  top: -2px;
+  right: -7px;
+  transform: skew(15deg);
+}
+
+.paneltext_bottomright {
   bottom: -2px;
-  position: absolute;
   right: -7px;
   transform: skew(-15deg);
-  background-color: rgb(231, 147, 187);
 }
 
-.bottom-left {
+.paneltext_bottomleft {
   bottom: -2px;
-  position: absolute;
   left: -7px;
   transform: skew(15deg);
-  background-color: rgb(255, 226, 61);
 }
-
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Speech Balloons */
 .speech {
   background-color: #fff;
   border: solid 2px #000;
@@ -292,42 +301,15 @@ p {
   width: 0;
 }
 
-.panel:nth-child(1) {
-  width: 440px;
+.Colors{
+  --ColorGreen: #75ff9e;
+  --ColorRed: #e793bb;
+  --ColorBlue: #6db4b4;
+  --ColorYellow: #ffe23d;
 }
 
-.panel:nth-child(2) {
-  width: 300px;
-}
-
-.panel:nth-child(3) {
-  width: 450px;
-}
-
-.panel:nth-child(4) {
-  width: 400px;
-}
-
-.panel:nth-child(5) {
-  width: 320px;
-}
-
-.panel:nth-child(6) {
-  width: 444px;
-}
-
-.panel:nth-child(7) {
-  width: 400px;
-}
-
-.panel:nth-child(8) {
-  width: 100px;
-}
-
-.panel:nth-child(9) {
-  width: 200px;
-}
-
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Speech Balloon */
 .speechImage3 {
   margin-left: 100px;
   margin-top: 5px;
@@ -358,99 +340,7 @@ p {
   margin-top: 10px;
 }
 
-.panel:nth-child(1) {
-  background-image: url("../ressources/images/index/flash_01.webp");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.panel:nth-child(2) {
-  background-image: url("../ressources/images/index/flash_02.webp");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.panel:nth-child(3) {
-  background-image: url("../ressources/images/index/flash_03.webp");
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: cover;
-}
-
-.panel:nth-child(4) {
-  background-image: url("../ressources/images/index/flash_04.webp");
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: cover;
-}
-
-.panel:nth-child(5) {
-  background-image: url("../ressources/images/index/flash_05.webp");
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: cover;
-}
-
-.panel:nth-child(6) {
-  background-image: url("../ressources/images/index/flash_06.webp");
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: cover;
-}
-
-.panel:nth-child(7) {
-  background-image: url("../ressources/images/index/flash_07.webp");
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: cover;
-}
-
-.panelV2 {
-  background-color: #fff;
-  border: solid 3px #000;
-  box-shadow: 4px 6px 6px -2px #000;
-  display: inline-block;
-  height: 300px;
-  margin: 1vmin;
-  overflow: hidden;
-  position: relative;
-}
-
-.panelV2:nth-child(1) {
-  width: 600px;
-}
-
-.panelV2:nth-child(2) {
-  width: 600px;
-}
-
-.panelV2:nth-child(3) {
-  height: 500px;
-  width: 450px;
-}
-
-.panelV2:nth-child(1) {
-  background-image: url("../ressources/images/index/headquarter.webp");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.panelV2:nth-child(2) {
-  background-image: url("../ressources/images/index/hero_team.webp");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.panelV2:nth-child(3) {
-  background-image: url("../ressources/images/index/browseOurPage.webp");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
-}
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 a {
   color: rgb(0, 0, 0);
@@ -511,3 +401,164 @@ a {
   overflow: hidden;
   position: relative;
 }
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Comic index.php Flash */
+.panel_flash01 {
+  width: 440px;
+  background-image: url("../ressources/images/index/flash_01.webp");
+  background-position: center;
+}
+
+.panel_flash02 {
+  width: 300px;
+  background-image: url("../ressources/images/index/flash_02.webp");
+  background-position: center;
+}
+
+.panel_flash03 {
+  width: 450px;
+  background-image: url("../ressources/images/index/flash_03.webp");
+  background-position: left;
+}
+
+.panel_flash04 {
+  width: 400px;
+  background-image: url("../ressources/images/index/flash_04.webp");
+  background-position: left;
+}
+
+.panel_flash05 {
+  width: 320px;
+  background-image: url("../ressources/images/index/flash_05.webp");
+  background-position: left;
+}
+
+.panel_flash06 {
+  width: 444px;
+  background-image: url("../ressources/images/index/flash_06.webp");
+  background-position: left;
+}
+
+.panel_flash07{
+  width: 400px;
+  background-image: url("../ressources/images/index/flash_07.webp");
+  background-position: left;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Comic index.php Ad */
+.panel_ad01 {
+  width: 600px;
+  background-image: url("../ressources/images/index/headquarter.webp");
+  background-position: center;
+}
+
+.panel_ad02 {
+  width: 600px;
+  background-image: url("../ressources/images/index/hero_team.webp");
+  background-position: center;
+}
+
+.panel_ad03 {
+  height: 500px;
+  width: 450px;
+  background-image: url("../ressources/images/index/browseOurPage.webp");
+  background-position: bottom;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Comic contact.php Radio Buttons */
+.panel_name {
+  height: 60px;
+  margin: 1vmin;
+  flex: 1;
+  flex-basis: 900px;
+}
+
+.panel_email {
+  height: 60px;
+  margin: 1vmin;
+  flex: 1;
+  flex-basis: 400px;
+}
+
+.panel_phone {
+  height: 60px;
+  margin: 1vmin;
+  flex: 1;
+  flex-basis: 250px;
+}
+
+.panel_adress {
+  height: 60px;
+  margin: 1vmin;
+  flex: 1;
+  flex-basis: 900px;
+}
+
+.panel_message {
+  height: 200px;
+  margin: 1vmin;
+  flex: 1;
+  flex-basis: 900px;
+}
+
+.panel_radio {
+  height: 180px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  flex-basis: 900px;
+  padding-top: 3vmin;
+}
+
+.panel_radio-option {
+  position: relative;
+  height: 150px;
+  flex: 1;
+  /* margin: 1vmin; */
+}
+
+/* Panel Radio-Button Option 1 */
+.panel_radio-urgent1 {
+  background-image: url('../ressources/images/forms_radio-urgent1.webp');
+  background-size: cover;
+}
+
+/* Panel Radio-Button Option 2 */
+.panel_radio-urgent2 {
+  background-image: url('../ressources/images/forms_radio-urgent2.webp');
+  background-size: cover;
+}
+
+/* Panel Radio-Button Option 3 */
+.panel_radio-urgent3 {
+  background-image: url('../ressources/images/forms_radio-urgent3.webp');
+  background-size: cover;
+}
+
+/* Panel Radio-Button Option 4 */
+.panel_radio-urgent4 {
+  background-image: url('../ressources/images/forms_radio-urgent4.webp');
+  background-size: cover;
+}
+
+
+
+/* Colors */
+/* .color_YellowOrange {
+  background-image: radial-gradient(circle, yellow, orange);
+}
+
+.color_LightblueBlue {
+  background-image: radial-gradient(circle, lightblue, deepskyblue);
+}
+
+.color_GreenYellow {
+  background-image: radial-gradient(circle, palegreen, yellowgreen);
+}
+
+.color_CoralRed {
+  background-image: radial-gradient(circle, lightcoral, tomato);
+} */

@@ -39,7 +39,7 @@
 
         <div class="row">
             <div class="aboutMePanel" style="width: 350px;">
-                <p class="text top-left" style="font-size: 25px; font-weight: bold;">About me</p>
+                <p class="paneltext paneltext_topleft" style="font-size: 25px; font-weight: bold;  --bgColor: #e793bb">About me</p>
                 <p>
                     <?php echo $aboutme; ?>
                 </p>
