@@ -34,7 +34,7 @@
 
   <div class="main">
     <div class="blankContainer" style="--blankColor: transparent"></div>
-    <div class="blankPartition" style="--bgcolor: #3b3fa0">
+    <div class="blankPartition" style="--bgcolor: #343899">
       <h2 class="mid">Johnny 'Bean' English</h2>
     </div>
 

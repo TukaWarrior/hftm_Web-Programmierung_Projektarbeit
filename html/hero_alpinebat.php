@@ -34,7 +34,7 @@
 
   <div class="main">
     <div class="blankContainer" style="--blankColor: transparent"></div>
-    <div class="blankPartition" style="--bgcolor: #6bafff">
+    <div class="blankPartition" style="--bgcolor: #76b8d4">
       <h2 class="mid">Alpine Bat</h2>
     </div>
 

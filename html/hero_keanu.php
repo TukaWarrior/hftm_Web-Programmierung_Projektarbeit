@@ -34,7 +34,7 @@
 
   <div class="main">
     <div class="blankContainer" style="--blankColor: transparent"></div>
-    <div class="blankPartition" style="--bgcolor: #381b5b">
+    <div class="blankPartition" style="--bgcolor: #452384">
       <h2 class="mid">Keanu Reeves</h2>
     </div>
 

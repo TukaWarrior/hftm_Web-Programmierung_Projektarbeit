@@ -34,7 +34,7 @@
 
   <div class="main">
     <div class="blankContainer" style="--blankColor: transparent"></div>
-    <div class="blankPartition" style="--bgcolor: #12244a">
+    <div class="blankPartition" style="--bgcolor: #faab4e">
       <h2 class="mid">FN-1337</h2>
     </div>
 

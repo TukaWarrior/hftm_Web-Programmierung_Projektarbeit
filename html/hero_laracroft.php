@@ -34,7 +34,7 @@
 
   <div class="main">
     <div class="blankContainer" style="--blankColor: transparent"></div>
-    <div class="blankPartition" style="--bgcolor: #457812">
+    <div class="blankPartition" style="--bgcolor: #2f4c18">
       <h2 class="mid">Lara Croft</h2>
     </div>
 

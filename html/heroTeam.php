@@ -41,7 +41,7 @@
             <div class="portfolio-item">
                 <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_keanu.webp);"></div>
                 <div class="portfolio-description">
-                    <h4>Keanu</h4>
+                    <h4>Keanu Reeves</h4>
                     <a class="link-button" href="hero_keanu.php">show details</a>
                 </div>
             </div>
@@ -77,7 +77,7 @@
             <div class="portfolio-item">
                 <div class="portfolio-bg" style="--img: url(../ressources/images/heroes/hero_bean.webp);"></div>
                 <div class="portfolio-description">
-                    <h4>Bean</h4>
+                    <h4>Johnny English</h4>
                     <a class="link-button h4" href="hero_bean.php">show details</a>
                 </div>
             </div>

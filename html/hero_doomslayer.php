@@ -34,7 +34,7 @@
 
   <div class="main">
     <div class="blankContainer" style="--blankColor: transparent"></div>
-    <div class="blankPartition" style="--bgcolor: #ba1a1c">
+    <div class="blankPartition" style="--bgcolor: #af1e18">
       <h2 class="mid">Doom Slayer</h2>
     </div>
 
