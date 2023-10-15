@@ -1,5 +1,1 @@
-ErrorDocument 404 http://localhost/page/html/404.php
-RewriteEngine On
-RewriteBase /
-RewriteCond %{REQUEST_URI} ^/404/$
-RewriteRule ^(.*)$ /pages/404.php [L]
+ErrorDocument 404 //html/404.php
