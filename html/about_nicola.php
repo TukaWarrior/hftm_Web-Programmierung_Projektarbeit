@@ -8,7 +8,7 @@
     <link rel="icon" type="image/x-icon" href="../ressources/images/favicon.webp" />
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/aboutMe.css" />
-    <link rel="stylesheet" href="../css/ComicStyle.css" />
+    <link rel="stylesheet" href="../css/comicStyle.css" />
     <link rel="stylesheet" href="../css/footer.css" />
 
 
@@ -39,7 +39,7 @@
 
         <div class="row">
             <div class="aboutMePanel" style="width: 350px;">
-                <p class="text top-left" style="font-size: 25px; font-weight: bold;">About me</p>
+                <p class="paneltext paneltext_topleft" style="font-size: 25px; font-weight: bold;  --bgColor: #75ff9e">About me</p>
                 <p>
                     <?php echo $aboutme; ?>
                 </p>

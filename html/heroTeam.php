@@ -10,7 +10,7 @@
         href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap" />
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" />
     <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="../css/ComicStyle.css" />
+    <link rel="stylesheet" href="../css/comicStyle.css" />
     <link rel="stylesheet" href="../css/heroTeam.css" />
     <link rel="stylesheet" href="../css/footer.css" />
 

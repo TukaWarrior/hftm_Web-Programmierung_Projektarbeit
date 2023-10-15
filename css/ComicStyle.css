@@ -1,4 +1,43 @@
+
+/* This CSS File is dedicatedto all the elements of the website that utilise the comic style.*/
+/* Content of comicstyle.css: 
+comics
+comic panels
+comic textboxes
+comic speech balloons
+title banners
+textdesign */
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Imports */
 @import url(//fonts.googleapis.com/css?family=Patrick+Hand+SC|Bangers|Happy+Monkey);
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Colors */
+/* This class is just a reference */
+.colorReference{
+  --ColorGreen: #75ff9e;
+  --ColorRed: #e793bb;
+  --ColorBlue: #6db4b4;
+  --ColorYellow: #ffe23d;
+}
+
+.color_YellowOrange {
+  background-image: radial-gradient(circle, yellow, orange);
+}
+
+.color_LightblueBlue {
+  background-image: radial-gradient(circle, lightblue, deepskyblue);
+}
+
+.color_GreenYellow {
+  background-image: radial-gradient(circle, palegreen, yellowgreen);
+}
+
+.color_CoralRed {
+  background-image: radial-gradient(circle, lightcoral, tomato);
+}
+
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Font Styles */
 .big {
@@ -128,6 +167,13 @@ h4.big {
 p {
   font-family: "Patrick Hand SC";
   font-size: 1.3em;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .background-text {
@@ -263,6 +309,7 @@ p {
   left: -7px;
   transform: skew(15deg);
 }
+
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Speech Balloons */
 .speech {
@@ -301,13 +348,6 @@ p {
   width: 0;
 }
 
-.Colors{
-  --ColorGreen: #75ff9e;
-  --ColorRed: #e793bb;
-  --ColorBlue: #6db4b4;
-  --ColorYellow: #ffe23d;
-}
-
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Speech Balloon */
 .speechImage3 {
@@ -341,14 +381,6 @@ p {
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
-}
-
 /* Blank Div, text optional*/
 .blankPartition {
   width: 100%;
@@ -403,7 +435,7 @@ a {
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* Comic index.php Flash */
+/* Comic Panels index.php - Flash */
 .panel_flash01 {
   width: 440px;
   background-image: url("../ressources/images/index/flash_01.webp");
@@ -447,7 +479,7 @@ a {
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* Comic index.php Ad */
+/* Comic Panels index.php - Ad */
 .panel_ad01 {
   width: 600px;
   background-image: url("../ressources/images/index/headquarter.webp");
@@ -467,7 +499,7 @@ a {
   background-position: bottom;
 }
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* Comic contact.php Radio Buttons */
+/* Comic Panels contact.php - Radio Buttons */
 .panel_name {
   height: 60px;
   margin: 1vmin;
@@ -517,48 +549,24 @@ a {
   position: relative;
   height: 150px;
   flex: 1;
-  /* margin: 1vmin; */
 }
 
 /* Panel Radio-Button Option 1 */
 .panel_radio-urgent1 {
   background-image: url('../ressources/images/forms_radio-urgent1.webp');
-  background-size: cover;
 }
 
 /* Panel Radio-Button Option 2 */
 .panel_radio-urgent2 {
   background-image: url('../ressources/images/forms_radio-urgent2.webp');
-  background-size: cover;
 }
 
 /* Panel Radio-Button Option 3 */
 .panel_radio-urgent3 {
   background-image: url('../ressources/images/forms_radio-urgent3.webp');
-  background-size: cover;
 }
 
 /* Panel Radio-Button Option 4 */
 .panel_radio-urgent4 {
   background-image: url('../ressources/images/forms_radio-urgent4.webp');
-  background-size: cover;
 }
-
-
-
-/* Colors */
-/* .color_YellowOrange {
-  background-image: radial-gradient(circle, yellow, orange);
-}
-
-.color_LightblueBlue {
-  background-image: radial-gradient(circle, lightblue, deepskyblue);
-}
-
-.color_GreenYellow {
-  background-image: radial-gradient(circle, palegreen, yellowgreen);
-}
-
-.color_CoralRed {
-  background-image: radial-gradient(circle, lightcoral, tomato);
-} */
